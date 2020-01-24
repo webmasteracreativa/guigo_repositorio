@@ -1,0 +1,170 @@
+.banner{
+	background: url('../img/banner_portada.jpg') no-repeat center top/ cover;
+	min-height: 100vh;
+	position: relative;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	@media only screen and (min-width: 992px){
+		padding-top: 0px;
+		padding-bottom: 0px;	
+	}
+	h2{
+		font-size: 20px;
+		@media only screen and (min-width: 768px){
+			font-size: 30px;
+		}
+	}
+	p{
+		font-size: 15px;
+		@media only screen and (min-width: 768px){
+			font-size: 17px;
+		}	
+	}
+	.text-form-bn{
+		padding: 30px;
+		padding-bottom: 0;
+	}
+	&:after{
+		display: none;
+		@media only screen and (min-width: 768px){
+			content: "";
+			display: block;
+			width: 100%;
+			max-width: 400px;
+			height: 800px;
+			position: absolute;
+			bottom: -200px;
+			left: 0px;
+			background: url('../img/personas.png') no-repeat left bottom/ contain;
+		}
+		@media only screen and (min-width: 992px){
+			background: url('../img/personas.png') no-repeat center bottom/ contain;
+		}
+	}
+	
+	#conversion-proyecto-turin-15a8c94af19d0eac8520{
+		background-color: transparent !important;
+	}
+	#conversion-proyecto-turin-15a8c94af19d0eac8520 div.actions .call_button{
+	    font-size: 15px !important;
+	    display: inline-block !important;
+	    width: auto !important;
+	    color: white !important;
+	    font-weight: 400 !important;
+	    border-radius: 2px !important;
+	    padding: 10px !important;
+	}
+	#conversion-proyecto-turin-15a8c94af19d0eac8520 section div.actions{
+		text-align: left !important;
+	}
+	#conversion-proyecto-turin-15a8c94af19d0eac8520 form input{
+		border-color: rgba(0,0,0,.1) !important;
+    	border-radius: 2px !important;
+    	padding: 20px !important;
+	}
+}
+.form{
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+}
+#conversion-proyecto-turin-15a8c94af19d0eac8520 form p.notice{
+	color: $gris;
+}
+ .form-banner{
+ 	font-size: 110%;
+ 	width: auto;
+ 	margin: 0 auto;
+ 	font-size: 110%;
+ 	max-width: 500px;
+ 	border-radius: 5px;
+ 	background: rgba(255,255,255,0.8);
+ }
+.text-banner{
+	padding-top: 50px;
+	padding-bottom: 30px;
+	.logo-mobile{
+	    background: #fff;
+	    text-align: center;
+	    border-radius: 50%;
+	    padding: 30px 0;
+	    width: 100%;
+	    position: relative;
+	    margin: -100px auto 0;
+	    max-width: 350px;
+		img{
+			max-width: 130px;
+		}
+		@media only screen and (min-width: 768px){
+			display: none;
+		}
+	}
+	p{
+		font-size: 25px;
+		@media only screen and (min-width: 768px){
+			margin-bottom: 0;
+			font-size: 40px;
+			line-height: 50px;
+			font-weight: 400;
+		}
+		span{
+			font-weight: 600;
+		}
+		&:first-child{
+			padding-left: 40px;
+			position: relative;
+			display: block;
+			&:before{
+				content: "";
+				position: absolute;
+				left: 0;
+				top:50%;
+				transform: translateY(-50%);
+				width: 0;
+				height: 0;
+				border-style: solid;
+				border-width: 7.5px 0 7.5px 12px;
+				border-color: transparent transparent transparent $colorPrincipal;
+			}
+		}
+		&:first-child,&:last-child{
+			font-size: 20px;
+			line-height: 14px;
+			@media only screen and (min-width: 768px){
+				font-size: 26px;
+				line-height: 24px;
+			}
+		}
+	}
+}
+
+.m2{
+	position: absolute;
+	top: 20px;
+	right: 15px;
+	@media only screen and (min-width: 768px){
+		left: 20px;
+		right: inherit;
+	}
+
+	.line{
+		border-top: solid 1px white;
+		font-size: 20px;
+		font-weight: 100;
+		padding-left: 10px;
+		letter-spacing: 10px;
+	}
+	p{
+		font-size: 30px;
+		color: white;
+	}
+}
+
+.text-maquina{
+	padding-right: 30px;
+	background: url('../img/triangle.jpg') no-repeat 95% 50% / 50px;
+	@media only screen and (min-width: 768px){
+		padding-right: 100px;
+		background: url('../img/triangle.jpg') no-repeat 100% 50% / 100px;
+	}	
+}

@@ -1,0 +1,153 @@
+
+
+# BEGIN LSCACHE
+# END LSCACHE
+# BEGIN NON_LSCACHE
+# END NON_LSCACHE
+# Leverage Browser Caching by SG-Optimizer
+<IfModule mod_expires.c>
+ExpiresActive on
+ExpiresDefault                                      "access plus 1 month"
+# CSS
+ExpiresByType text/css                              "access plus 1 year"
+# Data interchange
+ExpiresByType application/json                      "access plus 0 seconds"
+ExpiresByType application/xml                       "access plus 0 seconds"
+ExpiresByType text/xml                              "access plus 0 seconds"
+# Favicon (cannot be renamed!)
+ExpiresByType image/x-icon                          "access plus 1 week"
+# HTML components (HTCs)
+ExpiresByType text/x-component                      "access plus 1 month"
+# HTML
+ExpiresByType text/html                             "access plus 0 seconds"
+# JavaScript
+ExpiresByType application/javascript                "access plus 1 year"
+# Manifest files
+ExpiresByType application/x-web-app-manifest+json   "access plus 0 seconds"
+ExpiresByType text/cache-manifest                   "access plus 0 seconds"
+# Media
+ExpiresByType audio/ogg                             "access plus 1 month"
+ExpiresByType image/gif                             "access plus 1 month"
+ExpiresByType image/jpeg                            "access plus 1 month"
+ExpiresByType image/png                             "access plus 1 month"
+ExpiresByType video/mp4                             "access plus 1 month"
+ExpiresByType video/ogg                             "access plus 1 month"
+ExpiresByType video/webm                            "access plus 1 month"
+# Web feeds
+ExpiresByType application/atom+xml                  "access plus 1 hour"
+ExpiresByType application/rss+xml                   "access plus 1 hour"
+# Web fonts
+ExpiresByType application/font-woff                 "access plus 1 month"
+ExpiresByType application/font-woff2                "access plus 1 month"
+ExpiresByType application/vnd.ms-fontobject         "access plus 1 month"
+ExpiresByType application/x-font-ttf                "access plus 1 month"
+ExpiresByType font/opentype                         "access plus 1 month"
+ExpiresByType image/svg+xml                         "access plus 1 month"
+</IfModule>
+# END LBC
+# GZIP enabled by SG-Optimizer
+<IfModule mod_deflate.c>
+<IfModule mod_filter.c>
+AddOutputFilterByType DEFLATE "application/atom+xml" \
+"application/javascript" \
+"application/json" \
+"application/ld+json" \
+"application/manifest+json" \
+"application/rdf+xml" \
+"application/rss+xml" \
+"application/schema+json" \
+"application/vnd.geo+json" \
+"application/vnd.ms-fontobject" \
+"application/x-font-ttf" \
+"application/x-javascript" \
+"application/x-web-app-manifest+json" \
+"application/xhtml+xml" \
+"application/xml" \
+"font/eot" \
+"font/opentype" \
+"image/bmp" \
+"image/svg+xml" \
+"image/vnd.microsoft.icon" \
+"image/x-icon" \
+"text/cache-manifest" \
+"text/css" \
+"text/html" \
+"text/javascript" \
+"text/plain" \
+"text/vcard" \
+"text/vnd.rim.location.xloc" \
+"text/vtt" \
+"text/x-component" \
+"text/x-cross-domain-policy" \
+"text/xml"
+</IfModule>
+</IfModule>
+# END GZIP
+# HTTPS forced by SG-Optimizer
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
+</IfModule>
+# END HTTPS
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+# Use PHP70 as default
+AddHandler application/x-httpd-php70 .php
+<IfModule mod_suphp.c>
+suPHP_ConfigPath /opt/php70/lib
+</IfModule>
+
+Redirect 301 /historia/ https://www.constructoraguigo.com/conocenos/
+Redirect 301 /mision-vision-valores-y-filosofia/ https://www.constructoraguigo.com/conocenos/
+Redirect 301 /calidad/ https://www.constructoraguigo.com/conocenos/
+Redirect 301 /medio-ambiente/ https://www.constructoraguigo.com/conocenos/
+Redirect 301 /seguridad/ https://www.constructoraguigo.com/conocenos/
+Redirect 301 /avanzamos/ https://www.constructoraguigo.com/conocenos/
+Redirect 301 /proveedores/ https://www.constructoraguigo.com/conocenos/
+Redirect 301 /video-institucional/ https://www.constructoraguigo.com/conocenos/
+Redirect 301 /proveedores/ https://www.constructoraguigo.com/conocenos/
+Redirect 301 /proveedores/ https://www.constructoraguigo.com/conocenos/
+Redirect 301 /category/proyectos-en-venta/ https://www.constructoraguigo.com/proyectos/
+Redirect 301 /category/proyectos-terminados/ https://www.constructoraguigo.com/proyectos/proyectos-terminados/
+Redirect 301 /proyecto-berlin-venta-de-apartamentos-en-el-poblado-medellin-transversal-inferior/ https://www.constructoraguigo.com/proyectos/proyectos-en-venta/berlin/
+Redirect 301 /proyecto-galicia/ https://www.constructoraguigo.com/proyectos/proyectos-en-venta/galicia/
+Redirect 301 /proyecto-turin-apartamentos-en-laureles-medellin/ https://www.constructoraguigo.com/proyectos/proyectos-en-venta/turin/
+Redirect 301 /proyecto-san-charbel/ https://www.constructoraguigo.com/proyectos/proyectos-en-venta/san-charbel/
+Redirect 301 /picasso/ /proyectos/proyectos-terminados/picasso/
+Redirect 301 /aquaviva/ /proyectos/proyectos-terminados/aquaviva/
+Redirect 301 /milan/ /proyectos/proyectos-terminados/milan/
+Redirect 301 /sao-paulo/ /proyectos/proyectos-terminados/sao-paulo/
+Redirect 301 /bariloche/ /proyectos/proyectos-terminados/bariloche/
+Redirect 301 /salamanca/ /proyectos/proyectos-terminados/salamanca/
+Redirect 301 /ango-maniz/ /proyectos/proyectos-terminados/ango-maniz/
+Redirect 301 /provenza/ /proyectos/proyectos-terminados/provenza/
+Redirect 301 /ibiza/ /proyectos/proyectos-terminados/ibiza/
+Redirect 301 /mauritania/ /proyectos/proyectos-terminados/mauritania/
+Redirect 301 /salzburgo/ /proyectos/proyectos-terminados/salzburgo/
+Redirect 301 /category/noticias/ /noticias/
+Redirect 301 /sample-page/ /contacto/
+Redirect 301 /contactenos-proyecto-milan/ https://www.constructoraguigo.com/proyectos/proyectos-en-venta/berlin/
+Redirect 301 /contactenos-proyecto-galicia/ https://www.constructoraguigo.com/proyectos/proyectos-en-venta/galicia/
+Redirect 301 /contactenos-proyecto-turin/ https://www.constructoraguigo.com/proyectos/proyectos-en-venta/turin/
+Redirect 301 /contactenos-proyecto-san-charbel/ https://www.constructoraguigo.com/proyectos/proyectos-en-venta/san-charbel/
+
+# Redirect 301 /apartamentoencastropolpicasso/
+Redirect 301 /venta-de-penthouse-en-laureles/ /en-venta/venta-de-penthouse-en-laureles/
+Redirect 301 /venta-de-apartamento-en-el-poblado-medellin-sector-castropol/ /en-venta/venta-de-apartamento-en-el-poblado-medellin/
+Redirect 301 /venta-de-penthouse-duplex-en-medellin-sector-el-poblado-castropol/ /en-venta/venta-de-penthouse-duplex-en-medellin-el-poblado-sector-castropol/
+Redirect 301 /venta-de-apartamento-nuevo-en-el-poblado-medellin-proyecto-picasso/ /en-venta/apartamento-en-venta-en-el-poblado/
+Redirect 301 /venta-de-casa-en-calasanz-medellin/ /en-venta/venta-de-casa-en-calasanz-medellin/
+Redirect 301 /penthouse-para-estrenaren-el-proyecto-san-charbel/ /en-venta/penthouse-en-venta-en-exclusivo-sector-de-el-poblado-medellin-transversal-inferior/
+Redirect 301 /penthouse-en-el-exclusivo-sector-de-el-poblado-medellin-transversal-inferior-proyecto-berlin/ /en-venta/penthouse-en-venta-en-exclusivo-sector-de-el-poblado-medellin-transversal-inferior/
+

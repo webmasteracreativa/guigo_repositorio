@@ -1,0 +1,8 @@
+[03-Dec-2019 12:39:20 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home2/guigovia/public_html/wp-content/themes/twentytwenty/functions.php:144
+Stack trace:
+#0 {main}
+  thrown in /home2/guigovia/public_html/wp-content/themes/twentytwenty/functions.php on line 144
+[21-Jan-2020 00:22:18 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/guigovia/public_html/wp-content/themes/twentytwenty/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home2/guigovia/public_html/wp-content/themes/twentytwenty/404.php on line 10

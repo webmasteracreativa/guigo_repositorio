@@ -1,0 +1,4987 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bridge\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-28 22:41+0000\n"
+"PO-Revision-Date: 2019-01-28 23:53+0000\n"
+"Last-Translator: PortalGuigo <web@constructoraguigo.com>\n"
+"Language-Team: Español\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.0; wp-5.0.3"
+
+#: widgets/latest_posts_menu.php:51
+msgid " by"
+msgstr ""
+
+#: includes/qode-like.php:78 includes/qode-like.php:102
+msgid " Like"
+msgstr "Me Gusta"
+
+#: includes/qode-like.php:76 includes/qode-like.php:100
+msgid " Likes"
+msgstr "Me Gusta"
+
+#: framework/modules/page/options-map/map.php:83
+#: framework/modules/page/meta-boxes/map.php:66
+msgid "\"Back To\" Link"
+msgstr ""
+
+#. %s: title of menu item which is invalid
+#: includes/nav_menu/edit_custom_walker.php:78
+#, php-format
+msgid "%s (Invalid)"
+msgstr "%s (Inválido)"
+
+#. %s: title of menu item in draft status
+#: includes/nav_menu/edit_custom_walker.php:82
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:251
+msgid "3D Rotate"
+msgstr ""
+
+#: framework/lib/qode.welcome.page.php:103
+#: framework/lib/qode.welcome.page.php:104
+msgid "About"
+msgstr ""
+
+#: templates/portfolio-loop.php:274 templates/portfolio-loop.php:453
+#: templates/portfolio-loop.php:554 templates/portfolio-loop.php:773
+#: templates/portfolio-loop.php:995 templates/portfolio-loop.php:1181
+msgid "About This Project"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/accordions/accordion.php:34
+msgid "Accordion"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/accordions/options-map/map.php:96
+msgid "Accordion Color Styles"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/accordions/options-map/map.php:9
+msgid "Accordions"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/accordions/options-map/map.php:90
+msgid "Accordions Color Styles"
+msgstr ""
+
+#: includes/plugins/qode-required-plugins-list.php:28
+msgid "Activate"
+msgstr ""
+
+#: includes/plugins/plugins-activation.php:271
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins/qode-required-plugins-list.php:32
+msgid "Activated"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/accordions/options-map/map.php:124
+msgid "Active and Hover Accordion Color Styles"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/interest-rate-calculator/interest-rate-calculator.php:135
+#: includes/shortcodes/shortcode-elements/advanced-tabs/options-map/map.php:48
+msgid "Active Color"
+msgstr ""
+
+#: includes/qode-custom-post-types.php:132
+msgid "Actualizar categoría"
+msgstr ""
+
+#: framework/lib/qode.layout.tax.php:82 framework/lib/qode.layout.tax.php:104
+msgid "Add Image"
+msgstr ""
+
+#: includes/qode-custom-post-types.php:158
+msgid "Add New Usados Tag"
+msgstr ""
+
+#: includes/sidebar/qode-custom-sidebar.php:43
+msgid "Add Widget Area"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/multi-device-showcase/multi-device-showcase.php:134
+#: includes/shortcodes/shortcode-elements/multi-device-showcase/multi-device-showcase.php:148
+msgid "Additional Image"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/multi-device-showcase/multi-device-showcase.php:125
+#: includes/shortcodes/shortcode-elements/multi-device-showcase/multi-device-showcase.php:139
+#: includes/shortcodes/shortcode-elements/multi-device-showcase/multi-device-showcase.php:153
+#: includes/shortcodes/shortcode-elements/multi-device-showcase/multi-device-showcase.php:159
+msgid "Additional Images"
+msgstr ""
+
+#: framework/modules/woocommerce/woocommerce-config.php:420
+msgid "Additional Info"
+msgstr "Info. Adicional"
+
+#: framework/modules/woocommerce/woocommerce-config.php:418
+msgid "Additional Information"
+msgstr "Información Adicional"
+
+#: includes/shortcodes/shortcode-elements/multi-device-showcase/multi-device-showcase.php:123
+msgid "Additional Laptop Image"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/multi-device-showcase/multi-device-showcase.php:157
+msgid "Additional Phone Portrait Image"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/multi-device-showcase/multi-device-showcase.php:143
+msgid "Additional Tablet Landscape Images"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/multi-device-showcase/multi-device-showcase.php:129
+msgid "Additional Tablet Portrait Images"
+msgstr ""
+
+#: framework/modules/woocommerce/woocommerce-config.php:84
+#: framework/modules/woocommerce/woocommerce-config.php:97
+msgid "Address"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:170
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:178
+msgid "Adjust icon alignment within border shape"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:36
+msgid "Advanced Call To Action"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:23
+msgid "Advanced Image Gallery"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:75
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:85
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:256
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:269
+msgid "Advanced Options"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-pricing-list/advanced-pricing-list.php:21
+msgid "Advanced Pricing List"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-pricing-table/advanced-pricing-table.php:21
+#: includes/shortcodes/shortcode-elements/advanced-pricing-table/options-map/map.php:7
+msgid "Advanced Pricing Table"
+msgstr ""
+
+#: framework/admin/options/verticalsplitslider/map.php:48
+msgid "Advanced Responsive"
+msgstr ""
+
+#: framework/admin/options/verticalsplitslider/map.php:73
+#: framework/admin/options/footer/map.php:124
+msgid "Advanced Responsive Breakpoint"
+msgstr ""
+
+#: includes/qode-custom-taxonomy-field.php:33
+msgid "Advanced responsiveness"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-tabs/advanced-tab.php:22
+msgid "Advanced Tab"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-tabs/advanced-tabs.php:21
+#: includes/shortcodes/shortcode-elements/advanced-tabs/options-map/map.php:7
+msgid "Advanced Tabs"
+msgstr ""
+
+#: framework/admin/options/footer/map.php:101
+msgid "Advanced Top Footer Responsiveness"
+msgstr ""
+
+#: templates/masonry-filter.php:28
+#: includes/shortcodes/shortcode-elements/portfolio-list.php:222
+#: includes/shortcodes/shortcode-elements/portfolio-list.php:563
+#: includes/shortcodes/shortcode-elements/portfolio-list.php:925
+#: includes/shortcodes/shortcode-elements/portfolio-list.php:958
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:546
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:613
+msgid "All"
+msgstr ""
+
+#: framework/qode-framework.php:467
+msgid ""
+"All options will be overwritten by the options for the demo you are "
+"importing."
+msgstr ""
+
+#: framework/lib/qode.welcome.page.php:145
+msgid "All Our Themes"
+msgstr ""
+
+#: includes/plugins/plugins-activation.php:274
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: includes/nav_menu/edit_custom_walker.php:181
+msgid "Anchor"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/multi-device-showcase/multi-device-showcase.php:163
+msgid "Animate On Appear"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/workflow/workflow-holder.php:50
+msgid "Animate Workflow"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/workflow/workflow-holder.php:56
+msgid "Animate Workflow shortcode when it comes into viewport"
+msgstr ""
+"Código abreviado de flujo de trabajo animado cuando entra en la ventana "
+"gráfica"
+
+#: includes/shortcodes/shortcode-elements/elliptical-slider/elliptical-slider.php:31
+msgid "Animation speed"
+msgstr ""
+
+#: includes/qode-breadcrumbs.php:122
+msgid "Articles posted by "
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:128
+msgid "ASC"
+msgstr ""
+
+#: framework/admin/meta-boxes/post/post-format-audio/map.php:17
+msgid "Audio Link"
+msgstr ""
+
+#: framework/admin/meta-boxes/post/post-format-audio/map.php:8
+msgid "Audio Post Format"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/latest-posts-two.php:143
+msgid "Author Image"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/elliptical-slider/elliptical-slider.php:39
+msgid "Autoplay"
+msgstr ""
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:582
+msgid "Average rating"
+msgstr ""
+
+#: includes/qode-custom-post-types.php:20
+msgid "Añadir Inmueble Usado"
+msgstr ""
+
+#: includes/qode-custom-post-types.php:133
+msgid "Añadir nueva categoría"
+msgstr ""
+
+#: framework/modules/page/templates/inter-page-navigation.php:29
+msgid "Back"
+msgstr ""
+
+#: 404.php:14
+msgid "Back to homepage"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-tabs/options-map/map.php:56
+msgid "Background Active Color"
+msgstr ""
+
+#: framework/modules/timetable-schedule/options-map/map.php:175
+#: framework/modules/page/options-map/map.php:59
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:104
+#: includes/shortcodes/shortcode-elements/interest-rate-calculator/interest-rate-calculator.php:129
+#: includes/shortcodes/shortcode-elements/split-scrolling-section/split-scrolling-section-content-item.php:31
+#: includes/shortcodes/shortcode-elements/advanced-tabs/options-map/map.php:40
+#: includes/shortcodes/shortcode-elements/accordions/options-map/map.php:119
+#: includes/shortcodes/shortcode-elements/accordions/options-map/map.php:146
+#: includes/shortcodes/shortcode-elements/numbered-process/options-map/map.php:78
+msgid "Background Color"
+msgstr ""
+
+#: widgets/call_to_action_widget.php:134
+msgid "Background Color:"
+msgstr ""
+
+#: framework/admin/meta-boxes/general/map.php:59
+#: framework/admin/options/header/map.php:691
+#: includes/shortcodes/shortcode-elements/split-scrolling-section/split-scrolling-section-content-item.php:36
+msgid "Background Image"
+msgstr ""
+
+#: framework/admin/meta-boxes/general/map.php:80
+msgid "Background Pattern Image"
+msgstr ""
+
+#: includes/plugins/plugins-activation.php:270
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:141
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:163
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:185
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:110
+#: includes/shortcodes/shortcode-elements/pricing-calculator/pricing-calculator.php:122
+#: includes/shortcodes/shortcode-elements/specification-list/specification-list.php:90
+#: includes/shortcodes/shortcode-elements/info-card/info-card.php:103
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:74
+#: includes/shortcodes/shortcode-elements/info-card-with-icon/info-card-with-icon.php:146
+msgid "Blank"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:37
+msgid "Blog Carousel - Titled"
+msgstr ""
+
+#. Name of the template
+msgid "Blog Chequered"
+msgstr ""
+
+#. Name of the template
+msgid "Blog Compound"
+msgstr ""
+
+#. Name of the template
+msgid "Blog Gallery"
+msgstr ""
+
+#. Name of the template
+msgid "Blog Headlines"
+msgstr ""
+
+#. Name of the template
+msgid "Blog Large Image"
+msgstr ""
+
+#. Name of the template
+msgid "Blog Large Image Simple"
+msgstr ""
+
+#. Name of the template
+msgid "Blog Large Image Whole Post"
+msgstr ""
+
+#. Name of the template
+msgid "Blog Large Image With Dividers"
+msgstr ""
+
+#. Name of the template
+msgid "Blog Masonry"
+msgstr ""
+
+#. Name of the template
+msgid "Blog Masonry - Date in Image"
+msgstr ""
+
+#. Name of the template
+msgid "Blog Masonry Full Width"
+msgstr ""
+
+#. Name of the template
+msgid "Blog Masonry Full Width - Date in Image"
+msgstr ""
+
+#. Name of the template
+msgid "Blog Masonry Gallery"
+msgstr ""
+
+#. Name of the template
+msgid "Blog Pinterest"
+msgstr ""
+
+#. Name of the template
+msgid "Blog Small Image"
+msgstr ""
+
+#. Name of the template
+msgid "Blog Vertical Loop"
+msgstr ""
+
+#: framework/modules/timetable-schedule/options-map/map.php:197
+#: includes/shortcodes/shortcode-elements/pricing-calculator/pricing-calculator.php:134
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process-item.php:86
+#: includes/shortcodes/shortcode-elements/comparative-features-table/options-map/map.php:31
+#: includes/shortcodes/shortcode-elements/advanced-pricing-table/options-map/map.php:31
+#: includes/shortcodes/shortcode-elements/report-sheet/options-map/map.php:31
+msgid "Border Color"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/interactive-icon-showcase/interactive-icon-showcase.php:63
+msgid "Border color"
+msgstr ""
+
+#: widgets/call_to_action_widget.php:139
+msgid "Border Color:"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/video-box/options-map/map.php:95
+msgid "Border Hover Color"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/video-box/options-map/map.php:86
+msgid "Border Initial Color"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/interactive-icon-showcase/interactive-icon-showcase.php:51
+msgid "Border style"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/video-box/options-map/map.php:77
+msgid "Border Width"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/interactive-icon-showcase/interactive-icon-showcase.php:45
+msgid "Border width"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process-item.php:92
+msgid "Border Width (px)"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/interest-rate-calculator/templates/interest-rate-calculator-template.php:26
+msgid "Borrowing:"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/horizontal-timeline/horizontal-timeline.php:35
+msgid "Bottom"
+msgstr ""
+
+#: framework/modules/title/options-map/map.php:7
+msgid "Breadcrumbs"
+msgstr ""
+
+#: framework/modules/title/options-map/map.php:104
+msgid "Breadcrumbs delimiter"
+msgstr ""
+
+#: framework/modules/title/options-map/map.php:14
+msgid "Breadcrumbs style"
+msgstr ""
+
+#: includes/qode-custom-taxonomy-field.php:44
+msgid "Breakpoint Coefficients 1 (values: 0-1, default value: 1)"
+msgstr ""
+
+#: includes/qode-custom-taxonomy-field.php:74
+msgid "Breakpoint Coefficients 2 (values: 0-1, default value: 1)"
+msgstr ""
+
+#: includes/qode-custom-taxonomy-field.php:104
+msgid "Breakpoint Coefficients 3 (values: 0-1, default value: 0.8)"
+msgstr ""
+
+#: includes/qode-custom-taxonomy-field.php:134
+msgid "Breakpoint Coefficients 4 (values: 0-1, default value: 0.7)"
+msgstr ""
+
+#: includes/qode-custom-taxonomy-field.php:164
+msgid "Breakpoint Coefficients 5 (values: 0-1, default value: 0.6)"
+msgstr ""
+
+#: includes/qode-custom-taxonomy-field.php:194
+msgid "Breakpoint Coefficients 6 (values: 0-1, default value: 0.5)"
+msgstr ""
+
+#: includes/qode-custom-taxonomy-field.php:224
+msgid "Breakpoint Coefficients 7 (values: 0-1, default value: 0.4)"
+msgstr ""
+
+#. Name of the theme
+msgid "Bridge"
+msgstr ""
+
+#: framework/qode-framework.php:369
+msgid "Bridge - One-Click Import"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:109
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:120
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:130
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:137
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:144
+msgid "Build Query "
+msgstr ""
+
+#: includes/qode-custom-post-types.php:127
+msgid "Buscar categorias usados"
+msgstr ""
+
+#: includes/qode-custom-post-types.php:152
+msgid "Buscar Usados Tags"
+msgstr ""
+
+#: includes/qode-custom-taxonomy-field.php:64
+#: includes/qode-custom-taxonomy-field.php:94
+#: includes/qode-custom-taxonomy-field.php:124
+#: includes/qode-custom-taxonomy-field.php:154
+#: includes/qode-custom-taxonomy-field.php:184
+#: includes/qode-custom-taxonomy-field.php:214
+#: includes/qode-custom-taxonomy-field.php:244
+msgid "Button"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/specification-list/specification-list.php:102
+#: includes/shortcodes/shortcode-elements/info-card/info-card.php:115
+msgid "Button Background Color"
+msgstr ""
+
+#: widgets/call_to_action_widget.php:192
+msgid "Button Background Color:"
+msgstr ""
+
+#: widgets/call_to_action_widget.php:202
+msgid "Button Border Color:"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/specification-list/specification-list.php:108
+#: includes/shortcodes/shortcode-elements/info-card/info-card.php:121
+msgid "Button Height(px)"
+msgstr ""
+
+#: widgets/call_to_action_widget.php:197
+msgid "Button Hover Background Color:"
+msgstr ""
+
+#: widgets/call_to_action_widget.php:207
+msgid "Button Hover Border Color:"
+msgstr ""
+
+#: widgets/call_to_action_widget.php:187
+msgid "Button Hover Text Color:"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/pricing-calculator/pricing-calculator.php:112
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:213
+#: includes/shortcodes/shortcode-elements/specification-list/specification-list.php:80
+#: includes/shortcodes/shortcode-elements/info-card/info-card.php:93
+#: includes/shortcodes/shortcode-elements/interest-rate-calculator/interest-rate-calculator.php:112
+msgid "Button Link"
+msgstr ""
+
+#: widgets/call_to_action_widget.php:162
+msgid "Button Link:"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/options-map/map.php:53
+#: includes/shortcodes/shortcode-elements/report-sheet/options-map/map.php:61
+msgid "Button Options"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/pricing-calculator/pricing-calculator.php:118
+#: includes/shortcodes/shortcode-elements/specification-list/specification-list.php:86
+#: includes/shortcodes/shortcode-elements/info-card/info-card.php:99
+#: includes/shortcodes/shortcode-elements/interest-rate-calculator/interest-rate-calculator.php:118
+msgid "Button Target"
+msgstr ""
+
+#: widgets/call_to_action_widget.php:172
+msgid "Button Target:"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/pricing-calculator/pricing-calculator.php:128
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:207
+#: includes/shortcodes/shortcode-elements/specification-list/specification-list.php:96
+#: includes/shortcodes/shortcode-elements/info-card/info-card.php:109
+#: includes/shortcodes/shortcode-elements/interest-rate-calculator/interest-rate-calculator.php:106
+msgid "Button Text"
+msgstr ""
+
+#: widgets/call_to_action_widget.php:182
+msgid "Button Text Color:"
+msgstr ""
+
+#: widgets/call_to_action_widget.php:167
+msgid "Button Text:"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/multi-device-showcase/multi-device-showcase.php:38
+msgid "Button Usage"
+msgstr ""
+
+#: templates/blog-parts/masonry-gallery/text.php:6
+msgid "By"
+msgstr ""
+
+#: templates/blog_large_image-loop.php:58
+#: templates/blog_large_image-loop.php:101
+#: templates/blog_large_image-loop.php:155
+#: templates/blog_large_image-loop.php:192
+#: templates/blog_large_image-loop.php:229
+#: templates/blog_large_image-loop.php:275 templates/blog_search-loop.php:41
+#: templates/blog_single-loop.php:70 templates/blog_single-loop.php:105
+#: templates/blog_single-loop.php:130 templates/blog_single-loop.php:189
+#: templates/blog_single-loop.php:215 templates/blog_single-loop.php:251
+#: templates/blog_small_image-loop.php:58
+#: templates/blog_small_image-loop.php:102
+#: templates/blog_small_image-loop.php:146
+#: templates/blog_small_image-loop.php:199
+#: templates/blog_small_image-loop.php:243
+#: templates/blog_small_image-loop.php:289
+#: templates/blog-single-image-title-post-loop.php:89
+#: templates/blog_large_image_whole_post-loop.php:58
+#: templates/blog_large_image_whole_post-loop.php:101
+#: templates/blog_large_image_whole_post-loop.php:138
+#: templates/blog_large_image_whole_post-loop.php:194
+#: templates/blog_large_image_whole_post-loop.php:231
+#: templates/blog_large_image_whole_post-loop.php:277
+#: templates/blog-parts/gallery/text.php:12
+msgid "by"
+msgstr ""
+
+#: framework/modules/timetable-schedule/visual-composer-map.php:10
+#: framework/modules/timetable-schedule/visual-composer-map.php:27
+#: framework/modules/timetable-schedule/visual-composer-map.php:43
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:25
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:24
+#: includes/shortcodes/shortcode-elements/workflow/workflow-holder.php:31
+#: includes/shortcodes/shortcode-elements/workflow/workflow-item.php:30
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:38
+#: includes/shortcodes/shortcode-elements/elliptical-slider/elliptical-slide.php:25
+#: includes/shortcodes/shortcode-elements/elliptical-slider/elliptical-slider.php:24
+#: includes/shortcodes/shortcode-elements/pricing-calculator/pricing-calculator.php:24
+#: includes/shortcodes/shortcode-elements/advanced-pricing-table/advanced-pricing-table.php:24
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:24
+#: includes/shortcodes/shortcode-elements/advanced-tabs/advanced-tabs.php:25
+#: includes/shortcodes/shortcode-elements/vertical-separator/vertical-separator.php:24
+#: includes/shortcodes/shortcode-elements/advanced-pricing-list/advanced-pricing-list.php:24
+#: includes/shortcodes/shortcode-elements/specification-list/specification-list.php:24
+#: includes/shortcodes/shortcode-elements/info-card/info-card.php:39
+#: includes/shortcodes/shortcode-elements/multi-device-showcase/multi-device-showcase.php:24
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:39
+#: includes/shortcodes/shortcode-elements/sliding-image-holder/sliding-image-holder.php:42
+#: includes/shortcodes/shortcode-elements/simple-quote/simple-quote.php:24
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:41
+#: includes/shortcodes/shortcode-elements/accordions/accordion.php:26
+#: includes/shortcodes/shortcode-elements/accordions/accordion-tab.php:26
+#: includes/shortcodes/shortcode-elements/info-card-with-icon/info-card-with-icon.php:39
+#: includes/shortcodes/shortcode-elements/horizontal-timeline/horizontal-timeline.php:23
+#: includes/shortcodes/shortcode-elements/horizontal-timeline/horizontal-timeline-item.php:23
+#: includes/shortcodes/shortcode-elements/interest-rate-calculator/interest-rate-calculator.php:24
+#: includes/shortcodes/shortcode-elements/split-scrolling-section/split-scrolling-section-content-item.php:23
+#: includes/shortcodes/shortcode-elements/split-scrolling-section/split-scrolling-section.php:23
+#: includes/shortcodes/shortcode-elements/split-scrolling-section/split-scrolling-section-right-panel.php:26
+#: includes/shortcodes/shortcode-elements/split-scrolling-section/split-scrolling-section-left-panel.php:26
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process-item.php:25
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process.php:26
+#: includes/shortcodes/shortcode-elements/image-with-icon-and-text/image-with-icon-and-text.php:39
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:24
+msgid "by QODE"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:90
+msgid "Call To Action Link"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:44
+msgid "Call To Action Text"
+msgstr ""
+
+#: widgets/call_to_action_widget.php:8
+msgid "Call to Action Widget"
+msgstr ""
+
+#: includes/nav_menu/edit_custom_walker.php:333
+msgid "Cancel"
+msgstr ""
+
+#: comments.php:44
+msgid "Cancel Reply"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:43
+msgid "Carousel"
+msgstr ""
+
+#: framework/modules/woocommerce/widgets/woocommerce-dropdown-cart.php:103
+msgid "Cart"
+msgstr ""
+
+#: includes/qode-custom-post-types.php:125
+msgid "Categorias Usados"
+msgstr ""
+
+#: includes/qode-custom-post-types.php:126
+msgid "Categorias usados"
+msgstr ""
+
+#: framework/modules/woocommerce/shortcodes/product-list/templates/parts/categories-filter.php:3
+msgid "Categories"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:134
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:133
+msgid "Category"
+msgstr ""
+
+#: templates/portfolio-loop.php:242 templates/portfolio-loop.php:420
+#: templates/portfolio-loop.php:600 templates/portfolio-loop.php:819
+#: templates/portfolio-loop.php:1041 templates/portfolio-loop.php:1227
+msgid "Category "
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:136
+msgid "Category Slug (leave empty for all)"
+msgstr ""
+
+#: widgets/latest_posts_menu.php:91
+msgid "Category:"
+msgstr ""
+
+#: includes/qode-custom-post-types.php:129
+msgid "Categoría padre"
+msgstr ""
+
+#: includes/qode-custom-post-types.php:130
+msgid "Categoría padre:"
+msgstr ""
+
+#: includes/qode-custom-post-types.php:135
+msgid "Categorías"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/workflow/workflow-item.php:102
+#: includes/shortcodes/shortcode-elements/advanced-pricing-list/advanced-pricing-list.php:70
+#: includes/shortcodes/shortcode-elements/split-scrolling-section/split-scrolling-section-content-item.php:52
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:253
+msgid "Center"
+msgstr ""
+
+#: framework/modules/page/options-map/map.php:84
+#: framework/modules/page/meta-boxes/map.php:67
+msgid "Choose a page for the “back to” link to lead to when clicked on."
+msgstr ""
+
+#: framework/modules/timetable-schedule/options-map/map.php:30
+msgid "Choose a sidebar layout for single event pages"
+msgstr ""
+
+#: framework/modules/timetable-schedule/options-map/map.php:53
+msgid "Choose a sidebar to display on single event pages"
+msgstr "Elija una barra lateral para mostrar en las páginas de un solo evento"
+
+#: framework/admin/options/verticalsplitslider/map.php:74
+msgid "Choose a width at which advanced responsive options will take effect."
+msgstr ""
+
+#: framework/admin/options/footer/map.php:125
+msgid ""
+"Choose a width at which advanced responsive options will take effect. This "
+"will make footer columns go 2 by 2 under selected width."
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/testimonial-carousel/options-map/map.php:52
+msgid "Choose Background Color"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/interest-rate-calculator/interest-rate-calculator.php:138
+msgid "Choose color of the current value, current period and sliders"
+msgstr ""
+
+#: framework/admin/meta-boxes/post/post-format-gallery/map.php:19
+msgid "Choose gallery type for Blog Compound list"
+msgstr ""
+
+#: framework/admin/meta-boxes/general/map.php:71
+msgid "Choose if you want to have fixed background image"
+msgstr ""
+
+#: framework/modules/woocommerce/admin/meta-boxes/woocommerce-meta-boxes.php:29
+msgid ""
+"Choose image layout when it appears in Product List - Masonry layout "
+"shortcode"
+msgstr ""
+
+#: framework/modules/woocommerce/admin/meta-boxes/woocommerce-meta-boxes.php:17
+msgid ""
+"Choose image layout when it appears in Qode Product List - Masonry shortcode"
+msgstr ""
+
+#: framework/modules/page/options-map/map.php:93
+msgid "Choose order for pages"
+msgstr "Elegir orden para páginas"
+
+#: framework/admin/meta-boxes/general/map.php:60
+msgid "Choose page background image"
+msgstr "Elegir la imagen de fondo de la página."
+
+#: framework/admin/meta-boxes/general/map.php:81
+msgid "Choose page background pattern image"
+msgstr "Elegir imagen de fondo de página."
+
+#: framework/admin/meta-boxes/general/map.php:143
+#: framework/admin/options/general/map.php:321
+msgid "Choose skin for background grid lines"
+msgstr ""
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:131
+msgid "Choose Sorting Taxonomy"
+msgstr ""
+
+#: framework/admin/meta-boxes/post/post-format-video/map.php:18
+msgid "Choose video type"
+msgstr ""
+
+#: framework/admin/options/general/map.php:341
+msgid ""
+"Choose which JQuery scripts will be loaded for your site. By default, all "
+"scripts are loaded initially"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/simple-quote/simple-quote.php:42
+msgid "Choose yes to enable shadow around simple quote"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:152
+msgid "Circle"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/workflow/workflow-item.php:116
+msgid "Circle background color"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/workflow/workflow-item.php:109
+msgid "Circle border color"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/video-box/options-map/map.php:31
+msgid "Circle Color"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/video-box/options-map/map.php:40
+msgid "Circle Hover Color"
+msgstr ""
+
+#: framework/modules/timetable-schedule/options-map/map.php:166
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:50
+#: includes/shortcodes/shortcode-elements/vertical-separator/vertical-separator.php:38
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:90
+#: includes/shortcodes/shortcode-elements/comparative-features-table/options-map/map.php:121
+#: includes/shortcodes/shortcode-elements/pricing-calculator/options-map/map.php:137
+#: includes/shortcodes/shortcode-elements/report-sheet/options-map/map.php:129
+#: includes/shortcodes/shortcode-elements/advanced-tabs/options-map/map.php:31
+#: includes/shortcodes/shortcode-elements/simple-quote/options-map/map.php:91
+#: includes/shortcodes/shortcode-elements/simple-quote/options-map/map.php:174
+#: includes/shortcodes/shortcode-elements/numbered-process/options-map/map.php:31
+#: includes/shortcodes/shortcode-elements/numbered-process/options-map/map.php:61
+#: includes/shortcodes/shortcode-elements/numbered-process/options-map/map.php:99
+msgid "Color"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/options-map/map.php:15
+#: includes/shortcodes/shortcode-elements/advanced-pricing-table/options-map/map.php:15
+#: includes/shortcodes/shortcode-elements/report-sheet/options-map/map.php:15
+msgid "Color Options"
+msgstr ""
+
+#: framework/modules/timetable-schedule/options-map/map.php:144
+msgid "Color Styles"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:161
+msgid "Column Five Subtitle"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:82
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:155
+msgid "Column Five Title"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:149
+msgid "Column Four Subtitle"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:76
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:143
+msgid "Column Four Title"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:99
+msgid "Column One Active"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:131
+msgid "Column One Link"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:137
+msgid "Column One Link Target"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:147
+msgid "Column One Link Text"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:113
+msgid "Column One Subtitle"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:70
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:58
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:107
+msgid "Column One Title"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:119
+msgid "Column Three Active"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:175
+msgid "Column Three Link"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:181
+msgid "Column Three Link Target"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:191
+msgid "Column Three Link Text"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:137
+msgid "Column Three Subtitle"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:82
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:70
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:131
+msgid "Column Three Title"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-pricing-table/advanced-pricing-table.php:33
+msgid "Column Title"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:109
+msgid "Column Two Active"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:153
+msgid "Column Two Link"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:159
+msgid "Column Two Link Target"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:169
+msgid "Column Two Link Text"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:125
+msgid "Column Two Subtitle"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:76
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:64
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:119
+msgid "Column Two Title"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:28
+msgid "Columns"
+msgstr ""
+
+#: framework/modules/timetable-schedule/options-map/map.php:72
+msgid "Columns Heading Typography"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:88
+msgid "Columns Title Tag"
+msgstr ""
+
+#: comments.php:2 templates/blog_large_image-loop.php:63
+#: templates/blog_large_image-loop.php:106
+#: templates/blog_large_image-loop.php:160
+#: templates/blog_large_image-loop.php:197
+#: templates/blog_large_image-loop.php:234
+#: templates/blog_large_image-loop.php:280 templates/blog_search-loop.php:46
+#: templates/blog_large_image_with_dividers-loop.php:84
+#: templates/blog_large_image_with_dividers-loop.php:140
+#: templates/blog_large_image_with_dividers-loop.php:207
+#: templates/blog_large_image_with_dividers-loop.php:255
+#: templates/blog_large_image_with_dividers-loop.php:304
+#: templates/blog_large_image_with_dividers-loop.php:362
+#: templates/blog_single-loop.php:74 templates/blog_single-loop.php:109
+#: templates/blog_single-loop.php:134 templates/blog_single-loop.php:193
+#: templates/blog_single-loop.php:219 templates/blog_single-loop.php:255
+#: templates/blog_small_image-loop.php:63
+#: templates/blog_small_image-loop.php:107
+#: templates/blog_small_image-loop.php:151
+#: templates/blog_small_image-loop.php:204
+#: templates/blog_small_image-loop.php:248
+#: templates/blog_small_image-loop.php:294 templates/blog_vertical-loop.php:83
+#: templates/blog_vertical-loop.php:153 templates/blog_vertical-loop.php:224
+#: templates/blog_vertical-loop.php:296 templates/blog_vertical-loop.php:369
+#: templates/blog_vertical-loop.php:442
+#: templates/blog-single-image-title-post-loop.php:94
+#: templates/blog_large_image_whole_post-loop.php:63
+#: templates/blog_large_image_whole_post-loop.php:106
+#: templates/blog_large_image_whole_post-loop.php:143
+#: templates/blog_large_image_whole_post-loop.php:199
+#: templates/blog_large_image_whole_post-loop.php:236
+#: templates/blog_large_image_whole_post-loop.php:282
+#: templates/blog_masonry-loop.php:73 templates/blog_masonry-loop.php:97
+#: templates/blog_masonry-loop.php:114 templates/blog_masonry-loop.php:151
+#: templates/blog_masonry-loop.php:168 templates/blog_masonry-loop.php:199
+#: templates/blog-parts/compound/meta.php:7
+#: templates/blog-parts/pinterest/text.php:7
+#: includes/shortcodes/shortcode-elements/blog-slider.php:228
+#: includes/shortcodes/shortcode-elements/masonry-blog.php:129
+#: includes/shortcodes/shortcode-elements/masonry-blog.php:155
+#: includes/shortcodes/shortcode-elements/latest-posts/templates/latest-posts-image_in_box.php:44
+#: includes/shortcodes/shortcode-elements/latest-posts/templates/latest-posts-dividers.php:38
+#: includes/shortcodes/shortcode-elements/latest-posts/templates/latest-posts-boxes.php:37
+#: includes/shortcodes/shortcode-elements/latest-posts/templates/latest-posts-minimal.php:33
+#: includes/shortcodes/shortcode-elements/latest-posts/templates/latest-posts-image_on_the_left_boxed-featured-item.php:38
+#: includes/shortcodes/shortcode-elements/latest-posts/templates/latest-posts-image_on_the_left_boxed-regular-item.php:38
+msgid "Comment"
+msgstr "Comentario"
+
+#: framework/modules/reviews/reviews-functions.php:45
+msgid "Comment - Reviews"
+msgstr "Comentarios - Opiniones"
+
+#: js/default_dynamic.php:22
+msgid "Comment has been sent!"
+msgstr ""
+
+#: framework/modules/reviews/templates/admin/title-field.php:2
+msgid "Comment Title"
+msgstr ""
+
+#: comments.php:2 templates/blog_large_image-loop.php:63
+#: templates/blog_large_image-loop.php:63
+#: templates/blog_large_image-loop.php:106
+#: templates/blog_large_image-loop.php:106
+#: templates/blog_large_image-loop.php:160
+#: templates/blog_large_image-loop.php:160
+#: templates/blog_large_image-loop.php:197
+#: templates/blog_large_image-loop.php:197
+#: templates/blog_large_image-loop.php:234
+#: templates/blog_large_image-loop.php:234
+#: templates/blog_large_image-loop.php:280
+#: templates/blog_large_image-loop.php:280 templates/blog_search-loop.php:46
+#: templates/blog_search-loop.php:46
+#: templates/blog_large_image_with_dividers-loop.php:84
+#: templates/blog_large_image_with_dividers-loop.php:84
+#: templates/blog_large_image_with_dividers-loop.php:140
+#: templates/blog_large_image_with_dividers-loop.php:140
+#: templates/blog_large_image_with_dividers-loop.php:207
+#: templates/blog_large_image_with_dividers-loop.php:207
+#: templates/blog_large_image_with_dividers-loop.php:255
+#: templates/blog_large_image_with_dividers-loop.php:255
+#: templates/blog_large_image_with_dividers-loop.php:304
+#: templates/blog_large_image_with_dividers-loop.php:304
+#: templates/blog_large_image_with_dividers-loop.php:362
+#: templates/blog_large_image_with_dividers-loop.php:362
+#: templates/blog_single-loop.php:74 templates/blog_single-loop.php:74
+#: templates/blog_single-loop.php:109 templates/blog_single-loop.php:109
+#: templates/blog_single-loop.php:134 templates/blog_single-loop.php:134
+#: templates/blog_single-loop.php:193 templates/blog_single-loop.php:193
+#: templates/blog_single-loop.php:219 templates/blog_single-loop.php:219
+#: templates/blog_single-loop.php:255 templates/blog_single-loop.php:255
+#: templates/blog_small_image-loop.php:63
+#: templates/blog_small_image-loop.php:63
+#: templates/blog_small_image-loop.php:107
+#: templates/blog_small_image-loop.php:107
+#: templates/blog_small_image-loop.php:151
+#: templates/blog_small_image-loop.php:151
+#: templates/blog_small_image-loop.php:204
+#: templates/blog_small_image-loop.php:204
+#: templates/blog_small_image-loop.php:248
+#: templates/blog_small_image-loop.php:248
+#: templates/blog_small_image-loop.php:294
+#: templates/blog_small_image-loop.php:294 templates/blog_vertical-loop.php:83
+#: templates/blog_vertical-loop.php:83 templates/blog_vertical-loop.php:153
+#: templates/blog_vertical-loop.php:153 templates/blog_vertical-loop.php:224
+#: templates/blog_vertical-loop.php:224 templates/blog_vertical-loop.php:296
+#: templates/blog_vertical-loop.php:296 templates/blog_vertical-loop.php:369
+#: templates/blog_vertical-loop.php:369 templates/blog_vertical-loop.php:442
+#: templates/blog_vertical-loop.php:442
+#: templates/blog-single-image-title-post-loop.php:94
+#: templates/blog-single-image-title-post-loop.php:94
+#: templates/blog_large_image_whole_post-loop.php:63
+#: templates/blog_large_image_whole_post-loop.php:63
+#: templates/blog_large_image_whole_post-loop.php:106
+#: templates/blog_large_image_whole_post-loop.php:106
+#: templates/blog_large_image_whole_post-loop.php:143
+#: templates/blog_large_image_whole_post-loop.php:143
+#: templates/blog_large_image_whole_post-loop.php:199
+#: templates/blog_large_image_whole_post-loop.php:199
+#: templates/blog_large_image_whole_post-loop.php:236
+#: templates/blog_large_image_whole_post-loop.php:236
+#: templates/blog_large_image_whole_post-loop.php:282
+#: templates/blog_large_image_whole_post-loop.php:282
+#: templates/blog_masonry-loop.php:73 templates/blog_masonry-loop.php:73
+#: templates/blog_masonry-loop.php:97 templates/blog_masonry-loop.php:97
+#: templates/blog_masonry-loop.php:114 templates/blog_masonry-loop.php:114
+#: templates/blog_masonry-loop.php:151 templates/blog_masonry-loop.php:151
+#: templates/blog_masonry-loop.php:168 templates/blog_masonry-loop.php:168
+#: templates/blog_masonry-loop.php:199 templates/blog_masonry-loop.php:199
+#: templates/blog-parts/compound/meta.php:7
+#: templates/blog-parts/compound/meta.php:7
+#: templates/blog-parts/pinterest/text.php:7
+#: templates/blog-parts/pinterest/text.php:7
+#: includes/shortcodes/shortcode-elements/blog-slider.php:231
+#: includes/shortcodes/shortcode-elements/masonry-blog.php:132
+#: includes/shortcodes/shortcode-elements/masonry-blog.php:158
+#: includes/shortcodes/shortcode-elements/latest-posts/templates/latest-posts-image_in_box.php:47
+#: includes/shortcodes/shortcode-elements/latest-posts/templates/latest-posts-dividers.php:41
+#: includes/shortcodes/shortcode-elements/latest-posts/templates/latest-posts-boxes.php:40
+#: includes/shortcodes/shortcode-elements/latest-posts/templates/latest-posts-minimal.php:36
+#: includes/shortcodes/shortcode-elements/latest-posts/templates/latest-posts-image_on_the_left_boxed-featured-item.php:41
+#: includes/shortcodes/shortcode-elements/latest-posts/templates/latest-posts-image_on_the_left_boxed-regular-item.php:41
+msgid "Comments"
+msgstr "Comentarios"
+
+#: framework/modules/woocommerce/woocommerce-config.php:83
+#: framework/modules/woocommerce/woocommerce-config.php:96
+msgid "Company name"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:21
+#: includes/shortcodes/shortcode-elements/comparative-features-table/options-map/map.php:7
+msgid "Comparative Features Table"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/comparison-slider/cmp-slider.php:29
+msgid "Comparison Slider"
+msgstr ""
+
+#: framework/qode-framework.php:913
+msgid "Contact Administrator"
+msgstr ""
+
+#: includes/plugins/plugins-activation.php:192
+msgid "Contact Form 7"
+msgstr ""
+
+#. Name of the template
+msgid "Contact Page"
+msgstr "Página de Contacto"
+
+#: framework/admin/options/contact/map.php:161
+msgid "Contact Page Acceptance Text"
+msgstr "Texto de aceptación de la página de contacto"
+
+#: contact-page.php:99 contact-page.php:156
+msgid "Contact Us"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/split-scrolling-section/split-scrolling-section-content-item.php:47
+msgid "Content Alignment"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/accordions/accordion-tab.php:66
+msgid "Content Background Image"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/accordions/accordion-tab.php:68
+#: includes/shortcodes/shortcode-elements/accordions/accordion-tab.php:74
+msgid "Content Design"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/horizontal-timeline/horizontal-timeline-item.php:44
+msgid "Content Image"
+msgstr ""
+
+#: widgets/call_to_action_widget.php:89
+msgid "Content In Grid:"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/accordions/accordion-tab.php:72
+msgid "Content Padding"
+msgstr ""
+
+#: templates/blog-parts/compound/meta.php:13
+msgid "Continue Reading"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/latest-posts/templates/latest-posts-image_on_the_left_boxed-featured-item.php:51
+msgid "Continue reading..."
+msgstr ""
+
+#. Description of the theme
+msgid "Creative Multi-Purpose WordPress Theme"
+msgstr ""
+
+#: includes/nav_menu/edit_custom_walker.php:158
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/pricing-calculator/pricing-calculator.php:48
+#: includes/shortcodes/shortcode-elements/advanced-pricing-table/advanced-pricing-table.php:72
+#: includes/shortcodes/shortcode-elements/interest-rate-calculator/interest-rate-calculator.php:87
+msgid "Currency"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:32
+msgid "Custom CSS Class"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:81
+msgid "Custom CSS class"
+msgstr ""
+
+#: framework/admin/options/general/map.php:70
+msgid "Custom Font OTF"
+msgstr ""
+
+#: framework/admin/options/general/map.php:64
+msgid "Custom Font TTF"
+msgstr ""
+
+#: framework/admin/options/general/map.php:82
+msgid "Custom Font TTF WOFF2"
+msgstr ""
+
+#: framework/admin/options/general/map.php:76
+msgid "Custom Font WOFF"
+msgstr ""
+
+#: framework/admin/options/general/map.php:58
+msgid "Custom Fonts"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/image-with-icon-and-text/image-with-icon-and-text.php:59
+msgid "Custom Icon"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/multi-device-showcase/multi-device-showcase.php:42
+msgid "Custom Link"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:107
+msgid "Custom Link Target"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:100
+msgid "Custom Links"
+msgstr ""
+
+#: includes/sidebar/qode-custom-sidebar.php:18
+msgid "Custom Widget Area"
+msgstr ""
+
+#: includes/nav_menu/edit_custom_walker.php:289
+msgid "Custom widget area"
+msgstr ""
+
+#: framework/admin/meta-boxes/general/map.php:148
+#: framework/admin/options/general/map.php:325
+#: includes/shortcodes/shortcode-elements/comparison-slider/cmp-slider.php:80
+#: includes/shortcodes/shortcode-elements/split-scrolling-section/split-scrolling-section-content-item.php:62
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process.php:67
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:178
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:189
+msgid "Dark"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-pricing-list/advanced-pricing-list.php:93
+#: includes/shortcodes/shortcode-elements/interactive-icon-showcase/interactive-icon-showcase.php:57
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process.php:56
+msgid "Dashed"
+msgstr ""
+
+#: templates/portfolio-loop.php:231 templates/portfolio-loop.php:409
+#: templates/portfolio-loop.php:589 templates/portfolio-loop.php:808
+#: templates/portfolio-loop.php:1030 templates/portfolio-loop.php:1216
+#: framework/modules/page/options-map/map.php:97
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:116
+msgid "Date"
+msgstr ""
+
+#: includes/qode-blog-helper-functions.php:14
+#: framework/modules/page/meta-boxes/map.php:24
+#: framework/modules/page/meta-boxes/map.php:53
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:250
+#: includes/shortcodes/shortcode-elements/split-scrolling-section/split-scrolling-section-content-item.php:49
+#: includes/shortcodes/shortcode-elements/split-scrolling-section/split-scrolling-section-content-item.php:60
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process.php:44
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process.php:65
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:152
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:176
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:251
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:580
+#: framework/modules/woocommerce/admin/meta-boxes/woocommerce-meta-boxes.php:32
+msgid "Default"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/comparison-slider/cmp-slider.php:70
+msgid "Default Offset"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/comparison-slider/cmp-slider.php:72
+msgid "Default value is 50 (%)"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:170
+msgid "Default value is 5000 (ms)"
+msgstr ""
+
+#: framework/modules/title/options-map/map.php:15
+msgid "Define breadcrumbs style"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/testimonial-carousel/options-map/map.php:139
+msgid "Define Testimonials Carousel author style"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/testimonial-carousel/options-map/map.php:16
+msgid "Define Testimonials Carousel style"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/testimonial-carousel/options-map/map.php:59
+msgid "Define Testimonials Carousel text style"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:184
+msgid "Define title tag for each Report Sheet row's subtitle"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:170
+msgid "Define title tag for each Report Sheet row's title"
+msgstr ""
+
+#: framework/qode-framework.php:466
+msgid "Delete all menus from Appearance > Menus before importing a new demo."
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:101
+msgid "Delimit links by comma"
+msgstr ""
+
+#: framework/qode-framework.php:376
+msgid "Demo Site"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:127
+msgid "DESC"
+msgstr ""
+
+#: includes/nav_menu/edit_custom_walker.php:170
+msgid "Description"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/workflow/workflow-item.php:54
+#: includes/shortcodes/shortcode-elements/workflow/workflow-item.php:75
+#: includes/shortcodes/shortcode-elements/workflow/workflow-item.php:112
+#: includes/shortcodes/shortcode-elements/workflow/workflow-item.php:119
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process-item.php:60
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process-item.php:66
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process-item.php:76
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process-item.php:82
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process-item.php:88
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process-item.php:94
+msgid "Design Group"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:52
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:58
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:65
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:121
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:128
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:136
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:143
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:154
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:162
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:169
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:177
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:185
+#: includes/shortcodes/shortcode-elements/scrolling-image/scrolling-image.php:93
+#: includes/shortcodes/shortcode-elements/scrolling-image/scrolling-image.php:100
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:92
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:99
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:107
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:115
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:124
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:133
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:140
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:148
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:160
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:171
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:182
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:190
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:197
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:205
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:213
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:221
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:228
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:235
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:243
+msgid "Design Options"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/multi-device-showcase/templates/multi-device-showcase-template.php:37
+#: includes/shortcodes/shortcode-elements/multi-device-showcase/templates/multi-device-showcase-template.php:66
+#: includes/shortcodes/shortcode-elements/multi-device-showcase/templates/multi-device-showcase-template.php:81
+#: includes/shortcodes/shortcode-elements/multi-device-showcase/templates/multi-device-showcase-template.php:98
+#: includes/shortcodes/shortcode-elements/multi-device-showcase/templates/multi-device-showcase-template.php:111
+msgid "Device Frame"
+msgstr ""
+
+#: framework/modules/woocommerce/admin/meta-boxes/woocommerce-meta-boxes.php:16
+msgid "Dimensions for Product List - Masonry"
+msgstr ""
+
+#: framework/modules/woocommerce/admin/meta-boxes/woocommerce-meta-boxes.php:28
+msgid "Dimensions for Product List Shortcode"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/video-box/video-box.php:47
+msgid "Disable Hover Overlay"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/video-box/video-box.php:57
+msgid "Disable Zoom"
+msgstr ""
+
+#: framework/qode-framework.php:661
+msgid "Dismiss this notice"
+msgstr ""
+
+#: framework/modules/woocommerce/plugins/yith-wishlist/widgets/yith-wishlist.php:7
+msgid ""
+"Display a wishlist icon with number of products that are in the wishlist"
+msgstr ""
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:213
+msgid "Display Category"
+msgstr ""
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:220
+msgid "Display Excerpt"
+msgstr ""
+
+#: widgets/latest_posts_widget.php:9
+msgid "Display posts from your blog"
+msgstr ""
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:242
+msgid "Display Price"
+msgstr ""
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:235
+msgid "Display Rating"
+msgstr ""
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:167
+msgid "Display Title"
+msgstr ""
+
+#: includes/nav_menu/edit_custom_walker.php:192
+msgid "Don't link"
+msgstr ""
+
+#: includes/nav_menu/edit_custom_walker.php:202
+msgid "Don't show"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-pricing-list/advanced-pricing-list.php:94
+#: includes/shortcodes/shortcode-elements/interactive-icon-showcase/interactive-icon-showcase.php:56
+msgid "Dotted"
+msgstr ""
+
+#: framework/lib/qode.icons/qode.icons.php:91
+msgid "Dripicons"
+msgstr ""
+
+#: comments.php:51
+msgid "E-mail address"
+msgstr ""
+
+#: includes/nav_menu/edit_custom_walker.php:122
+#: includes/nav_menu/edit_custom_walker.php:124
+msgid "Edit Menu Item"
+msgstr ""
+
+#: includes/qode-custom-post-types.php:156
+msgid "Edit Usados Tag"
+msgstr ""
+
+#: includes/qode-custom-post-types.php:131
+msgid "Editar categoría"
+msgstr ""
+
+#: includes/qode-custom-post-types.php:22
+msgid "Editar Inmueble Usado"
+msgstr ""
+
+#: includes/qode-custom-taxonomy-field.php:10
+msgid "Effect on header (dark/light style)"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/elliptical-slider/elliptical-slide.php:21
+msgid "Elliptical Slide"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/elliptical-slider/elliptical-slider.php:21
+msgid "Elliptical Slider"
+msgstr ""
+
+#: framework/modules/woocommerce/woocommerce-config.php:85
+msgid "Email"
+msgstr ""
+
+#: contact-page.php:116 contact-page.php:124
+msgid "Email *"
+msgstr ""
+
+#: framework/lib/qode.functions.php:1080
+msgid "Email server problem"
+msgstr ""
+
+#: framework/admin/options/contact/map.php:139
+msgid "Enable Acceptance Checkbox"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:96
+msgid "Enable Anchor Link Functionality"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:262
+msgid "Enable Background Gradient"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/scrolling-image/scrolling-image.php:57
+msgid "Enable Box Shadow"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/pricing-calculator/pricing-calculator.php:103
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:198
+#: includes/shortcodes/shortcode-elements/specification-list/specification-list.php:71
+#: includes/shortcodes/shortcode-elements/info-card/info-card.php:84
+#: includes/shortcodes/shortcode-elements/interest-rate-calculator/interest-rate-calculator.php:97
+msgid "Enable Button"
+msgstr ""
+
+#: framework/modules/woocommerce/admin/options-map/map.php:486
+msgid "Enable Default WooCommerce Product Gallery Features"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:51
+msgid "Enable Fixed Image Proportions"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/comparison-slider/cmp-slider.php:63
+msgid "Enable Frame"
+msgstr ""
+
+#: framework/admin/options/contactform7/map.php:183
+#: framework/admin/options/contactform7/map.php:357
+#: framework/admin/options/contactform7/map.php:530
+msgid "Enable Full Width Button"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:69
+msgid "Enable Gradient"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:79
+msgid "Enable Gradient Animation"
+msgstr ""
+
+#: framework/modules/page/options-map/map.php:67
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:165
+msgid "Enable Icon Gradient"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:90
+msgid "Enable Icon on Hover"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:176
+msgid "Enable Icon Square"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:71
+msgid "Enable Image Shadow"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/scrolling-image/scrolling-image.php:47
+msgid "Enable Rounded Image"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:154
+msgid "Enable Shadow"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/simple-quote/simple-quote.php:40
+msgid "Enable shadow"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:160
+msgid "Enable Slider Autoplay"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:151
+msgid "Enable Slider Loop"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:195
+msgid "Enable Slider Navigation Arrows"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:185
+msgid "Enable Slider Padding"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:204
+msgid "Enable Slider Pagination"
+msgstr ""
+
+#: framework/admin/options/verticalsplitslider/map.php:49
+msgid "Enable this option for advanced responsive on smaller devices"
+msgstr ""
+
+#: framework/admin/options/header/map.php:170
+msgid "Enable this option if you want sticky mobile header"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/video-box/video-box.php:49
+msgid "Enable this option if you want to disable hover overlay"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/elliptical-slider/elliptical-slider.php:46
+msgid "Enable this option if you want to have autoplay Elliptical Slider "
+msgstr ""
+
+#: framework/admin/options/footer/map.php:102
+msgid ""
+"Enable this option if you would like advanced footer responsiveness for top "
+"footer. (Note: This option is only applied when 4 footer top columns are "
+"selected)"
+msgstr ""
+"Habilite esta opción si desea una respuesta avanzada del pie de página para "
+"el pie de página superior. (Nota: esta opción solo se aplica cuando se "
+"seleccionan 4 columnas superiores de pie de página)"
+
+#: framework/admin/meta-boxes/general/map.php:23
+msgid "Enable Uniform Page Background"
+msgstr ""
+
+#: framework/modules/page/options-map/map.php:28
+#: framework/modules/page/meta-boxes/map.php:22
+msgid ""
+"Enabling this option will add a navigation section to the bottom of your "
+"page with “Previous” and “Next” buttons, which users can use to navigate "
+"through your pages. Please note that the navigation will only lead through "
+"pages in the same hierarchical level (e.g. if you have a parent page called "
+"“Home” and then 3 child pages on which you have enabled the navigation, it "
+"will only lead through the child pages)."
+msgstr ""
+
+#: framework/modules/woocommerce/admin/options-map/map.php:487
+msgid ""
+"Enabling this option will add support for WooCommerce default zoom, swipe "
+"and lightbox features"
+msgstr ""
+
+#: framework/admin/options/contact/map.php:140
+msgid ""
+"Enabling this option will display a checkbox beneath the contact form. This "
+"will prompt the user to mark the box before proceeding."
+msgstr ""
+
+#: framework/admin/options/contactform7/map.php:184
+#: framework/admin/options/contactform7/map.php:358
+#: framework/admin/options/contactform7/map.php:531
+msgid ""
+"Enabling this option will make the \"Send\" button take up the full width of "
+"the contact form."
+msgstr ""
+
+#: framework/admin/meta-boxes/footer/map.php:33
+msgid "Enabling this option will show footer bottom on this page"
+msgstr ""
+
+#: framework/admin/meta-boxes/footer/map.php:19
+msgid "Enabling this option will show footer top on this page"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/accordions/accordion-tab.php:44
+msgid "Enter accordion section title."
+msgstr ""
+
+#: framework/admin/meta-boxes/post/post-format-audio/map.php:18
+msgid "Enter audio link"
+msgstr ""
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:117
+msgid "Enter Category Values"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/horizontal-timeline/horizontal-timeline-item.php:39
+msgid "Enter date in format dd/mm/yyyy."
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:66
+msgid ""
+"Enter image size. Example: thumbnail, medium, large, full or other sizes "
+"defined by current theme. Alternatively enter image size in pixels: 200x100 "
+"(Width x Height). Leave empty to use \"thumbnail\" size"
+msgstr ""
+
+#: framework/admin/meta-boxes/post/post-format-link/map.php:18
+msgid "Enter link"
+msgstr ""
+
+#: includes/sidebar/qode-custom-sidebar.php:42
+msgid "Enter Name of the new Widget Area"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/accordions/accordion-tab.php:36
+#, php-format
+msgid ""
+"Enter optional row ID. Make sure it is unique, and it is valid as w3c "
+"specification: %s (Must not have spaces)"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/accordions/accordion-tab.php:75
+msgid "Enter padding in format 1px 0 0 1px"
+msgstr ""
+
+#: framework/admin/meta-boxes/post/post-format-quote/map.php:18
+msgid "Enter Quote text"
+msgstr ""
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:143
+msgid "Enter Taxonomy Values"
+msgstr ""
+
+#: framework/admin/meta-boxes/post/post-format-video/map.php:67
+msgid "Enter Video ID"
+msgstr ""
+
+#: framework/admin/meta-boxes/post/post-format-video/map.php:99
+msgid "Enter video URL for MP4 format"
+msgstr ""
+
+#: framework/admin/meta-boxes/post/post-format-video/map.php:110
+msgid "Enter video URL for OGV format"
+msgstr ""
+
+#: framework/admin/meta-boxes/post/post-format-video/map.php:88
+msgid "Enter video URL for WEBM format"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/workflow/workflow-item.php:61
+msgid "Enter workflow item subtitle."
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/workflow/workflow-item.php:81
+msgid "Enter workflow item text."
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/workflow/workflow-item.php:40
+msgid "Enter workflow item title."
+msgstr ""
+
+#: includes/plugins/plugins-activation.php:40
+msgid "Envato Market"
+msgstr ""
+
+#: includes/qode-breadcrumbs.php:125
+msgid "Error 404"
+msgstr ""
+
+#: framework/modules/reviews/reviews-functions.php:149
+msgid ""
+"Error: You did not add a rating. Hit the Back button on your Web browser and "
+"resubmit your comment with a rating."
+msgstr ""
+
+#: framework/modules/timetable-schedule/options-map/map.php:214
+#: includes/shortcodes/shortcode-elements/comparative-features-table/options-map/map.php:48
+#: includes/shortcodes/shortcode-elements/advanced-pricing-table/options-map/map.php:48
+#: includes/shortcodes/shortcode-elements/report-sheet/options-map/map.php:56
+msgid "Even Rows Background Color"
+msgstr ""
+
+#: framework/modules/timetable-schedule/options-map/map.php:17
+msgid "Events Single"
+msgstr ""
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:227
+msgid "Excerpt Length"
+msgstr ""
+
+#: export/qode-export.php:330
+msgid "Export"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/workflow/workflow-holder.php:38
+msgid "Extra class name"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:88
+msgid "Feature"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:94
+msgid "Feature Title"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:56
+msgid "Feature Title Tag"
+msgstr ""
+
+#: includes/nav_menu/edit_custom_walker.php:280
+msgid "Featured icon"
+msgstr ""
+
+#: framework/modules/woocommerce/shortcodes/product-list/templates/parts/ordering-filter.php:3
+msgid "Filter"
+msgstr ""
+
+#: framework/modules/woocommerce/woocommerce-config.php:81
+#: framework/modules/woocommerce/woocommerce-config.php:94
+msgid "First name"
+msgstr ""
+
+#: contact-page.php:104
+msgid "First Name *"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:119
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:141
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process.php:36
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:62
+msgid "Five"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:34
+msgid "Five Columns"
+msgstr ""
+
+#: framework/admin/meta-boxes/general/map.php:69
+msgid "Fixed Background Image"
+msgstr ""
+
+#: includes/plugins/qode-required-plugins-list.php:18
+msgid "Following plugins should be installed and activated before demo import:"
+msgstr ""
+
+#: framework/lib/qode.icons/qode.icons.php:83
+#: framework/lib/qode.icons/qode.icons.php:88
+msgid "Font Awesome"
+msgstr ""
+
+#: framework/lib/qode.icons/qode.icons.php:84
+#: framework/lib/qode.icons/qode.icons.php:89
+msgid "Font Elegant"
+msgstr ""
+
+#: framework/modules/title/options-map/map.php:52
+#: framework/modules/timetable-schedule/options-map/map.php:96
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:187
+#: includes/shortcodes/shortcode-elements/comparative-features-table/options-map/map.php:69
+#: includes/shortcodes/shortcode-elements/testimonial-carousel/options-map/map.php:110
+#: includes/shortcodes/shortcode-elements/testimonial-carousel/options-map/map.php:190
+#: includes/shortcodes/shortcode-elements/pricing-calculator/options-map/map.php:93
+#: includes/shortcodes/shortcode-elements/report-sheet/options-map/map.php:77
+#: includes/shortcodes/shortcode-elements/simple-quote/options-map/map.php:31
+#: includes/shortcodes/shortcode-elements/simple-quote/options-map/map.php:114
+#: includes/shortcodes/shortcode-elements/accordions/options-map/map.php:39
+msgid "Font Family"
+msgstr ""
+
+#: framework/admin/options/general/map.php:88
+msgid "Font Name"
+msgstr ""
+
+#: framework/modules/title/options-map/map.php:30
+#: includes/shortcodes/shortcode-elements/comparative-features-table/options-map/map.php:76
+#: includes/shortcodes/shortcode-elements/testimonial-carousel/options-map/map.php:81
+#: includes/shortcodes/shortcode-elements/testimonial-carousel/options-map/map.php:161
+#: includes/shortcodes/shortcode-elements/pricing-calculator/options-map/map.php:100
+#: includes/shortcodes/shortcode-elements/report-sheet/options-map/map.php:84
+#: includes/shortcodes/shortcode-elements/simple-quote/options-map/map.php:38
+#: includes/shortcodes/shortcode-elements/simple-quote/options-map/map.php:121
+msgid "Font Size"
+msgstr ""
+
+#: framework/modules/timetable-schedule/options-map/map.php:88
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:56
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:194
+#: includes/shortcodes/shortcode-elements/numbered-process/options-map/map.php:70
+msgid "Font Size (px)"
+msgstr ""
+
+#: framework/admin/options/fonts/map.php:744
+#: framework/admin/options/fonts/map.php:798
+#: framework/admin/options/fonts/map.php:854
+msgid "Font Size for Mobile"
+msgstr ""
+
+#: framework/admin/options/fonts/map.php:721
+#: framework/admin/options/fonts/map.php:775
+#: framework/admin/options/fonts/map.php:831
+msgid "Font Size for Tablet portrait"
+msgstr ""
+
+#: framework/modules/title/options-map/map.php:68
+#: framework/modules/timetable-schedule/options-map/map.php:113
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:217
+#: includes/shortcodes/shortcode-elements/comparative-features-table/options-map/map.php:92
+#: includes/shortcodes/shortcode-elements/testimonial-carousel/options-map/map.php:118
+#: includes/shortcodes/shortcode-elements/testimonial-carousel/options-map/map.php:198
+#: includes/shortcodes/shortcode-elements/pricing-calculator/options-map/map.php:116
+#: includes/shortcodes/shortcode-elements/report-sheet/options-map/map.php:100
+#: includes/shortcodes/shortcode-elements/simple-quote/options-map/map.php:69
+#: includes/shortcodes/shortcode-elements/simple-quote/options-map/map.php:152
+#: includes/shortcodes/shortcode-elements/accordions/options-map/map.php:56
+msgid "Font Style"
+msgstr ""
+
+#: framework/modules/title/options-map/map.php:76
+#: framework/modules/timetable-schedule/options-map/map.php:136
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:62
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:133
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:201
+#: includes/shortcodes/shortcode-elements/comparative-features-table/options-map/map.php:84
+#: includes/shortcodes/shortcode-elements/testimonial-carousel/options-map/map.php:126
+#: includes/shortcodes/shortcode-elements/testimonial-carousel/options-map/map.php:206
+#: includes/shortcodes/shortcode-elements/pricing-calculator/options-map/map.php:108
+#: includes/shortcodes/shortcode-elements/report-sheet/options-map/map.php:92
+#: includes/shortcodes/shortcode-elements/simple-quote/options-map/map.php:46
+#: includes/shortcodes/shortcode-elements/simple-quote/options-map/map.php:129
+#: includes/shortcodes/shortcode-elements/accordions/options-map/map.php:82
+msgid "Font Weight"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:118
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:140
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process.php:35
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:61
+msgid "Four"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:33
+msgid "Four Columns"
+msgstr ""
+
+#. Name of the template
+msgid "Full Screen Sections"
+msgstr ""
+
+#. Name of the template
+msgid "Full Width"
+msgstr ""
+
+#: widgets/call_to_action_widget.php:81
+msgid "Full Width:"
+msgstr ""
+
+#: framework/admin/meta-boxes/post/post-format-gallery/map.php:9
+msgid "Gallery Post Format"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:38
+#: framework/admin/meta-boxes/post/post-format-gallery/map.php:18
+msgid "Gallery Type"
+msgstr ""
+
+#: contact-page.php:81
+msgid "Get in touch with us"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/portfolio-list.php:473
+#: includes/shortcodes/shortcode-elements/portfolio-list.php:828
+#: includes/shortcodes/shortcode-elements/portfolio-list.php:875
+#: includes/shortcodes/shortcode-elements/portfolio-list.php:1285
+#: includes/shortcodes/shortcode-elements/portfolio-list.php:1333
+msgid "Go to Project"
+msgstr ""
+
+#: includes/qode-custom-taxonomy-field.php:48
+#: includes/qode-custom-taxonomy-field.php:78
+#: includes/qode-custom-taxonomy-field.php:108
+#: includes/qode-custom-taxonomy-field.php:138
+#: includes/qode-custom-taxonomy-field.php:168
+#: includes/qode-custom-taxonomy-field.php:198
+#: includes/qode-custom-taxonomy-field.php:228
+msgid "Graphic"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:84
+msgid "Grayscale"
+msgstr ""
+
+#: framework/admin/meta-boxes/general/map.php:90
+#: framework/admin/options/general/map.php:273
+msgid "Grid Lines in Page Background"
+msgstr ""
+
+#: framework/admin/meta-boxes/general/map.php:142
+#: framework/admin/options/general/map.php:320
+msgid "Grid Lines Skin"
+msgstr ""
+
+#: templates/blog_large_image-loop.php:54
+#: templates/blog_large_image-loop.php:97
+#: templates/blog_large_image-loop.php:151
+#: templates/blog_large_image-loop.php:188
+#: templates/blog_large_image-loop.php:225
+#: templates/blog_large_image-loop.php:271 templates/blog_search-loop.php:31
+#: templates/blog_single-loop.php:67 templates/blog_single-loop.php:102
+#: templates/blog_single-loop.php:127 templates/blog_single-loop.php:186
+#: templates/blog_single-loop.php:212 templates/blog_single-loop.php:248
+#: templates/blog_small_image-loop.php:54
+#: templates/blog_small_image-loop.php:98
+#: templates/blog_small_image-loop.php:142
+#: templates/blog_small_image-loop.php:195
+#: templates/blog_small_image-loop.php:239
+#: templates/blog_small_image-loop.php:285
+#: templates/blog_large_image_whole_post-loop.php:54
+#: templates/blog_large_image_whole_post-loop.php:97
+#: templates/blog_large_image_whole_post-loop.php:134
+#: templates/blog_large_image_whole_post-loop.php:190
+#: templates/blog_large_image_whole_post-loop.php:227
+#: templates/blog_large_image_whole_post-loop.php:273
+msgid "h"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/report-sheet/options-map/map.php:40
+msgid "Header Background Color"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/split-scrolling-section/split-scrolling-section-content-item.php:58
+msgid "Header/Bullets Style"
+msgstr ""
+
+#: framework/modules/timetable-schedule/options-map/map.php:150
+msgid "Heading Color Styles"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/vertical-separator/vertical-separator.php:28
+msgid "Height"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/multi-device-showcase/multi-device-showcase.php:180
+msgid "Hide Content Overflow"
+msgstr ""
+
+#: includes/qode-breadcrumbs.php:21
+msgid "Home"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/comparison-slider/cmp-slider.php:55
+msgid "Horizontal"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/horizontal-timeline/horizontal-timeline.php:21
+msgid "Horizontal Timeline"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/horizontal-timeline/horizontal-timeline-item.php:21
+msgid "Horizontal Timeline Item"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:112
+msgid "Hover Background Color"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:97
+#: includes/shortcodes/shortcode-elements/comparative-features-table/options-map/map.php:128
+#: includes/shortcodes/shortcode-elements/report-sheet/options-map/map.php:136
+msgid "Hover Color"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:247
+msgid "Hover Effect"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:129
+msgid "Hover Icon Left Border Color"
+msgstr ""
+
+#. URI of the theme
+msgid "http://demo.qodeinteractive.com/bridge/"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://www.qodethemes.com/"
+msgstr ""
+
+#: contact-page.php:145
+msgid "I accept the terms and agreements"
+msgstr ""
+
+#: framework/lib/qode.layout.tax.php:216 framework/lib/qode.layout.tax.php:251
+#: includes/nav_menu/edit_custom_walker.php:259
+msgid "Icon"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/scrolling-image/scrolling-image.php:97
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:138
+msgid "Icon Background Color"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:146
+msgid "Icon Background Hover Color"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:148
+msgid "Icon Border Shape"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:159
+msgid "Icon Border Shape Size (px)"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:119
+#: includes/shortcodes/shortcode-elements/video-box/options-map/map.php:48
+msgid "Icon Color"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:126
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:232
+msgid "Icon Font Size (px)"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:167
+msgid "Icon Horizontal Offset Adjust (px)"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/video-box/options-map/map.php:56
+msgid "Icon Hover Color"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:120
+msgid "Icon Left Border Color"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:141
+msgid "Icon Left Margin (px)"
+msgstr ""
+
+#: includes/nav_menu/edit_custom_walker.php:242
+msgid "Icon Pack"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:253
+msgid "Icon Rotate"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:257
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:270
+msgid "Icon Rotate Hover should only be used when icon set"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/info-card-with-icon/info-card-with-icon.php:56
+#: includes/shortcodes/shortcode-elements/info-card-with-icon/info-card-with-icon.php:72
+#: includes/shortcodes/shortcode-elements/info-card-with-icon/info-card-with-icon.php:81
+#: includes/shortcodes/shortcode-elements/info-card-with-icon/info-card-with-icon.php:89
+#: includes/shortcodes/shortcode-elements/info-card-with-icon/info-card-with-icon.php:95
+#: includes/shortcodes/shortcode-elements/info-card-with-icon/info-card-with-icon.php:101
+#: includes/shortcodes/shortcode-elements/info-card-with-icon/info-card-with-icon.php:107
+msgid "Icon Style"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:175
+msgid "Icon Vertical Offset Adjust (px)"
+msgstr ""
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:135
+msgid "Id"
+msgstr ""
+
+#: framework/admin/meta-boxes/general/map.php:24
+msgid ""
+"If enabled, content background on this page will be transparent (unless set "
+"otherwise) and the background you set here will show."
+msgstr ""
+
+#: framework/qode-framework.php:469
+msgid ""
+"If you plan to use shop, please install WooCommerce before you run import."
+msgstr ""
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:137
+msgid ""
+"If you would like to display only certain products, this is where you can "
+"select the criteria by which you would like to choose which products to "
+"display"
+msgstr ""
+"Si desea mostrar solo ciertos productos, aquí es donde puede seleccionar los "
+"criterios por los cuales desea elegir qué productos mostrar"
+
+#: framework/admin/meta-boxes/general/map.php:91
+#: framework/admin/options/general/map.php:274
+msgid ""
+"If you would like to enable a set of lines in the page background, choose "
+"how many lines you would like to display. The lines will be placed on the "
+"page grid."
+msgstr ""
+"Si desea habilitar un conjunto de líneas en el fondo de la página, elija "
+"cuántas líneas desea mostrar. Las líneas se colocarán en la cuadrícula de la "
+"página."
+
+#: includes/shortcodes/shortcode-elements/workflow/workflow-item.php:85
+#: includes/shortcodes/shortcode-elements/specification-list/specification-list.php:28
+#: includes/shortcodes/shortcode-elements/info-card/info-card.php:44
+#: includes/shortcodes/shortcode-elements/sliding-image-holder/sliding-image-holder.php:49
+#: includes/shortcodes/shortcode-elements/info-card-with-icon/info-card-with-icon.php:45
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process-item.php:29
+#: includes/shortcodes/shortcode-elements/image-with-icon-and-text/image-with-icon-and-text.php:46
+msgid "Image"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/comparison-slider/cmp-slider.php:45
+msgid "Image After"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/workflow/workflow-item.php:98
+msgid "Image alignment"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/comparison-slider/cmp-slider.php:38
+msgid "Image Before"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:78
+msgid "Image Behavior"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:40
+msgid "Image Grid"
+msgstr ""
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:150
+msgid "Image Proportions"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:65
+msgid "Image Size"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/image-with-icon-and-text/image-with-icon-and-text.php:37
+msgid "Image With Icon And Text"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:59
+msgid "Images"
+msgstr ""
+
+#: framework/qode-framework.php:426
+msgid "Import attachments"
+msgstr ""
+
+#: framework/lib/qode.functions.php:900
+msgid "Import field is empty"
+msgstr ""
+
+#: framework/qode-framework.php:404
+msgid "Import Type"
+msgstr ""
+
+#: framework/qode-framework.php:464
+msgid "Important notes:"
+msgstr ""
+
+#: templates/blog_large_image-loop.php:55
+#: templates/blog_large_image-loop.php:98
+#: templates/blog_large_image-loop.php:152
+#: templates/blog_large_image-loop.php:189
+#: templates/blog_large_image-loop.php:226
+#: templates/blog_large_image-loop.php:272 templates/blog_search-loop.php:35
+#: templates/blog_single-loop.php:68 templates/blog_single-loop.php:103
+#: templates/blog_single-loop.php:128 templates/blog_single-loop.php:187
+#: templates/blog_single-loop.php:213 templates/blog_single-loop.php:249
+#: templates/blog_small_image-loop.php:55
+#: templates/blog_small_image-loop.php:99
+#: templates/blog_small_image-loop.php:143
+#: templates/blog_small_image-loop.php:196
+#: templates/blog_small_image-loop.php:240
+#: templates/blog_small_image-loop.php:286
+#: templates/blog_large_image_whole_post-loop.php:55
+#: templates/blog_large_image_whole_post-loop.php:98
+#: templates/blog_large_image_whole_post-loop.php:135
+#: templates/blog_large_image_whole_post-loop.php:191
+#: templates/blog_large_image_whole_post-loop.php:228
+#: templates/blog_large_image_whole_post-loop.php:274
+#: templates/blog-parts/pinterest/text.php:5
+#: templates/blog-parts/masonry-gallery/text.php:8
+msgid "in"
+msgstr "en"
+
+#: framework/modules/page/options-map/map.php:50
+msgid "In Grid"
+msgstr "en Grid"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:43
+msgid "Info Below Image"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/info-card/info-card.php:37
+msgid "Info Card"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/info-card/info-card.php:49
+msgid "Info Card Background Color"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/info-card/info-card.php:79
+msgid "Info Card Text Color"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/info-card-with-icon/info-card-with-icon.php:37
+msgid "Info Card With Icon"
+msgstr ""
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:42
+msgid "Info On Image Hover"
+msgstr ""
+
+#: includes/qode-custom-post-types.php:19
+msgid "Inmueble Usado"
+msgstr ""
+
+#: framework/modules/title/options-map/map.php:105
+msgid "Insert desired breadcrumbs delimiter"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/interest-rate-calculator/interest-rate-calculator.php:48
+msgid "Insert interest rate in percents"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:241
+msgid "Insert margin in format: 0px 0px 1px 0px"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/split-scrolling-section/split-scrolling-section-content-item.php:42
+msgid "Insert padding in format: Top Right Bottom Left (e.g. 0px 0px 1px 0px)"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/workflow/workflow-item.php:87
+msgid "Insert workflow item image."
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/simple-quote/simple-quote.php:98
+msgid "Inset spacing between quote title and author in pixels, omit px"
+msgstr ""
+
+#: includes/plugins/qode-required-plugins-list.php:28
+msgid "Install"
+msgstr ""
+
+#: includes/plugins/plugins-activation.php:259
+msgid "Install Plugins"
+msgstr ""
+
+#: framework/lib/qode.welcome.page.php:148
+#: includes/plugins/plugins-activation.php:258
+msgid "Install Required Plugins"
+msgstr ""
+
+#: includes/plugins/plugins-activation.php:260
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: framework/modules/page/options-map/map.php:27
+#: framework/modules/page/meta-boxes/map.php:21
+msgid "Inter-Page Navigation"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/interactive-icon-showcase/interactive-icon-showcase.php:18
+msgid "Interactive Icon Showcase"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/interactive-icon-showcase/interactive-icon-showcase-item.php:21
+msgid "Interactive Icon Showcase Item"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/interest-rate-calculator/interest-rate-calculator.php:47
+msgid "Interest Rate"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/interest-rate-calculator/interest-rate-calculator.php:21
+msgid "Interest Rate Calculator"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/interest-rate-calculator/interest-rate-calculator.php:28
+msgid "Interest Rate Title"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/interest-rate-calculator/interest-rate-calculator.php:33
+msgid "Interest Rate Title Tag"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/interest-rate-calculator/templates/interest-rate-calculator-template.php:30
+msgid "Interest to pay:"
+msgstr ""
+
+#: framework/lib/qode.functions.php:1071
+msgid "Invalid Captcha"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/pricing-calculator/pricing-calculator.php:76
+msgid "Item Active"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-pricing-list/advanced-pricing-list.php:45
+msgid "Item Description"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-pricing-list/advanced-pricing-list.php:127
+msgid "Item Description Color"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/pricing-calculator/pricing-calculator.php:70
+#: includes/shortcodes/shortcode-elements/advanced-pricing-table/advanced-pricing-table.php:64
+#: includes/shortcodes/shortcode-elements/advanced-pricing-list/advanced-pricing-list.php:51
+msgid "Item Price"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/pricing-calculator/pricing-calculator.php:64
+#: includes/shortcodes/shortcode-elements/advanced-pricing-table/advanced-pricing-table.php:58
+#: includes/shortcodes/shortcode-elements/advanced-pricing-list/advanced-pricing-list.php:39
+msgid "Item Title"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-pricing-list/advanced-pricing-list.php:121
+msgid "Item Title Color"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-pricing-list/advanced-pricing-list.php:106
+msgid "Item Title Tag"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/pricing-calculator/pricing-calculator.php:88
+msgid "Items Title Tag"
+msgstr ""
+
+#: framework/admin/options/general/map.php:340
+msgid "JQuery Scripts "
+msgstr ""
+
+#: framework/modules/timetable-schedule/visual-composer-map.php:49
+#: includes/shortcodes/shortcode-elements/specification-list/specification-list.php:58
+msgid "Label"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/interest-rate-calculator/interest-rate-calculator.php:154
+msgid "Labels Color"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/interest-rate-calculator/interest-rate-calculator.php:160
+msgid "Labels Font Size"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/interest-rate-calculator/interest-rate-calculator.php:166
+msgid "Labels Separator Color"
+msgstr ""
+
+#. Name of the template
+msgid "Landing Page"
+msgstr "Página Landing"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:155
+msgid "Landscape"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/multi-device-showcase/multi-device-showcase.php:83
+msgid "Laptop Slider"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/multi-device-showcase/multi-device-showcase.php:69
+msgid "Laptop Slides"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process.php:47
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:72
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:158
+msgid "Large"
+msgstr ""
+
+#: includes/qode-blog-helper-functions.php:15
+msgid "Large Height"
+msgstr ""
+
+#: framework/modules/woocommerce/admin/meta-boxes/woocommerce-meta-boxes.php:34
+msgid "Large height"
+msgstr ""
+
+#: framework/admin/options/fonts/map.php:815
+msgid "Large Title"
+msgstr ""
+
+#: includes/qode-blog-helper-functions.php:16
+msgid "Large Width"
+msgstr ""
+
+#: framework/modules/woocommerce/admin/meta-boxes/woocommerce-meta-boxes.php:33
+msgid "Large width"
+msgstr ""
+
+#: includes/qode-blog-helper-functions.php:17
+msgid "Large Width/Height"
+msgstr ""
+
+#: framework/modules/woocommerce/admin/meta-boxes/woocommerce-meta-boxes.php:35
+msgid "Large width/height"
+msgstr ""
+
+#: framework/modules/woocommerce/woocommerce-config.php:82
+#: framework/modules/woocommerce/woocommerce-config.php:95
+msgid "Last name"
+msgstr ""
+
+#: contact-page.php:110
+msgid "Last Name *"
+msgstr ""
+
+#: includes/plugins/plugins-activation.php:20
+msgid "LayerSlider WP"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/multi-device-showcase/multi-device-showcase.php:167
+#: includes/shortcodes/shortcode-elements/multi-device-showcase/multi-device-showcase.php:176
+#: includes/shortcodes/shortcode-elements/multi-device-showcase/multi-device-showcase.php:184
+msgid "Layout and Behavior"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/workflow/workflow-item.php:103
+#: includes/shortcodes/shortcode-elements/advanced-pricing-list/advanced-pricing-list.php:69
+#: includes/shortcodes/shortcode-elements/split-scrolling-section/split-scrolling-section-content-item.php:50
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:252
+msgid "Left"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/pricing-calculator/pricing-calculator.php:140
+msgid "Left Section Background Color"
+msgstr ""
+
+#: framework/admin/options/fonts/map.php:888
+#: framework/modules/title/options-map/map.php:83
+#: includes/shortcodes/shortcode-elements/comparative-features-table/options-map/map.php:114
+#: includes/shortcodes/shortcode-elements/testimonial-carousel/options-map/map.php:133
+#: includes/shortcodes/shortcode-elements/testimonial-carousel/options-map/map.php:213
+#: includes/shortcodes/shortcode-elements/pricing-calculator/options-map/map.php:129
+#: includes/shortcodes/shortcode-elements/report-sheet/options-map/map.php:122
+#: includes/shortcodes/shortcode-elements/simple-quote/options-map/map.php:84
+#: includes/shortcodes/shortcode-elements/simple-quote/options-map/map.php:167
+#: includes/shortcodes/shortcode-elements/accordions/options-map/map.php:65
+msgid "Letter Spacing"
+msgstr ""
+
+#: framework/modules/timetable-schedule/options-map/map.php:128
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:225
+msgid "Letter Spacing (px)"
+msgstr ""
+
+#: framework/admin/meta-boxes/general/map.php:147
+#: framework/admin/options/general/map.php:324
+#: includes/shortcodes/shortcode-elements/split-scrolling-section/split-scrolling-section-content-item.php:61
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process.php:66
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:177
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:188
+msgid "Light"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/comparison-slider/cmp-slider.php:79
+msgid "Light/Default"
+msgstr ""
+
+#: includes/qode-like.php:123
+msgid "Like this"
+msgstr "Me Gusta"
+
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process.php:52
+msgid "Line Between Process Items"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-pricing-list/advanced-pricing-list.php:100
+msgid "Line Color"
+msgstr ""
+
+#: framework/modules/title/options-map/map.php:37
+#: includes/shortcodes/shortcode-elements/testimonial-carousel/options-map/map.php:88
+#: includes/shortcodes/shortcode-elements/testimonial-carousel/options-map/map.php:168
+#: includes/shortcodes/shortcode-elements/simple-quote/options-map/map.php:53
+#: includes/shortcodes/shortcode-elements/simple-quote/options-map/map.php:136
+msgid "Line Height"
+msgstr ""
+
+#: framework/admin/options/fonts/map.php:753
+#: framework/admin/options/fonts/map.php:807
+#: framework/admin/options/fonts/map.php:863
+msgid "Line Height for Mobile"
+msgstr ""
+
+#: framework/admin/options/fonts/map.php:730
+#: framework/admin/options/fonts/map.php:784
+#: framework/admin/options/fonts/map.php:840
+msgid "Line Height for Tablet portrait"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/numbered-process/options-map/map.php:15
+msgid "Line Options"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process.php:62
+msgid "Line Skin"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-pricing-list/advanced-pricing-list.php:89
+msgid "Line Style"
+msgstr ""
+
+#: framework/lib/qode.icons/qode.icons.php:90
+msgid "Linea Icons"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/scrolling-image/scrolling-image.php:73
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:64
+#: includes/shortcodes/shortcode-elements/info-card-with-icon/info-card-with-icon.php:136
+#: framework/admin/meta-boxes/post/post-format-link/map.php:17
+msgid "Link"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/accordions/accordion-tab.php:36
+msgid "link"
+msgstr ""
+
+#: framework/admin/meta-boxes/post/post-format-link/map.php:8
+msgid "Link Post Format"
+msgstr ""
+
+#: includes/nav_menu/edit_custom_walker.php:164
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:106
+#: includes/shortcodes/shortcode-elements/scrolling-image/scrolling-image.php:79
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:70
+msgid "Link Target"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/specification-list/specification-list.php:52
+msgid "List Items"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-pricing-list/advanced-pricing-list.php:28
+msgid "List Title"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-pricing-list/advanced-pricing-list.php:66
+msgid "List Title Alignment"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-pricing-list/advanced-pricing-list.php:83
+msgid "List Title Color"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-pricing-list/advanced-pricing-list.php:77
+msgid "List Title Margin Bottom(px)"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-pricing-list/advanced-pricing-list.php:59
+msgid "List Title Tag"
+msgstr ""
+
+#: js/default_dynamic.php:115
+msgid "Loading new posts..."
+msgstr ""
+
+#: templates/blog-structure.php:178
+#: includes/shortcodes/shortcode-elements/portfolio-list.php:912
+#: includes/shortcodes/shortcode-elements/portfolio-list.php:1406
+#: framework/modules/woocommerce/shortcodes/product-list/templates/product-list-standard.php:6
+#: framework/modules/woocommerce/shortcodes/product-list/templates/product-list-masonry.php:6
+msgid "Loading..."
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/interest-rate-calculator/interest-rate-calculator.php:142
+msgid "Loan and Period Values Color"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/interest-rate-calculator/interest-rate-calculator.php:148
+msgid "Loan and Period Values Font Size"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/interest-rate-calculator/interest-rate-calculator.php:59
+msgid "Loan Maximum Value"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/interest-rate-calculator/interest-rate-calculator.php:53
+msgid "Loan Minimum Value"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/interest-rate-calculator/interest-rate-calculator.php:65
+msgid "Loan Slider Step"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:239
+msgid "Margin"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/image-with-icon-and-text/image-with-icon-and-text.php:51
+msgid "Margin Below Image"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:41
+#: framework/admin/meta-boxes/post/post-format-gallery/map.php:23
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:33
+msgid "Masonry"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/interest-rate-calculator/interest-rate-calculator.php:76
+msgid "Maximum Loan Period"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process.php:46
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:157
+msgid "Medium"
+msgstr ""
+
+#: framework/admin/options/fonts/map.php:759
+msgid "Medium Title"
+msgstr ""
+
+#: widgets/latest_posts_menu.php:8
+msgid "Menu Latest Posts"
+msgstr ""
+
+#: framework/modules/page/options-map/map.php:96
+msgid "Menu Order"
+msgstr ""
+
+#: contact-page.php:135
+msgid "Message"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/interest-rate-calculator/interest-rate-calculator.php:70
+msgid "Minimum Loan Period"
+msgstr ""
+
+#: includes/nav_menu/edit_custom_walker.php:120
+msgid "Move down"
+msgstr ""
+
+#: includes/nav_menu/edit_custom_walker.php:107
+msgid "Move up"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/multi-device-showcase/multi-device-showcase.php:21
+msgid "Multi-Device Showcase"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:32
+msgid "My Address"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:26
+msgid "My Addresses"
+msgstr ""
+
+#: includes/qode-custom-taxonomy-field.php:288
+msgid "Name"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/testimonial-carousel/options-map/map.php:31
+msgid "Navigation Border radius (px)"
+msgstr ""
+
+#: includes/nav_menu/edit_custom_walker.php:140
+msgid "Navigation Label"
+msgstr ""
+
+#: framework/modules/woocommerce/templates/parts/image.php:15
+msgid "NEW"
+msgstr ""
+
+#: includes/qode-custom-post-types.php:159
+msgid "New Usados Tag Name"
+msgstr ""
+
+#: framework/lib/qode.functions.php:967
+#: includes/shortcodes/shortcode-elements/scrolling-image/scrolling-image.php:82
+msgid "New Window"
+msgstr ""
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:583
+msgid "Newness"
+msgstr ""
+
+#: framework/modules/page/templates/inter-page-navigation.php:40
+msgid "Next page"
+msgstr "Página Siguiente"
+
+#: widgets/call_to_action_widget.php:84 widgets/call_to_action_widget.php:92
+#: widgets/call_to_action_widget.php:157
+#: framework/modules/page/meta-boxes/map.php:26
+#: includes/shortcodes/shortcode-elements/workflow/workflow-holder.php:54
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:73
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:83
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:99
+#: includes/shortcodes/shortcode-elements/pricing-calculator/pricing-calculator.php:80
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:157
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:168
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:179
+#: includes/shortcodes/shortcode-elements/interest-rate-calculator/interest-rate-calculator.php:100
+msgid "No"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/blog-slider.php:225
+#: includes/shortcodes/shortcode-elements/masonry-blog.php:126
+#: includes/shortcodes/shortcode-elements/masonry-blog.php:152
+#: includes/shortcodes/shortcode-elements/latest-posts/templates/latest-posts-image_in_box.php:41
+#: includes/shortcodes/shortcode-elements/latest-posts/templates/latest-posts-dividers.php:35
+#: includes/shortcodes/shortcode-elements/latest-posts/templates/latest-posts-boxes.php:34
+#: includes/shortcodes/shortcode-elements/latest-posts/templates/latest-posts-minimal.php:30
+#: includes/shortcodes/shortcode-elements/latest-posts/templates/latest-posts-image_on_the_left_boxed-featured-item.php:35
+#: includes/shortcodes/shortcode-elements/latest-posts/templates/latest-posts-image_on_the_left_boxed-regular-item.php:35
+msgid "No comment"
+msgstr ""
+
+#: comments.php:2
+msgid "No Comments"
+msgstr ""
+
+#: framework/modules/page/options-map/map.php:71
+#: framework/modules/page/meta-boxes/map.php:54
+msgid "No Link"
+msgstr ""
+
+#: js/default_dynamic.php:119
+msgid "No more posts"
+msgstr "No hay más publicaciones"
+
+#: search.php:70 search.php:94 search.php:122 blog-vertical-loop.php:58
+#: templates/blog-structure.php:169
+msgid "No posts were found."
+msgstr ""
+
+#: framework/modules/woocommerce/widgets/woocommerce-dropdown-cart.php:93
+msgid "No products in the cart."
+msgstr ""
+
+#: framework/modules/woocommerce/woocommerce-functions.php:132
+#: framework/modules/woocommerce/templates/parts/no-posts.php:1
+msgid "No products were found!"
+msgstr ""
+
+#: framework/modules/timetable-schedule/options-map/map.php:32
+msgid "No Sidebar"
+msgstr ""
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:76
+msgid "No Space"
+msgstr ""
+
+#: framework/lib/qode.functions.php:909
+msgid "Non valid authorization"
+msgstr ""
+
+#: framework/admin/meta-boxes/general/map.php:95
+#: framework/admin/options/general/map.php:277
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:80
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:151
+#: includes/shortcodes/shortcode-elements/multi-device-showcase/multi-device-showcase.php:41
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process.php:57
+msgid "None"
+msgstr ""
+
+#: widgets/call_to_action_widget.php:128
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:73
+msgid "Normal"
+msgstr ""
+
+#: includes/qode-custom-post-types.php:134
+msgid "Nueva categoría"
+msgstr ""
+
+#: includes/qode-custom-post-types.php:21
+msgid "Nuevo Inmueble Usado"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:106
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process-item.php:34
+msgid "Number"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process-item.php:64
+msgid "Number Background Color"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process-item.php:58
+msgid "Number Color"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:108
+msgid "Number of blog posts on page (Leave empty for all)"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:93
+msgid "Number of Blog Posts Shown"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:102
+msgid ""
+"Number of blog posts that are showing at the same time (on smaller screens "
+"is responsive so there will be less items shown)"
+msgstr ""
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:228
+msgid "Number of characters"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:27
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:114
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:56
+msgid "Number of Columns"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:28
+msgid "Number of columns"
+msgstr ""
+
+#: widgets/relate_posts_widget.php:79 widgets/latest_posts_menu.php:87
+msgid "Number of posts:"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process.php:32
+msgid "Number of Process Items"
+msgstr ""
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:51
+msgid "Number of Products"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:135
+msgid "Number Of Visible Items"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/numbered-process/options-map/map.php:45
+msgid "Number Options"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process.php:21
+#: includes/shortcodes/shortcode-elements/numbered-process/options-map/map.php:7
+msgid "Numbered Process"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process-item.php:21
+msgid "Numbered Process Item"
+msgstr ""
+
+#: framework/modules/timetable-schedule/options-map/map.php:206
+#: includes/shortcodes/shortcode-elements/comparative-features-table/options-map/map.php:40
+#: includes/shortcodes/shortcode-elements/advanced-pricing-table/options-map/map.php:40
+#: includes/shortcodes/shortcode-elements/report-sheet/options-map/map.php:48
+msgid "Odd Rows Background Color"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process-item.php:73
+msgid "On Image"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:137
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:58
+msgid "One"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:30
+msgid "One Column"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/multi-device-showcase/multi-device-showcase.php:171
+msgid "One Scroll To Content"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:125
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:134
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:142
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:150
+msgid "Only for solid type"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-tabs/advanced-tabs.php:36
+msgid "Only Icon"
+msgstr ""
+
+#: includes/nav_menu/edit_custom_walker.php:300
+msgid "Only with \"wide & wide with icons\" menu type"
+msgstr ""
+
+#: includes/nav_menu/edit_custom_walker.php:248
+msgid "Only with \"wide with icons\" menu type"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:82
+msgid "Open Custom Link"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:81
+msgid "Open Lightbox"
+msgstr ""
+
+#: includes/nav_menu/edit_custom_walker.php:153
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: framework/lib/qode.functions.php:907
+msgid "Options are imported successfully"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:124
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:103
+msgid "Order"
+msgstr ""
+
+#: framework/modules/page/options-map/map.php:92
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:113
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:95
+msgid "Order By"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/comparison-slider/cmp-slider.php:52
+msgid "Orientation"
+msgstr ""
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:153
+msgid "Original"
+msgstr ""
+
+#: includes/nav_menu/edit_custom_walker.php:319
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/split-scrolling-section/split-scrolling-section-content-item.php:41
+msgid "Padding"
+msgstr ""
+
+#: widgets/call_to_action_widget.php:149
+msgid "Padding Bottom (px):"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:186
+msgid "Padding left and right on stage (can see neighbours)."
+msgstr ""
+
+#: widgets/call_to_action_widget.php:144
+msgid "Padding Top (px):"
+msgstr ""
+
+#: includes/qode-breadcrumbs.php:135
+#: framework/modules/page/options-map/map.php:11
+msgid "Page"
+msgstr "Página"
+
+#: framework/modules/page/options-map/map.php:17
+msgid "Page Single"
+msgstr "Página Simple"
+
+#: includes/qode-custom-taxonomy-field.php:22
+msgid "Parallax effect"
+msgstr ""
+
+#: includes/qode-custom-post-types.php:154
+msgid "Parent Usados Tag"
+msgstr ""
+
+#: includes/qode-custom-post-types.php:155
+msgid "Parent Usados Tags:"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/interest-rate-calculator/interest-rate-calculator.php:92
+msgid "Period label"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/interest-rate-calculator/interest-rate-calculator.php:82
+msgid "Period Slider Step"
+msgstr ""
+
+#: framework/modules/woocommerce/woocommerce-config.php:86
+msgid "Phone"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/multi-device-showcase/multi-device-showcase.php:119
+msgid "Phone Slider"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/multi-device-showcase/multi-device-showcase.php:105
+msgid "Phone Slides"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/workflow/workflow-item.php:118
+msgid "Pick a color for the circle background color."
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/workflow/workflow-item.php:111
+msgid "Pick a color for the circle border color."
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/workflow/workflow-holder.php:46
+msgid "Pick a color for the workflow line."
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/video-box/options-map/map.php:61
+msgid "Play Button Border Options"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/video-box/options-map/map.php:15
+msgid "Play Button Color Options"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/video-box/options-map/map.php:117
+msgid "Play Button Height/Width"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/video-box/options-map/map.php:101
+msgid "Play Button Size Options"
+msgstr ""
+
+#: contact-page.php:100
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/simple-quote/simple-quote.php:35
+msgid "Please insert border radius(Rounded corners) in px. Omit px"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/vertical-separator/vertical-separator.php:44
+msgid "Please insert margin in format: 0px 0px 10px 0px"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/interest-rate-calculator/interest-rate-calculator.php:61
+msgid "Please insert maximum value for the loan slider"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/interest-rate-calculator/interest-rate-calculator.php:78
+msgid "Please insert maximum value for the period slider"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/interest-rate-calculator/interest-rate-calculator.php:55
+msgid "Please insert minimum value for the loan slider"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/interest-rate-calculator/interest-rate-calculator.php:72
+msgid "Please insert minimum value for the period slider, other than 0"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/simple-quote/simple-quote.php:53
+msgid "Please insert padding in format 0px 10px 0px 10px"
+msgstr ""
+
+#: framework/admin/options/contact/map.php:162
+msgid "Please inset desired acceptance condition, or leave empty for default"
+msgstr ""
+
+#: framework/qode-framework.php:468
+msgid ""
+"Please note that import process will take time needed to download all "
+"attachments from demo web site."
+msgstr ""
+
+#: framework/admin/options/general/map.php:59
+msgid ""
+"Please note that in order to be presented with the full set of available "
+"options that changing this option entails, you should save your changes "
+"after triggering the option, and refresh the page afterwards. Note that you "
+"should upload only one custom font type of your choosing for each new font."
+msgstr ""
+
+#: includes/plugins/plugins-activation.php:273
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:581
+msgid "Popularity"
+msgstr ""
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:156
+msgid "Portrait"
+msgstr ""
+
+#: comments.php:42
+msgid "Post A Comment"
+msgstr ""
+
+#: comments.php:43
+#, php-format
+msgid "Post A Reply to %s"
+msgstr ""
+
+#: framework/modules/woocommerce/woocommerce-config.php:87
+#: framework/modules/woocommerce/woocommerce-config.php:98
+msgid "Postcode / ZIP"
+msgstr ""
+
+#: templates/blog_large_image-loop.php:54
+#: templates/blog_large_image-loop.php:97
+#: templates/blog_large_image-loop.php:151
+#: templates/blog_large_image-loop.php:188
+#: templates/blog_large_image-loop.php:225
+#: templates/blog_large_image-loop.php:271 templates/blog_search-loop.php:31
+#: templates/blog_single-loop.php:67 templates/blog_single-loop.php:102
+#: templates/blog_single-loop.php:127 templates/blog_single-loop.php:186
+#: templates/blog_single-loop.php:212 templates/blog_single-loop.php:248
+#: templates/blog_small_image-loop.php:54
+#: templates/blog_small_image-loop.php:98
+#: templates/blog_small_image-loop.php:142
+#: templates/blog_small_image-loop.php:195
+#: templates/blog_small_image-loop.php:239
+#: templates/blog_small_image-loop.php:285
+#: templates/blog_large_image_whole_post-loop.php:54
+#: templates/blog_large_image_whole_post-loop.php:97
+#: templates/blog_large_image_whole_post-loop.php:134
+#: templates/blog_large_image_whole_post-loop.php:190
+#: templates/blog_large_image_whole_post-loop.php:227
+#: templates/blog_large_image_whole_post-loop.php:273
+#: includes/comment/comment.php:12
+msgid "Posted at"
+msgstr ""
+
+#: widgets/latest_posts_menu.php:50
+msgid "Posted in"
+msgstr "Publicado en"
+
+#: includes/qode-custom-taxonomy-field.php:292
+msgid "Posts"
+msgstr ""
+
+#: includes/qode-breadcrumbs.php:117
+msgid "Posts tagged \""
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:64
+msgid "Posts Title Tag"
+msgstr ""
+
+#: framework/modules/page/templates/inter-page-navigation.php:19
+msgid "Previous page"
+msgstr "Página Anterior"
+
+#: includes/shortcodes/shortcode-elements/pricing-calculator/options-map/map.php:77
+msgid "Price Options"
+msgstr ""
+
+#: framework/modules/woocommerce/shortcodes/product-list/templates/parts/ordering-filter.php:12
+msgid "Price Range"
+msgstr ""
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:89
+msgid "Price range for pricing filter"
+msgstr ""
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:585
+msgid "Price: High to Low"
+msgstr ""
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:584
+msgid "Price: Low to High"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/pricing-calculator/pricing-calculator.php:21
+msgid "Pricing Calculator"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/pricing-calculator/pricing-calculator.php:58
+#: includes/shortcodes/shortcode-elements/advanced-pricing-table/advanced-pricing-table.php:52
+#: includes/shortcodes/shortcode-elements/advanced-pricing-list/advanced-pricing-list.php:33
+msgid "Pricing Items"
+msgstr ""
+
+#: templates/portfolio-loop.php:1169
+#: templates/blog-parts/blog-share-like-below-text.php:7
+msgid "Print page"
+msgstr "Imprimir Página"
+
+#: includes/shortcodes/shortcode-elements/numbered-process/options-map/map.php:83
+msgid "Process Item Border Options"
+msgstr ""
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:169
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:215
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:222
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:237
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:244
+msgid "Product Info"
+msgstr ""
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:262
+msgid "Product Info Bottom Margin (px)"
+msgstr ""
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:186
+msgid "Product Info Hover Background Skin"
+msgstr ""
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:40
+msgid "Product Info Position"
+msgstr ""
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:174
+msgid "Product Info Skin"
+msgstr ""
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:181
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:192
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:200
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:208
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:230
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:257
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:264
+msgid "Product Info Style"
+msgstr ""
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:249
+msgid "Product Info Text Alignment"
+msgstr ""
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:21
+msgid "Product List"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/accordions/accordion.php:21
+msgid "Qode Accordion"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/accordions/accordion-tab.php:21
+msgid "Qode Accordion Tab"
+msgstr ""
+
+#: framework/admin/meta-boxes/portfolio/map.php:154
+msgid "Qode Additional Portfolio Sidebar Items"
+msgstr ""
+
+#: framework/admin/meta-boxes/blog/map.php:15
+msgid "Qode Blog"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:39
+msgid "Qode Button V2"
+msgstr ""
+
+#: framework/admin/meta-boxes/content-bottom/map.php:11
+msgid "Qode Content Bottom"
+msgstr ""
+
+#: export/qode-export.php:309
+msgid "Qode Export"
+msgstr ""
+
+#: framework/admin/meta-boxes/footer/map.php:9
+msgid "Qode Footer"
+msgstr ""
+
+#: framework/admin/meta-boxes/general/map.php:10
+#: framework/modules/woocommerce/admin/meta-boxes/woocommerce-meta-boxes.php:8
+msgid "Qode General"
+msgstr ""
+
+#: framework/admin/meta-boxes/header/map.php:10
+msgid "Qode Header"
+msgstr ""
+
+#: includes/plugins/plugins-activation.php:72
+msgid "Qode Instagram Widget"
+msgstr ""
+
+#. Author of the theme
+msgid "Qode Interactive"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/split-scrolling-section/split-scrolling-section-left-panel.php:21
+msgid "Qode Left Fixed Panel"
+msgstr ""
+
+#: framework/admin/meta-boxes/left-menu/map.php:8
+msgid "Qode Left Menu Area"
+msgstr ""
+
+#: includes/plugins/plugins-activation.php:102
+msgid "Qode Listing"
+msgstr ""
+
+#: includes/plugins/plugins-activation.php:162
+msgid "Qode LMS"
+msgstr ""
+
+#: includes/plugins/plugins-activation.php:132
+msgid "Qode Membership"
+msgstr ""
+
+#: includes/plugins/plugins-activation.php:142
+msgid "Qode Music"
+msgstr ""
+
+#: includes/plugins/plugins-activation.php:112
+msgid "Qode News"
+msgstr ""
+
+#: framework/modules/page/meta-boxes/map.php:11
+msgid "Qode Page Options"
+msgstr "Opciones Página Qode"
+
+#: framework/admin/meta-boxes/portfolio/map.php:18
+msgid "Qode Portfolio General"
+msgstr ""
+
+#: framework/admin/meta-boxes/portfolio/map.php:120
+msgid "Qode Portfolio Images (multiple upload)"
+msgstr ""
+
+#: framework/admin/meta-boxes/portfolio/map.php:141
+msgid "Qode Portfolio Images/Videos (single upload)"
+msgstr ""
+
+#: includes/plugins/plugins-activation.php:122
+msgid "Qode Restaurant"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/split-scrolling-section/split-scrolling-section-right-panel.php:21
+msgid "Qode Right Scrolling Panel"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:238
+msgid "Qode Scroll Title Animations"
+msgstr ""
+
+#: framework/admin/meta-boxes/seo/map.php:8
+msgid "Qode SEO"
+msgstr ""
+
+#: framework/admin/meta-boxes/sidebar/map.php:13
+msgid "Qode Sidebar"
+msgstr ""
+
+#: widgets/social_icon_widget.php:8
+msgid "Qode Social Icon Widget"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/split-scrolling-section/split-scrolling-section-content-item.php:20
+msgid "Qode Split Scroling Section Content Item"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/split-scrolling-section/split-scrolling-section.php:20
+msgid "Qode Split Scrolling Section"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:10
+msgid "Qode Title"
+msgstr ""
+
+#: includes/plugins/plugins-activation.php:152
+msgid "Qode Tours"
+msgstr ""
+
+#: includes/plugins/plugins-activation.php:82
+msgid "Qode Twitter Feed"
+msgstr ""
+
+#: includes/plugins/plugins-activation.php:172
+msgid "Qode Woocommerce Checkout Integration"
+msgstr ""
+
+#: framework/modules/woocommerce/plugins/yith-wishlist/widgets/yith-wishlist.php:6
+msgid "Qode Woocommerce Wishlist"
+msgstr ""
+
+#: includes/plugins/plugins-activation.php:92
+msgid "Quick Links"
+msgstr ""
+
+#: framework/admin/meta-boxes/post/post-format-quote/map.php:17
+msgid "Quote"
+msgstr ""
+
+#: framework/admin/meta-boxes/post/post-format-quote/map.php:8
+msgid "Quote Post Format"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/simple-quote/simple-quote.php:103
+msgid "Quote symbol color"
+msgstr ""
+
+#: framework/modules/woocommerce/templates/parts/rating.php:9
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: framework/modules/reviews/reviews-functions.php:26
+msgid "Rating"
+msgstr ""
+
+#: templates/blog_large_image-loop.php:76
+#: templates/blog_large_image-loop.php:119
+#: templates/blog_large_image-loop.php:173
+#: templates/blog_large_image-loop.php:293 templates/blog_search-loop.php:64
+#: templates/blog_small_image-loop.php:76
+#: templates/blog_small_image-loop.php:120
+#: templates/blog_small_image-loop.php:217
+#: templates/blog_small_image-loop.php:307
+#: templates/blog_large_image_whole_post-loop.php:76
+#: templates/blog_large_image_whole_post-loop.php:119
+#: templates/blog_large_image_whole_post-loop.php:212
+#: templates/blog_large_image_whole_post-loop.php:295
+#: includes/shortcodes/shortcode-elements/blog-slider.php:353
+msgid "Read More"
+msgstr "Leer más"
+
+#: includes/shortcodes/shortcode-elements/sliding-image-holder/sliding-image-holder.php:52
+msgid "Recommended width of image is 1920px"
+msgstr ""
+
+#: includes/plugins/plugins-activation.php:66
+msgid "Regions for WP Job Manager"
+msgstr ""
+
+#: widgets/relate_posts_widget.php:15
+msgid "Related Posts"
+msgstr "Publicaciones Relacionadas"
+
+#: widgets/relate_posts_widget.php:8
+msgid "Related Posts Widget"
+msgstr "Widget de Post Relacionados"
+
+#: templates/portfolio-related.php:12
+msgid "Related Projects"
+msgstr "Inmuebles Relacionados"
+
+#: includes/nav_menu/edit_custom_walker.php:332
+msgid "Remove"
+msgstr ""
+
+#: framework/lib/qode.layout.tax.php:83 framework/lib/qode.layout.tax.php:105
+msgid "Remove Image"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:21
+#: includes/shortcodes/shortcode-elements/report-sheet/options-map/map.php:7
+msgid "Report Sheet"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:101
+msgid "Report Sheet Rows"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:40
+msgid "Report Sheet Title"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/interest-rate-calculator/interest-rate-calculator.php:172
+msgid "Results Color"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/interest-rate-calculator/interest-rate-calculator.php:178
+msgid "Results Font Size"
+msgstr ""
+
+#: includes/plugins/plugins-activation.php:272
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: includes/plugins/plugins-activation.php:30
+msgid "Revolution Slider"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/workflow/workflow-item.php:104
+#: includes/shortcodes/shortcode-elements/advanced-pricing-list/advanced-pricing-list.php:71
+#: includes/shortcodes/shortcode-elements/split-scrolling-section/split-scrolling-section-content-item.php:51
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:254
+msgid "Right"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/pricing-calculator/pricing-calculator.php:146
+msgid "Right Section Background Color"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:183
+msgid "Row's subtitle tag"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:169
+msgid "Row's title tag"
+msgstr ""
+
+#: framework/modules/woocommerce/woocommerce-functions.php:81
+msgid "SALE"
+msgstr ""
+
+#: framework/lib/qode.functions.php:966
+#: includes/shortcodes/shortcode-elements/scrolling-image/scrolling-image.php:83
+msgid "Same Window"
+msgstr ""
+
+#: framework/qode-framework.php:248 framework/qode-framework.php:320
+msgid "Save Changes"
+msgstr ""
+
+#: comments.php:54
+msgid ""
+"Save my name, email, and website in this browser for the next time I comment."
+msgstr ""
+
+#: contact-page.php:84
+msgid "Say Hello! Don’t be shy."
+msgstr ""
+
+#: includes/qode-custom-taxonomy-field.php:249
+msgid "screen width < 320px for 'set1' and 'set2'"
+msgstr ""
+
+#: includes/qode-custom-taxonomy-field.php:99
+msgid ""
+"screen width = [1200px,1600px] for 'set1', screen width = [1300px,1600px] "
+"for 'set2'"
+msgstr ""
+
+#: includes/qode-custom-taxonomy-field.php:219
+msgid ""
+"screen width = [320px,500px] for 'set1', screen width = [320px,567px] for "
+"'set2'"
+msgstr ""
+
+#: includes/qode-custom-taxonomy-field.php:189
+msgid ""
+"screen width = [500px,650px] for 'set1', screen width = [567px,768px] for "
+"'set2'"
+msgstr ""
+
+#: includes/qode-custom-taxonomy-field.php:159
+msgid ""
+"screen width = [650px,900px] for 'set1', screen width = [768px,1000px] for "
+"'set2'"
+msgstr ""
+
+#: includes/qode-custom-taxonomy-field.php:129
+msgid ""
+"screen width = [900px,1200px] for 'set1', screen width = [1000px,1300px] for "
+"'set2'"
+msgstr ""
+
+#: includes/qode-custom-taxonomy-field.php:69
+msgid "screen width > 1600px for 'set1' and 'set2'"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/multi-device-showcase/multi-device-showcase.php:43
+msgid "Scroll Below"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/multi-device-showcase/multi-device-showcase.php:174
+msgid "Scroll below Multi-Device Showcase on first scroll."
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/scrolling-image/scrolling-image.php:42
+msgid "Scrolling Image"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/scrolling-image/templates/scrolling-image-template.php:20
+msgid "Scrolling Image Frame"
+msgstr ""
+
+#: framework/modules/header/templates/search/types/search.php:9
+#: framework/modules/header/templates/search/types/search-covers-header.php:11
+#: framework/modules/header/templates/search/types/search-slides-from-header-bottom.php:10
+msgid "Search"
+msgstr "Buscar"
+
+#: searchform.php:3
+msgid "Search Here"
+msgstr "Buscar aquí"
+
+#: framework/modules/search/options-map/map.php:11
+msgid "Search Page"
+msgstr "Buscar páginas"
+
+#: includes/qode-breadcrumbs.php:51
+msgid "Search results for \""
+msgstr "Resultados de búsqueda para \""
+
+#: framework/modules/search/options-map/map.php:17
+msgid "Search Results Page"
+msgstr "Página de Resultados de Búsqueda"
+
+#: framework/modules/header/templates/parts/fullscreen-search.php:27
+msgid "Search:"
+msgstr "Buscar:"
+
+#: includes/shortcodes/shortcode-elements/accordions/accordion-tab.php:43
+msgid "Section"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/accordions/accordion-tab.php:34
+msgid "Section ID"
+msgstr ""
+
+#: templates/blog_vertical-loop.php:103 templates/blog_vertical-loop.php:173
+#: templates/blog_vertical-loop.php:247 templates/blog_vertical-loop.php:316
+#: templates/blog_vertical-loop.php:393 templates/blog_vertical-loop.php:462
+msgid "See More"
+msgstr "Ver más"
+
+#: framework/admin/options/header/map.php:692
+msgid "Select background image for full screen menu"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:60
+#: includes/shortcodes/shortcode-elements/cards-gallery/cards-gallery.php:47
+msgid "Select images from media library"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:28
+msgid "Select number of columns for Search Results page"
+msgstr ""
+"Seleccione el número de columnas para la página de resultados de búsqueda"
+
+#: framework/modules/search/options-map/map.php:68
+msgid "Select spacing between items in Search Results page"
+msgstr ""
+"Seleccione el espaciado entre los elementos en la página Resultados de la "
+"búsqueda"
+
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:141
+msgid "Selected Posts"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:143
+msgid "Selected Posts (leave empty for all, delimit by comma)"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:140
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:162
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:184
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:109
+#: includes/shortcodes/shortcode-elements/pricing-calculator/pricing-calculator.php:121
+#: includes/shortcodes/shortcode-elements/specification-list/specification-list.php:89
+#: includes/shortcodes/shortcode-elements/info-card/info-card.php:102
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:73
+#: includes/shortcodes/shortcode-elements/info-card-with-icon/info-card-with-icon.php:145
+msgid "Self"
+msgstr ""
+
+#: framework/admin/meta-boxes/post/post-format-video/map.php:24
+msgid "Self Hosted"
+msgstr ""
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:118
+msgid "Separate values (category slugs) with a comma"
+msgstr ""
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:144
+msgid "Separate values (category slugs, tags, or post IDs) with a comma"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/vertical-separator/vertical-separator.php:43
+msgid "Separator Margins"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/interactive-icon-showcase/interactive-icon-showcase.php:65
+msgid "Set color of the border"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/accordions/options-map/map.php:97
+msgid "Set color styles for accordion title"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/accordions/options-map/map.php:125
+msgid "Set color styles for active and hover accordions"
+msgstr ""
+
+#: framework/modules/timetable-schedule/options-map/map.php:182
+msgid "Set color styles for timetable"
+msgstr ""
+
+#: framework/modules/timetable-schedule/options-map/map.php:151
+msgid "Set color styles for timetable heading"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/workflow/workflow-item.php:91
+msgid "Set image on right side"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:53
+msgid ""
+"Set predefined image proportions for your masonry list. This option will "
+"apply image proportions you set in Image -> Image Size field."
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/interactive-icon-showcase/interactive-icon-showcase.php:59
+msgid "Set style of the border"
+msgstr ""
+
+#: framework/modules/page/options-map/map.php:51
+msgid ""
+"Set this option to “Yes” if you would like the inter-page navigation to be "
+"placed in grid."
+msgstr ""
+"Establezca esta opción en \"Sí\" si desea que la navegación entre páginas se "
+"coloque en la cuadrícula."
+
+#: includes/shortcodes/shortcode-elements/testimonial-carousel/options-map/map.php:38
+msgid "Set up Testimonials Carousel background color"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/interactive-icon-showcase/interactive-icon-showcase.php:47
+msgid "Set width of the border in px, omit px"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/options-map/map.php:54
+msgid "Setup button options for comparative features table"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/report-sheet/options-map/map.php:62
+msgid "Setup button options for report sheet"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-pricing-table/options-map/map.php:16
+msgid "Setup colors for advanced pricing table"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-tabs/options-map/map.php:16
+msgid "Setup colors for advanced tabs title"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/options-map/map.php:16
+msgid "Setup colors for comparative features table"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/video-box/options-map/map.php:16
+msgid "Setup colors for play button"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/report-sheet/options-map/map.php:16
+msgid "Setup colors for report sheet"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/simple-quote/options-map/map.php:99
+msgid "Setup font options for simple quote author"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/simple-quote/options-map/map.php:16
+msgid "Setup font options for simple quote text"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/numbered-process/options-map/map.php:16
+msgid "Setup options for line in numbered process"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/numbered-process/options-map/map.php:46
+msgid "Setup options for number in numbered process"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/numbered-process/options-map/map.php:84
+msgid "Setup options for process item border"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/pricing-calculator/options-map/map.php:78
+msgid "Setup price options for pricing calculator"
+msgstr ""
+
+#: framework/admin/options/fonts/map.php:816
+msgid "Setup responsive font options for large title"
+msgstr ""
+
+#: framework/admin/options/fonts/map.php:760
+msgid "Setup responsive font options for medium title"
+msgstr ""
+
+#: framework/admin/options/fonts/map.php:706
+msgid "Setup responsive font options for small title"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/video-box/options-map/map.php:62
+msgid "Setup settings for play button border"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/video-box/options-map/map.php:102
+msgid "Setup size for play button border"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/accordions/options-map/map.php:24
+msgid "Setup typography for accordions navigation"
+msgstr ""
+
+#: framework/modules/timetable-schedule/options-map/map.php:73
+msgid "Setup typography for columns heading"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:252
+msgid "Shadow Enhance"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/social-share.php:44
+msgid "Share"
+msgstr "Compartir"
+
+#: includes/shortcodes/shortcode-elements/social-share-list.php:31
+#: includes/shortcodes/shortcode-elements/social-share-list.php:34
+msgid "Share on Facebook"
+msgstr "Compartir en Facebook"
+
+#: includes/shortcodes/shortcode-elements/social-share-list.php:70
+msgid "Share on Google+"
+msgstr "Compartir en Google+"
+
+#: includes/shortcodes/shortcode-elements/social-share-list.php:82
+msgid "Share on LinkedIn"
+msgstr "Compartir en LinkedIn"
+
+#: includes/shortcodes/shortcode-elements/social-share-list.php:107
+msgid "Share on Pinterest"
+msgstr "Compartir en Pinterest"
+
+#: includes/shortcodes/shortcode-elements/social-share-list.php:94
+msgid "Share on Tumblr"
+msgstr "Compartir en Tumblr"
+
+#: includes/shortcodes/shortcode-elements/social-share-list.php:52
+#: includes/shortcodes/shortcode-elements/social-share-list.php:55
+msgid "Share on Twitter"
+msgstr "Compartir en Twitter"
+
+#: includes/shortcodes/shortcode-elements/social-share-list.php:120
+msgid "Share on VK"
+msgstr "Compartir en VK"
+
+#: includes/shortcodes/shortcode-elements/social-share-list.php:19
+msgid "Share on: "
+msgstr "Compartir en:"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:159
+msgid "Shop Catalog"
+msgstr ""
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:160
+msgid "Shop Single"
+msgstr ""
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:161
+msgid "Shop Thumbnail"
+msgstr ""
+
+#: includes/qode-custom-taxonomy-field.php:289
+msgid "Shortcode"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:183
+msgid "Shortcode Height (px)"
+msgstr ""
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:124
+msgid "Show \"All\" Item in Filter"
+msgstr ""
+
+#: widgets/call_to_action_widget.php:154
+msgid "Show Button:"
+msgstr ""
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:111
+msgid "Show Category Filter"
+msgstr ""
+
+#: includes/nav_menu/edit_custom_walker.php:310
+msgid "Show custom widget area in popup (only for 'wide' menu types)"
+msgstr ""
+
+#: framework/admin/meta-boxes/footer/map.php:32
+msgid "Show footer bottom"
+msgstr ""
+
+#: framework/admin/meta-boxes/footer/map.php:18
+msgid "Show footer top"
+msgstr ""
+
+#: templates/blog-structure.php:177 templates/blog-structure.php:182
+#: includes/shortcodes/shortcode-elements/portfolio-list.php:911
+#: includes/shortcodes/shortcode-elements/portfolio-list.php:1405
+msgid "Show more"
+msgstr "Mostrar más"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:83
+msgid "Show Ordering Filter"
+msgstr ""
+
+#: framework/modules/timetable-schedule/options-map/map.php:35
+msgid "Sidebar 1/3 left"
+msgstr ""
+
+#: framework/modules/timetable-schedule/options-map/map.php:33
+msgid "Sidebar 1/3 right"
+msgstr ""
+
+#: framework/modules/timetable-schedule/options-map/map.php:36
+msgid "Sidebar 1/4 left"
+msgstr ""
+
+#: framework/modules/timetable-schedule/options-map/map.php:34
+msgid "Sidebar 1/4 right"
+msgstr ""
+
+#: framework/modules/timetable-schedule/options-map/map.php:29
+msgid "Sidebar Layout"
+msgstr ""
+
+#: framework/modules/timetable-schedule/options-map/map.php:52
+msgid "Sidebar to Display"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:52
+msgid "Simple"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/simple-quote/simple-quote.php:21
+#: includes/shortcodes/shortcode-elements/simple-quote/options-map/map.php:7
+msgid "Simple Quote"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/simple-quote/simple-quote.php:77
+#: includes/shortcodes/shortcode-elements/simple-quote/options-map/map.php:98
+msgid "Simple Quote Author"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/simple-quote/simple-quote.php:28
+msgid "Simple Quote Background Color"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/simple-quote/simple-quote.php:33
+msgid "Simple Quote holder border radius"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/simple-quote/simple-quote.php:51
+msgid "Simple Quote holder padding"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/simple-quote/simple-quote.php:58
+#: includes/shortcodes/shortcode-elements/simple-quote/options-map/map.php:15
+msgid "Simple Quote Text"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:120
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:142
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:63
+msgid "Six"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:35
+msgid "Six Columns"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:177
+msgid "Slide Animation Duration"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:169
+msgid "Slide Duration"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/multi-device-showcase/multi-device-showcase.php:74
+#: includes/shortcodes/shortcode-elements/multi-device-showcase/multi-device-showcase.php:92
+#: includes/shortcodes/shortcode-elements/multi-device-showcase/multi-device-showcase.php:110
+msgid "Slide Image"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/multi-device-showcase/multi-device-showcase.php:79
+#: includes/shortcodes/shortcode-elements/multi-device-showcase/multi-device-showcase.php:97
+#: includes/shortcodes/shortcode-elements/multi-device-showcase/multi-device-showcase.php:115
+msgid "Slide Link"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:42
+#: framework/admin/meta-boxes/post/post-format-gallery/map.php:22
+msgid "Slider"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/comparison-slider/cmp-slider.php:77
+msgid "Slider Arrows Skin"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:146
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:155
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:164
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:172
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:180
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:190
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:199
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:208
+msgid "Slider Settings"
+msgstr ""
+
+#: includes/qode-custom-taxonomy-field.php:254
+msgid "Slider shortcode"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/sliding-image-holder/templates/sliding-image-holder-template.php:3
+#: includes/shortcodes/shortcode-elements/sliding-image-holder/templates/sliding-image-holder-template.php:4
+msgid "Sliding Image"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/sliding-image-holder/sliding-image-holder.php:39
+msgid "Sliding Image Holder"
+msgstr ""
+
+#: includes/qode-custom-taxonomy-field.php:291
+msgid "Slug"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process.php:45
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:74
+msgid "Small"
+msgstr ""
+
+#: framework/admin/options/fonts/map.php:705
+msgid "Small Title"
+msgstr ""
+
+#: framework/modules/woocommerce/templates/parts/image.php:23
+msgid "SOLD"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-pricing-list/advanced-pricing-list.php:92
+#: includes/shortcodes/shortcode-elements/interactive-icon-showcase/interactive-icon-showcase.php:55
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process.php:55
+msgid "Solid"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:51
+msgid "Solid/Default"
+msgstr ""
+
+#: includes/plugins/plugins-activation.php:261
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: includes/plugins/plugins-activation.php:267
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s plugin."
+" Contact the administrator of this site for help on getting the plugin "
+"activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins/plugins-activation.php:264
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s plugins."
+" Contact the administrator of this site for help on getting the plugins "
+"installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins/plugins-activation.php:269
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/shortcodes/shortcode-elements/blog-slider.php:368
+#: includes/shortcodes/shortcode-elements/testimonials.php:127
+#: includes/shortcodes/shortcode-elements/carousel.php:130
+#: includes/shortcodes/shortcode-elements/portfolio-list.php:550
+#: includes/shortcodes/shortcode-elements/portfolio-list.php:903
+#: includes/shortcodes/shortcode-elements/portfolio-list.php:1397
+#: includes/shortcodes/shortcode-elements/testimonials-carousel.php:126
+#: includes/shortcodes/shortcode-elements/masonry-gallery.php:214
+#: includes/shortcodes/shortcode-elements/testimonials-masonry.php:169
+#: includes/shortcodes/shortcode-elements/portfolio-slider.php:160
+#: includes/shortcodes/shortcode-elements/slider.php:1452
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/slider.php:1433
+msgid "Sorry, no slides matched your criteria."
+msgstr ""
+
+#: comments.php:29
+msgid "Sorry, the comment form is closed at this time."
+msgstr ""
+
+#: framework/modules/woocommerce/shortcodes/product-list/templates/parts/ordering-filter.php:6
+msgid "Sort By"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:67
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:128
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:70
+msgid "Space Between Items"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process.php:42
+msgid "Space Between Process Items"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/simple-quote/simple-quote.php:96
+msgid "Space between quote text and author"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/specification-list/specification-list.php:21
+msgid "Specification List"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/elliptical-slider/elliptical-slider.php:35
+msgid "Speed of slide animation in miliseconds"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:178
+msgid "Speed of slide animation in milliseconds. Default value is 600."
+msgstr ""
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:154
+msgid "Square"
+msgstr ""
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:32
+msgid "Standard"
+msgstr ""
+
+#: includes/nav_menu/edit_custom_walker.php:283
+msgid "Star"
+msgstr ""
+
+#: framework/modules/woocommerce/woocommerce-config.php:89
+#: framework/modules/woocommerce/woocommerce-config.php:100
+msgid "State"
+msgstr ""
+
+#: framework/admin/options/header/map.php:169
+msgid "Sticky Mobile Header"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/pricing-calculator/pricing-calculator.php:136
+#: includes/shortcodes/shortcode-elements/pricing-calculator/pricing-calculator.php:142
+#: includes/shortcodes/shortcode-elements/pricing-calculator/pricing-calculator.php:148
+#: includes/shortcodes/shortcode-elements/advanced-pricing-list/advanced-pricing-list.php:62
+#: includes/shortcodes/shortcode-elements/advanced-pricing-list/advanced-pricing-list.php:73
+#: includes/shortcodes/shortcode-elements/advanced-pricing-list/advanced-pricing-list.php:79
+#: includes/shortcodes/shortcode-elements/advanced-pricing-list/advanced-pricing-list.php:85
+#: includes/shortcodes/shortcode-elements/advanced-pricing-list/advanced-pricing-list.php:96
+#: includes/shortcodes/shortcode-elements/advanced-pricing-list/advanced-pricing-list.php:102
+#: includes/shortcodes/shortcode-elements/advanced-pricing-list/advanced-pricing-list.php:117
+#: includes/shortcodes/shortcode-elements/advanced-pricing-list/advanced-pricing-list.php:123
+#: includes/shortcodes/shortcode-elements/advanced-pricing-list/advanced-pricing-list.php:129
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:150
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:156
+#: includes/shortcodes/shortcode-elements/simple-quote/simple-quote.php:36
+#: includes/shortcodes/shortcode-elements/simple-quote/simple-quote.php:47
+#: includes/shortcodes/shortcode-elements/simple-quote/simple-quote.php:54
+#: includes/shortcodes/shortcode-elements/simple-quote/simple-quote.php:99
+#: includes/shortcodes/shortcode-elements/simple-quote/simple-quote.php:105
+#: includes/shortcodes/shortcode-elements/accordions/accordion.php:31
+msgid "Style"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:33
+msgid ""
+"Style particular content element differently - add a class name and refer to "
+"it in custom CSS"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/workflow/workflow-holder.php:40
+msgid ""
+"Style particular content element differently - add a class name and refer to "
+"it in custom CSS."
+msgstr ""
+
+#: comments.php:45
+msgid "Submit"
+msgstr ""
+
+#: includes/qode-custom-taxonomy-field.php:56
+#: includes/qode-custom-taxonomy-field.php:86
+#: includes/qode-custom-taxonomy-field.php:116
+#: includes/qode-custom-taxonomy-field.php:146
+#: includes/qode-custom-taxonomy-field.php:176
+#: includes/qode-custom-taxonomy-field.php:206
+#: includes/qode-custom-taxonomy-field.php:236
+#: includes/shortcodes/shortcode-elements/workflow/workflow-item.php:58
+#: includes/shortcodes/shortcode-elements/multi-device-showcase/multi-device-showcase.php:33
+msgid "Subtitle"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/workflow/workflow-item.php:65
+msgid "Subtitle Tag"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/pricing-calculator/pricing-calculator.php:33
+msgid "Subtitle Title Tag"
+msgstr ""
+
+#: framework/lib/qode.welcome.page.php:139
+msgid "Support Forum"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:197
+#: includes/shortcodes/shortcode-elements/advanced-pricing-table/advanced-pricing-table.php:77
+msgid "Table Footer Image"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:202
+#: includes/shortcodes/shortcode-elements/advanced-pricing-table/advanced-pricing-table.php:82
+msgid "Table Footer Text"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:38
+#: includes/shortcodes/shortcode-elements/advanced-pricing-table/advanced-pricing-table.php:28
+msgid "Table Title"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/multi-device-showcase/multi-device-showcase.php:101
+msgid "Tablet Slider"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/multi-device-showcase/multi-device-showcase.php:87
+msgid "Tablet Slides"
+msgstr ""
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:134
+msgid "Tag"
+msgstr ""
+
+#: templates/portfolio-loop.php:266 templates/portfolio-loop.php:444
+#: templates/portfolio-loop.php:624 templates/portfolio-loop.php:843
+#: templates/portfolio-loop.php:1065 templates/portfolio-loop.php:1251
+#: includes/qode-custom-post-types.php:160
+msgid "Tags"
+msgstr ""
+
+#: templates/blog_single-loop.php:271
+msgid "Tags:"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/info-card-with-icon/info-card-with-icon.php:142
+msgid "Target"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/testimonial-carousel/options-map/map.php:7
+msgid "Testimonial Carousel"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/testimonial-carousel/options-map/map.php:138
+msgid "Testimonials Carousel Author Style"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/testimonial-carousel/options-map/map.php:37
+msgid "Testimonials Carousel Background Color"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/testimonial-carousel/options-map/map.php:15
+msgid "Testimonials Carousel Style"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/testimonial-carousel/options-map/map.php:58
+msgid "Testimonials Carousel Text Style"
+msgstr ""
+
+#: includes/qode-custom-taxonomy-field.php:60
+#: includes/qode-custom-taxonomy-field.php:90
+#: includes/qode-custom-taxonomy-field.php:120
+#: includes/qode-custom-taxonomy-field.php:150
+#: includes/qode-custom-taxonomy-field.php:180
+#: includes/qode-custom-taxonomy-field.php:210
+#: includes/qode-custom-taxonomy-field.php:240
+#: includes/shortcodes/shortcode-elements/workflow/workflow-item.php:79
+#: includes/shortcodes/shortcode-elements/pricing-calculator/pricing-calculator.php:53
+#: includes/shortcodes/shortcode-elements/info-card/info-card.php:74
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:58
+#: includes/shortcodes/shortcode-elements/info-card-with-icon/info-card-with-icon.php:131
+#: includes/shortcodes/shortcode-elements/image-with-icon-and-text/image-with-icon-and-text.php:111
+msgid "Text"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/testimonial-carousel/options-map/map.php:74
+#: includes/shortcodes/shortcode-elements/testimonial-carousel/options-map/map.php:154
+msgid "Text Color"
+msgstr ""
+
+#: widgets/call_to_action_widget.php:102
+msgid "Text Color:"
+msgstr ""
+
+#: widgets/call_to_action_widget.php:117
+msgid "Text Font Weight:"
+msgstr ""
+
+#: widgets/call_to_action_widget.php:112
+msgid "Text Letter Spacing:"
+msgstr ""
+
+#: widgets/call_to_action_widget.php:107
+msgid "Text Size:"
+msgstr ""
+
+#: framework/admin/options/fonts/map.php:906
+#: framework/modules/title/options-map/map.php:45
+#: framework/modules/timetable-schedule/options-map/map.php:104
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:209
+#: includes/shortcodes/shortcode-elements/comparative-features-table/options-map/map.php:107
+#: includes/shortcodes/shortcode-elements/testimonial-carousel/options-map/map.php:96
+#: includes/shortcodes/shortcode-elements/testimonial-carousel/options-map/map.php:176
+#: includes/shortcodes/shortcode-elements/report-sheet/options-map/map.php:115
+#: includes/shortcodes/shortcode-elements/simple-quote/options-map/map.php:77
+#: includes/shortcodes/shortcode-elements/simple-quote/options-map/map.php:160
+#: includes/shortcodes/shortcode-elements/accordions/options-map/map.php:47
+msgid "Text Transform"
+msgstr ""
+
+#: widgets/call_to_action_widget.php:97
+msgid "Text:"
+msgstr ""
+
+#: framework/lib/qode.welcome.page.php:130
+#, php-format
+msgid ""
+"Thank you for choosing %s - %s, the number 1 bestselling creative theme on "
+"the market. Start building your amazing website now, and you’ll find out why "
+"so many people trust our product.  You just installed a one-way ticket to "
+"online perfection."
+msgstr ""
+
+#: framework/lib/qode.functions.php:1078
+msgid "THANK YOU!"
+msgstr ""
+
+#: includes/nav_menu/edit_custom_walker.php:172
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: includes/plugins/plugins-activation.php:268
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins/plugins-activation.php:266
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins/plugins-activation.php:265
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/qode-framework.php:453
+msgid "The import process may take some time. Please be patient."
+msgstr ""
+
+#: 404.php:12
+msgid ""
+"The page you are looking for does not exist. It may have been moved, or "
+"removed altogether. Perhaps you can return back to the site’s homepage and "
+"see if you can find what you are looking for."
+msgstr ""
+
+#: 404.php:11
+msgid "The page you are looking for is not found"
+msgstr ""
+
+#: framework/lib/qode.welcome.page.php:142
+msgid "Theme Documentation"
+msgstr ""
+
+#: framework/lib/qode.welcome.page.php:134
+msgid "Theme Screenshot"
+msgstr ""
+
+#: widgets/lib/widget-class.php:87
+msgid "There are no options for this widget."
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/numbered-process/options-map/map.php:40
+msgid "Thickness (px)"
+msgstr ""
+
+#: contact-page.php:100
+msgid "This is a required field"
+msgstr ""
+
+#: comments.php:5
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"Esta publicación está protegida por contraseña. Ingrese la contraseña para "
+"ver cualquier comentario."
+
+#: includes/plugins/plugins-activation.php:263
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins/plugins-activation.php:262
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:117
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:139
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process.php:34
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:60
+msgid "Three"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:32
+msgid "Three Columns"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/horizontal-timeline/horizontal-timeline-item.php:38
+msgid "Timeline Date"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/horizontal-timeline/horizontal-timeline-item.php:33
+msgid "Timeline Label"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/horizontal-timeline/horizontal-timeline.php:31
+msgid "Timeline Position"
+msgstr ""
+
+#: framework/modules/timetable-schedule/options-map/map.php:11
+msgid "Timetable"
+msgstr ""
+
+#: framework/modules/timetable-schedule/options-map/map.php:181
+msgid "Timetable Color Styles"
+msgstr ""
+
+#: framework/modules/timetable-schedule/visual-composer-map.php:8
+msgid "Timetable Event Hours"
+msgstr ""
+
+#: framework/modules/timetable-schedule/visual-composer-map.php:23
+msgid "Timetable Event Info Holder"
+msgstr ""
+
+#: framework/modules/timetable-schedule/visual-composer-map.php:40
+msgid "Timetable Event Info Table Item"
+msgstr ""
+
+#: includes/plugins/plugins-activation.php:50
+msgid "Timetable Responsive Schedule For WordPress"
+msgstr ""
+
+#: framework/modules/timetable-schedule/options-map/map.php:58
+msgid "Timetable Shortcode"
+msgstr ""
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:75
+msgid "Tiny"
+msgstr ""
+
+#: includes/qode-custom-taxonomy-field.php:52
+#: includes/qode-custom-taxonomy-field.php:82
+#: includes/qode-custom-taxonomy-field.php:112
+#: includes/qode-custom-taxonomy-field.php:142
+#: includes/qode-custom-taxonomy-field.php:172
+#: includes/qode-custom-taxonomy-field.php:202
+#: includes/qode-custom-taxonomy-field.php:232
+#: framework/modules/page/options-map/map.php:95
+#: includes/shortcodes/shortcode-elements/workflow/workflow-item.php:37
+#: includes/shortcodes/shortcode-elements/pricing-calculator/pricing-calculator.php:28
+#: includes/shortcodes/shortcode-elements/advanced-tabs/advanced-tab.php:36
+#: includes/shortcodes/shortcode-elements/specification-list/specification-list.php:33
+#: includes/shortcodes/shortcode-elements/info-card/info-card.php:54
+#: includes/shortcodes/shortcode-elements/multi-device-showcase/multi-device-showcase.php:28
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:44
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:117
+#: includes/shortcodes/shortcode-elements/scrolling-image/scrolling-image.php:67
+#: includes/shortcodes/shortcode-elements/accordions/accordion-tab.php:40
+#: includes/shortcodes/shortcode-elements/info-card-with-icon/info-card-with-icon.php:111
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process-item.php:39
+#: includes/shortcodes/shortcode-elements/image-with-icon-and-text/image-with-icon-and-text.php:91
+msgid "Title"
+msgstr ""
+
+#: includes/nav_menu/edit_custom_walker.php:146
+msgid "Title Attribute"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:148
+msgid "Title Background Color"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:154
+#: includes/shortcodes/shortcode-elements/scrolling-image/scrolling-image.php:90
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process-item.php:80
+msgid "Title Color"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-tabs/options-map/map.php:15
+msgid "Title Color Options"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-tabs/advanced-tabs.php:31
+msgid "Title Layout"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process-item.php:70
+msgid "Title Position"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:43
+#: includes/shortcodes/shortcode-elements/workflow/workflow-item.php:44
+#: includes/shortcodes/shortcode-elements/advanced-pricing-table/advanced-pricing-table.php:38
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:45
+#: includes/shortcodes/shortcode-elements/advanced-tabs/advanced-tabs.php:42
+#: includes/shortcodes/shortcode-elements/specification-list/specification-list.php:38
+#: includes/shortcodes/shortcode-elements/info-card/info-card.php:60
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:50
+#: includes/shortcodes/shortcode-elements/simple-quote/simple-quote.php:63
+#: includes/shortcodes/shortcode-elements/simple-quote/simple-quote.php:82
+#: includes/shortcodes/shortcode-elements/accordions/accordion-tab.php:49
+#: includes/shortcodes/shortcode-elements/info-card-with-icon/info-card-with-icon.php:117
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process-item.php:44
+#: includes/shortcodes/shortcode-elements/image-with-icon-and-text/image-with-icon-and-text.php:97
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:197
+msgid "Title Tag"
+msgstr ""
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:205
+msgid "Title Text Transform"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/accordions/options-map/map.php:111
+#: includes/shortcodes/shortcode-elements/accordions/options-map/map.php:138
+msgid "Title/Icon Color"
+msgstr ""
+
+#: widgets/relate_posts_widget.php:75 widgets/latest_posts_menu.php:83
+msgid "Title:"
+msgstr ""
+
+#: includes/qode-custom-post-types.php:128
+msgid "Todas las categorias de Usados"
+msgstr ""
+
+#: includes/qode-custom-post-types.php:153
+msgid "Todos los Tags"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/accordions/accordion.php:35
+msgid "Toggle"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/horizontal-timeline/horizontal-timeline.php:34
+msgid "Top"
+msgstr ""
+
+#: framework/modules/woocommerce/widgets/woocommerce-dropdown-cart.php:105
+msgid "Total"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/interest-rate-calculator/templates/interest-rate-calculator-template.php:34
+msgid "Total you will pay:"
+msgstr ""
+
+#: framework/modules/woocommerce/woocommerce-config.php:88
+#: framework/modules/woocommerce/woocommerce-config.php:99
+msgid "Town / City"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:116
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:138
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:59
+msgid "Two"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:31
+msgid "Two Columns"
+msgstr ""
+
+#: includes/nav_menu/edit_custom_walker.php:207
+#: framework/modules/timetable-schedule/visual-composer-map.php:61
+#: includes/shortcodes/shortcode-elements/latest-posts/latest-posts.php:45
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:49
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:30
+msgid "Type"
+msgstr ""
+
+#: widgets/call_to_action_widget.php:126
+msgid "Type:"
+msgstr ""
+
+#: framework/modules/timetable-schedule/options-map/map.php:66
+#: includes/shortcodes/shortcode-elements/accordions/options-map/map.php:17
+#: includes/shortcodes/shortcode-elements/accordions/options-map/map.php:23
+msgid "Typography"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process-item.php:74
+msgid "Under Image"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/multi-device-showcase/multi-device-showcase.php:152
+msgid "Up to 2 additional tablet landscape oriented images supported."
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/multi-device-showcase/multi-device-showcase.php:138
+msgid "Up to 3 additional tablet portrait oriented images supported."
+msgstr ""
+
+#: includes/qode-custom-post-types.php:157
+msgid "Update Usados Tag"
+msgstr ""
+
+#: framework/admin/meta-boxes/post/post-format-video/map.php:77
+msgid "Upload video image"
+msgstr ""
+
+#: includes/nav_menu/edit_custom_walker.php:133
+msgid "URL"
+msgstr ""
+
+#: includes/qode-custom-post-types.php:18
+msgid "Usados"
+msgstr ""
+
+#: includes/qode-custom-post-types.php:151
+msgid "Usados Tag"
+msgstr ""
+
+#: includes/qode-custom-post-types.php:150
+msgid "Usados Tags"
+msgstr ""
+
+#: includes/qode-custom-taxonomy-field.php:258
+msgid "Use this shortcode to insert it on page"
+msgstr ""
+
+#: widgets/sticky_sidebar_widget.php:8
+msgid ""
+"Use this widget to make the sidebar sticky. Drag it into the sidebar above "
+"the widget which you want to be the first element in the sticky sidebar."
+msgstr ""
+
+#: framework/lib/qode.welcome.page.php:136
+msgid "Useful Links:"
+msgstr ""
+
+#: framework/modules/timetable-schedule/visual-composer-map.php:55
+#: includes/shortcodes/shortcode-elements/specification-list/specification-list.php:63
+msgid "Value"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/comparison-slider/cmp-slider.php:56
+msgid "Vertical"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/vertical-separator/vertical-separator.php:21
+msgid "Vertical Separator"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/video-box/options-map/map.php:7
+msgid "Video Box"
+msgstr ""
+
+#: framework/admin/meta-boxes/post/post-format-video/map.php:66
+msgid "Video ID"
+msgstr ""
+
+#: framework/admin/meta-boxes/post/post-format-video/map.php:76
+msgid "Video Image"
+msgstr ""
+
+#: framework/admin/meta-boxes/post/post-format-video/map.php:98
+msgid "Video MP4"
+msgstr ""
+
+#: framework/admin/meta-boxes/post/post-format-video/map.php:109
+msgid "Video OGV"
+msgstr ""
+
+#: framework/admin/meta-boxes/post/post-format-video/map.php:8
+msgid "Video Post Format"
+msgstr ""
+
+#: framework/admin/meta-boxes/post/post-format-video/map.php:17
+msgid "Video Type"
+msgstr ""
+
+#: framework/admin/meta-boxes/post/post-format-video/map.php:87
+msgid "Video WEBM"
+msgstr ""
+
+#: templates/portfolio-related.php:42
+#: includes/shortcodes/shortcode-elements/portfolio-list.php:394
+#: includes/shortcodes/shortcode-elements/portfolio-list.php:749
+#: includes/shortcodes/shortcode-elements/portfolio-list.php:1123
+#: includes/shortcodes/shortcode-elements/portfolio-list.php:1175
+#: includes/shortcodes/shortcode-elements/portfolio-slider.php:146
+msgid "view"
+msgstr "Ver más"
+
+#: framework/admin/meta-boxes/post/post-format-video/map.php:23
+msgid "Vimeo"
+msgstr ""
+
+#: comments.php:52 contact-page.php:130
+msgid "Website"
+msgstr ""
+
+#: framework/lib/qode.welcome.page.php:127
+#, php-format
+msgid "Welcome to %s"
+msgstr ""
+
+#: includes/nav_menu/edit_custom_walker.php:217
+msgid "Wide menu position"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/vertical-separator/vertical-separator.php:33
+msgid "Width"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/numbered-process/options-map/map.php:108
+msgid "Width (px)"
+msgstr ""
+
+#: widgets/call_to_action_widget.php:129
+#: includes/shortcodes/shortcode-elements/advanced-tabs/advanced-tabs.php:35
+msgid "With Icon"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-tabs/advanced-tabs.php:34
+msgid "Without Icon"
+msgstr ""
+
+#. Name of the template
+#: includes/plugins/plugins-activation.php:182
+msgid "WooCommerce"
+msgstr ""
+
+#: framework/modules/woocommerce/widgets/woocommerce-dropdown-cart.php:8
+msgid "Woocommerce Dropdown Cart"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/workflow/workflow-holder.php:27
+msgid "Workflow"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/workflow/workflow-item.php:27
+msgid "Workflow Item"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/workflow/workflow-holder.php:44
+msgid "Workflow line color"
+msgstr ""
+
+#: includes/plugins/plugins-activation.php:60
+msgid "Wp Job Manager"
+msgstr ""
+
+#: includes/plugins/plugins-activation.php:10
+msgid "WPBakery Visual Composer"
+msgstr ""
+
+#: comments.php:46
+msgid "Write your comment here..."
+msgstr ""
+
+#: widgets/call_to_action_widget.php:83 widgets/call_to_action_widget.php:91
+#: widgets/call_to_action_widget.php:156
+#: framework/modules/page/meta-boxes/map.php:25
+#: includes/shortcodes/shortcode-elements/workflow/workflow-holder.php:53
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:72
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:82
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:100
+#: includes/shortcodes/shortcode-elements/pricing-calculator/pricing-calculator.php:81
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:158
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:169
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:180
+#: includes/shortcodes/shortcode-elements/interest-rate-calculator/interest-rate-calculator.php:101
+msgid "Yes"
+msgstr ""
+
+#: includes/qode-like.php:126
+msgid "You already like this!"
+msgstr "¡Ya te gusta esto!"
+
+#: framework/lib/qode.functions.php:914
+msgid "You don't have privileges for this operation"
+msgstr ""
+
+#: templates/blog_large_image-loop.php:90
+#: templates/blog_masonry_date_in_image-loop.php:88
+#: templates/blog_large_image_with_dividers-loop.php:103
+#: templates/blog_single-loop.php:95
+#: templates/blog_large_image_simple-loop.php:68
+#: templates/blog_large_image_whole_post-loop.php:90
+#: templates/blog_masonry-loop.php:87
+#: templates/blog-parts/pinterest/audio.php:3
+#: includes/shortcodes/shortcode-elements/masonry-blog.php:88
+msgid "Your browser don't support audio player"
+msgstr ""
+
+#: includes/comment/comment.php:21
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: framework/lib/qode.functions.php:1078
+msgid ""
+"Your email was successfully sent. We will contact you as soon as possible."
+msgstr ""
+
+#: comments.php:50
+msgid "Your full name"
+msgstr ""
+
+#: framework/admin/meta-boxes/post/post-format-video/map.php:22
+msgid "Youtube"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/advanced-image-gallery/advanced-image-gallery.php:83
+msgid "Zoom"
+msgstr ""
+
+#: includes/shortcodes/shortcode-elements/portfolio-list.php:391
+#: includes/shortcodes/shortcode-elements/portfolio-list.php:746
+#: includes/shortcodes/shortcode-elements/portfolio-list.php:1120
+#: includes/shortcodes/shortcode-elements/portfolio-list.php:1172
+#: includes/shortcodes/shortcode-elements/portfolio-slider.php:143
+msgid "zoom"
+msgstr ""

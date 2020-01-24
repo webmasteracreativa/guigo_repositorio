@@ -1,0 +1,119 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bridge\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-28 22:15+0000\n"
+"PO-Revision-Date: 2019-01-28 22:15+0000\n"
+"Last-Translator: PortalGuigo <web@constructoraguigo.com>\n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.0; wp-5.0.3"
+
+#. Name of the template
+msgid "Blog Headlines"
+msgstr ""
+
+#. Name of the template
+msgid "Blog Small Image"
+msgstr ""
+
+#. Name of the template
+msgid "WooCommerce"
+msgstr ""
+
+#. Name of the template
+msgid "Blog Masonry - Date in Image"
+msgstr ""
+
+#. Name of the template
+msgid "Blog Large Image"
+msgstr ""
+
+#. Name of the template
+msgid "Blog Pinterest"
+msgstr ""
+
+#. Name of the template
+msgid "Blog Masonry Full Width"
+msgstr ""
+
+#. Name of the template
+msgid "Contact Page"
+msgstr ""
+
+#. Name of the template
+msgid "Blog Large Image With Dividers"
+msgstr ""
+
+#. Name of the template
+msgid "Blog Chequered"
+msgstr ""
+
+#. Name of the template
+msgid "Blog Masonry Gallery"
+msgstr ""
+
+#. Name of the template
+msgid "Blog Gallery"
+msgstr ""
+
+#. Name of the template
+msgid "Landing Page"
+msgstr ""
+
+#. Name of the template
+msgid "Full Width"
+msgstr ""
+
+#. Name of the template
+msgid "Blog Vertical Loop"
+msgstr ""
+
+#. Name of the template
+msgid "Blog Masonry"
+msgstr ""
+
+#. Name of the template
+msgid "Full Screen Sections"
+msgstr ""
+
+#. Name of the template
+msgid "Blog Masonry Full Width - Date in Image"
+msgstr ""
+
+#. Name of the template
+msgid "Blog Large Image Simple"
+msgstr ""
+
+#. Name of the template
+msgid "Blog Large Image Whole Post"
+msgstr ""
+
+#. Name of the template
+msgid "Blog Compound"
+msgstr ""
+
+#. Name of the theme
+msgid "Bridge"
+msgstr ""
+
+#. Description of the theme
+msgid "Creative Multi-Purpose WordPress Theme"
+msgstr ""
+
+#. URI of the theme
+msgid "http://demo.qodeinteractive.com/bridge/"
+msgstr ""
+
+#. Author of the theme
+msgid "Qode Interactive"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://www.qodethemes.com/"
+msgstr ""

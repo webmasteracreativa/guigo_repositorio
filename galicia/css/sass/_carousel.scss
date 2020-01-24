@@ -1,0 +1,79 @@
+.carrusel{
+	margin: 30px 0;
+}
+.carou-beneficios{
+	position: relative;
+	h5{
+		border-bottom: solid 4px $colorPrincipal;
+		padding-bottom: 10px;
+		font-size: 14px;
+		font-weight: 600;
+	}
+	p{
+		font-size: 12px;	
+		margin-bottom: 0;
+	}
+	.owl-stage-outer{
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.text-carou{
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+	.owl-nav{
+		display: none;
+		@media only screen and (min-width: 768px){
+			display: block;
+		}
+		span{
+			display: none;
+		}
+		button{
+			position: relative;
+			&.owl-prev{
+				&:after{
+					content: "";
+					position: absolute;
+					top: -15px;
+					left: -12px;
+					width: 0;
+					height: 0;
+					border-style: solid;
+					border-width: 7.5px 12px 7.5px 0;
+					border-color:transparent $colorPrincipal transparent transparent;
+				}				
+			}
+			&:after{
+				content: "";
+				position: absolute;
+				top: 0;
+				width: 0;
+				height: 0;
+				border-style: solid;
+				border-width: 7.5px 0 7.5px 12px;
+				border-color: transparent transparent transparent $colorPrincipal;
+			}
+		}
+	}
+}
+.owl-nav{
+	position: absolute;
+	top: 50%;
+	transform: translatey(-50%);
+	left: 0;
+	width: 100%;
+	.owl-next{
+		float:right;
+	}
+}
+.carrusel{
+	box-shadow: 0 0 20px 1px rgba(0,0,0,0.2);
+	position: relative;
+	z-index: 2;
+}
+.owl-dots{
+	display: none;
+}

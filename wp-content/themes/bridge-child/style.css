@@ -1,0 +1,1373 @@
+/*
+Theme Name: Bridge Child
+Theme URI: http://demo.qodeinteractive.com/bridge/
+Description: A child theme of Bridge Theme
+Author: Qode Interactive
+Author URI: http://www.qodethemes.com/
+Version: 1.0.0
+Template: bridge
+*/
+
+@import url("../bridge/style.css");
+
+/*FONTS*/
+.title h1 {
+    color: #ebeef0;
+    font-family: 'Lato',sans-serif;
+    font-size: 110px;
+    line-height: 150px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0px;
+    text-transform: none;
+}
+.title:after {
+    content: " ";
+    display: block;
+    height: 1px;
+    background-color: #ebeef0;
+    width: 100px;
+}
+/*.vc_row.full_section .title {
+    margin-left: 120px;
+}*/
+.subtitle {
+    text-align: right;
+    margin-top: 50px;
+}
+.subtitle h3 {
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 6px;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    color: #ee2738;
+}
+.titulo_1 { padding-bottom: 0px;}
+.titulo_1 .t_2 p { font-size: 15px; line-height: 22px; }
+.title .title_outer .title_subtitle_holder {
+    padding-top: 0px !important;
+}
+.title .title_holder h1 {
+    text-transform: inherit;
+    font-size: 42px;
+    font-weight: 500;
+}
+.title .title_holder .breadcrumb {
+    position: inherit;
+    margin-top: 50px;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+a.qode-btn.boton_mas {
+    background-color: #ee2738;
+    border: 1px solid #ffffff;
+    color: white;
+    box-shadow: -2px 2px 9px 0 rgba(0, 0, 0, 0.43);
+    font-size: 20px;
+    padding: 2px 30px;
+    font-weight: 600;
+    height: 50px;
+    letter-spacing: 1px;
+    font-family: 'Roboto';
+    margin-top: 30px;
+    transition: 0.3s;
+}
+a.qode-btn.boton_mas span { line-height: 42px; }
+a.qode-btn.boton_mas i { font-size: 56px; }
+a.qode-btn.boton_mas span.qode-button-v2-icon-holder { line-height: 0px; margin-top: 5px; }
+a.qode-btn.boton_mas span i.qodef-icon-linea-icon:before { line-height: 35px !important; }
+a.qode-btn.boton_mas:hover {
+	-webkit-animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+/*MENU*/
+
+nav.main_menu ul li.active a, nav.main_menu ul li:hover a { color: #ee2738; }
+nav.main_menu > ul > li > a {
+    color: #3f4743;
+    font-weight: 600;
+    text-transform: none;
+}
+.side_menu_button>a.search_button { margin-top: -10px; }
+nav.main_menu ul li.pagos span {
+    background-color: #f13234;
+    padding: 5px 0px 5px 10px;
+    text-align: center;
+}
+nav.main_menu > ul > li.pagos span.underline_dash,
+/*body.home nav.main_menu { display: none; }
+body.home header.sticky nav.main_menu { display: inline; }*/
+header.sticky nav.main_menu > ul > li.pagos > a:hover span { color: #fff !important; }
+header.sticky nav.main_menu > ul > li.pagos > a span {
+    background-color: #3f4743;
+    color: #fff;
+}
+.home header.light .q_logo img.light { margin-left: 0; }
+
+/*INICIO*/
+
+.home .q_logo {
+    left: 15px;
+}
+header.sticky:not(.header_style_on_scroll) .q_logo img.sticky {
+    max-height: 80%;
+    margin-top: 10px;
+}
+#rev_slider_2_1 ul.tp-revslider-mainul {
+    height: 900px;
+    min-height: 900px;
+}
+#side {
+    background-color: #ebeef0;
+    min-height: 900px;
+}
+#side .info_pago {
+    margin-top: 250px;
+    padding: 0 40px;
+}
+#side .info_pago p {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #3c4542;
+    font-family: 'Work sans';
+}
+#side .pago_online {
+    margin-top: 70px;
+    background-color: #f13234;
+    padding: 30px 40px;
+}
+#side .pago_online p {
+    border: 1px solid #fff;
+    padding: 10px;
+}
+#side .pago_online p a.qbu {
+    font-size: 22px;
+    padding: 17px;
+    font-weight: 600;
+    line-height: 22px;
+    text-transform: uppercase;
+    font-family: 'Work sans';
+    color: white;
+}
+/*#side .pago_online p a.qbu i.fa {
+    line-height: 22px;
+    font-size: 1.1em;
+    margin-left: 5px;
+}*/
+#side .pago_online p a.qbu:hover img {
+    margin-left: 15px;
+    transition: 0.4s;
+}
+#social {
+    min-height: 230px;
+    margin: 0 auto;
+}
+#social .full_section_inner {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.titulo_1 .wpb_content_element p {
+    padding-bottom: 30px;
+    margin-right: -5px;
+}
+#proyectos .full_section_inner {
+    position: relative;
+    z-index: 20;
+}
+#proyectos .banner_proyectos .q_image_with_text_over .shader {
+    background-color: rgba(0,0,0,.3);
+}
+#proyectos .banner_proyectos .q_image_with_text_over h2.caption {font-size: 0px !important;}
+#proyectos .banner_proyectos .q_image_with_text_over .caption:before {
+    content: "";
+    display: block;
+    height: 370px;
+    /* background: rgba(255, 255, 255, 0.5); */
+    /* width: 100%; */
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 150px;
+}
+#proyectos .banner_proyectos #berlin .q_image_with_text_over .caption:before {
+    background-image: url('https://www.constructoraguigo.com/wp-content/uploads/2019/02/logo-berlin-1.png');
+}
+#proyectos .banner_proyectos #san-charbel .q_image_with_text_over .caption:before {
+    background-image: url('https://www.constructoraguigo.com/wp-content/uploads/2019/02/logo-sancharbel.png');
+}
+#proyectos .banner_proyectos #turin .q_image_with_text_over .caption:before {
+    background-image: url('https://www.constructoraguigo.com/wp-content/uploads/2019/02/logo-turin-1.png');
+}
+#proyectos .banner_proyectos #galicia .q_image_with_text_over .caption:before {
+    background-image: url('https://www.constructoraguigo.com/wp-content/uploads/2019/02/logo-galicia-1.png');
+}
+#proyectos .banner_proyectos .wpb_column .vc_column-inner {
+    padding: 0px 1px;
+    margin-bottom: -6px;
+}
+#proyectos .banner_proyectos .q_image_with_text_over .text #info-proyecto {
+    background: rgba(255, 255, 255, 0.8);
+    width: 78%;
+    /*height: 250px;*/
+    margin: 0 auto;
+}
+#proyectos .banner_proyectos .q_image_with_text_over .text #info-proyecto .desc h2 { font-weight: 700; }
+#proyectos .banner_proyectos .q_image_with_text_over .text #info-proyecto .desc .inf {
+    display: -webkit-inline-box;
+    display: inline-flex;
+    margin-top: 40px;
+}
+#proyectos .banner_proyectos .q_image_with_text_over .text #info-proyecto .desc .inf div { margin: 0 8px; }
+#proyectos .banner_proyectos .q_image_with_text_over .text #info-proyecto .desc .inf h3 { color: #ee2738; }
+#proyectos .banner_proyectos .q_image_with_text_over .text #info-proyecto .desc .inf p { color: #202020; }
+#proyectos .banner_proyectos .q_image_with_text_over .text #info-proyecto .more {
+    display: table;
+    background-color: #3c4542;
+    width: 100%;
+}
+#proyectos .banner_proyectos .q_image_with_text_over .text #info-proyecto .more > div {
+    display: table-cell;
+    width: 50%;
+    padding: 20px;
+    font-size: 20px;
+}
+#proyectos .banner_proyectos .q_image_with_text_over .text #info-proyecto .more .estado p { font-size: 20px; }
+#proyectos .banner_proyectos .q_image_with_text_over .text #info-proyecto .more .link { background-color: #ee2738; }
+#proyectos .banner_proyectos .q_image_with_text_over .text #info-proyecto .more .link a {
+    color: white;
+    font-weight: 600;
+    display: inline-flex;
+}
+#proyectos .banner_proyectos .q_image_with_text_over .text #info-proyecto .more .link a > img {
+    display: none;
+}
+/*#proyectos .banner_proyectos .q_image_with_text_over .text #info-proyecto .more .link a img {
+    max-width: 40px;
+    max-height: 14px;
+    margin-left: 10px;
+    margin-top: 8px;
+}*/
+#proyectos .banner_proyectos .q_image_with_text_over .text #info-proyecto .desc { margin: 0 10px; }
+.qbutton.boton {
+    background-color: #ee2738;
+    border-color: #3f4743;
+    box-shadow: -2px 2px 9px 0 rgba(0, 0, 0, 0.43);
+    font-size: 18px;
+    font-weight: 700;
+    display: inline-flex;
+    text-transform: inherit;
+}
+.qbutton.boton i {
+    font-size: 46px;
+    margin-top: 5px;
+}
+#empresa .section_inner_margin {
+    background-image: url(https://www.constructoraguigo.com/wp-content/uploads/2019/01/bg_e.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#empresa .info { padding: 150px 50px 60px 50px; }
+#empresa .info h3, #empresa .info p { color: white; }
+#empresa h1 { text-shadow: 0 0 5px rgb(109, 116, 111); }
+#empresa #datos .wpb_wrapper p span { color: white; }
+#empresa .q_counter_holder .separator.small { background-color: #f13234; }
+#empresa span.counter { color: #3c4542; font-size: 40px; }
+#empresa p.counter_text { text-transform: unset; }
+#usados .portfolio_slides li.item { margin: 0px 2px; }
+#usados .titulo_1 { margin-bottom: 20px !important; }
+#usados ul.caroufredsel-direction-nav a#caroufredsel-prev,
+#usados ul.caroufredsel-direction-nav a#caroufredsel-next {
+    border-radius: 0;
+    border-color: #ee2738;
+    background-color: #ee2738;
+}
+#usados ul.caroufredsel-direction-nav a#caroufredsel-next {
+    border-left-color: #fff;
+    border-left-width: 1px;
+}
+#usados ul.caroufredsel-direction-nav a#caroufredsel-prev { left: -40px; }
+#usados ul.caroufredsel-direction-nav a#caroufredsel-prev i.fa,
+#usados ul.caroufredsel-direction-nav a#caroufredsel-next i.fa { color: #fff; }
+#noticias ul.caroufredsel-direction-nav a#caroufredsel-prev,
+#noticias ul.caroufredsel-direction-nav a#caroufredsel-next {
+    border-radius: 0;
+    border-color: #ee2738;
+}
+div#usados .grid_section .section_inner_margin .vc_col-sm-12 .vc_column-inner { padding: 0; }
+#noticias ul.caroufredsel-direction-nav a#caroufredsel-prev { left: -50px; }
+#usados ul.caroufredsel-direction-nav a#caroufredsel-next,
+#noticias ul.caroufredsel-direction-nav a#caroufredsel-next { right: -50px; }
+#noticias ul.caroufredsel-direction-nav a#caroufredsel-prev i.fa,
+#noticias ul.caroufredsel-direction-nav a#caroufredsel-next i.fa { color: #ee2738; }
+#usados .portfolio_slides .portfolio_title a,
+#usados .portfolio_slides .portfolio_title {
+    font-size: 16px;
+    line-height: 18px;
+}
+#usados .portfolio_slides a.qbutton {
+    font-weight: 700;
+    font-size: 14px;
+}
+#usados .titulo_1 .wpb_content_element p {
+    padding-bottom: 0px;
+    margin-right: -5px;
+    margin-top: 30px;
+}
+#usados .portfolio_slider ul.caroufredsel-direction-nav {
+    position: relative;
+}
+#usados .portfolio_slider ul.caroufredsel-direction-nav > li {
+    bottom: -50px;
+    right: 50px;
+    position: absolute;
+}
+#noticias .slider_noticias .caroufredsel_wrapper {
+    min-height: 400px;
+    height: 400px;
+}
+#noticias .slider_noticias .item_holder {
+    min-height: 400px;
+    height: 400px;
+    margin: 0 6px;
+}
+#noticias .slider_noticias .item_holder .blog_text_holder {
+    box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.43);
+    min-height: 175px;
+    height: 175px;
+    background-color: #fafafa !important;
+}
+#noticias .slider_noticias .item_holder .blog_text_holder .blog_text_holder_inner * {
+    font-size: 18px;
+    line-height: 20px;
+}
+#noticias .slider_noticias .item_holder .blog_text_holder.info_bottom .blog_text_date_holder { border-right: 1px solid #c7cac9; }
+#noticias .slider_noticias .item_holder .blog_text_holder .blog_text_holder_inner a.blog_project_category {
+    font-size: 15px;
+}
+#call_pagos .button_wrapper a.qbutton {
+    font-weight: 600;
+    font-size: 18px;
+    border-width: 2px;
+}
+
+/*PROYECTOS*/
+
+.izquierda .desc .wpb_text_column {
+    margin-left: 100px;
+    text-align: justify;
+}
+.derecha .desc .wpb_text_column {
+    margin-right: 100px;
+    text-align: justify;
+    padding-left: 0 !important;
+}
+.derecha .vc_col-md-4 .q_elements_item_content,
+.izquierda .vc_col-md-4 .q_elements_item_content {
+    padding-right: 10% !important;
+}
+.izquierda a.qode-btn.boton_mas, .derecha a.qode-btn.boton_mas {
+    width: 100%;
+    text-align: center;
+}
+#s1 .vc_column-inner {
+    padding-left: 0;
+    padding-right: 0;
+}
+/*#s1 .logo .vc_single_image-wrapper img { padding-top: 30%; }*/
+#s2 h2 {
+    font-size: 36px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+#s2 .desc_text {
+    text-align: justify;
+    margin: 30px 0px;
+    padding-bottom: 100px;
+}
+#s2 .desc_text p {
+    margin-bottom: 20px;
+}
+#s2 h3 {
+    font-size: 24px;
+    padding-bottom: 10px;
+    font-weight: 600 !important;
+}
+#s2 .icon_ {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#s2 .icon_ .aio-icon.none {
+    color: #3f4743 !important;
+}
+#s2 .icon_ h3.aio-icon-title {
+    font-weight: 600 !important;
+    font-size: 20px;
+    padding-bottom: 0;
+}
+#s2 .icon_ .aio-icon-description {
+    margin-top: 0;
+    font-size: 15px;
+}
+#s2 ul.qode-advanced-tabs-nav h3 > a { padding: 6px 20px; }
+#s2 ul.qode-advanced-tabs-nav h3 { padding-bottom: 0; text-align: center; }
+#s2 li.ui-state-default.ui-corner-top { background-color: #e7ecea; }
+#s2 li.ui-state-default.ui-corner-top a { color: #3f4743; }
+#s2 ul.qode-advanced-tabs-nav {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+#s3 { padding: 100px 0px; }
+#s3 #s2 .icon_ .aio-icon.none { font-size: 50px !important; }
+#s3 .descripcion p { margin-bottom: 20px; }
+#s3 .descripcion ul {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+}
+#s3 .descripcion ul li {
+    font-size: 16px;
+    line-height: 24px;
+}
+#s3 .ult_tab_section span {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 22px;
+    padding: 5px 10px;
+}
+#cita .icono_ {
+    margin-bottom: 0;
+    padding: 30px 0px;
+}
+#cita .icono_ .aio-ibd-block .aio-icon-title {
+    color: white;
+    font-size: 23px;
+    font-weight: 400;
+}
+#cita .boton_cita {
+    text-align: center;
+    margin: 45.5px 0px;
+}
+#cita .boton_cita a.simple_button {
+    background-color: #3f4743 !important;
+    width: 100%;
+    font-size: 24px;
+}
+#cita .boton_cita a.simple_button:hover {
+    background-color: white !important;
+    color: #ee2837 !important;
+    border: 1px solid #e7ecea;
+}
+.fc-form-modal form .form-element-type-timepicker .form-element-html .timepicker-cover { line-height: 56px; }
+.fc-form-modal form .form-element-type-customText p {
+    font-size: 14px !important;
+    line-height: 18px;
+}
+.fc-form-modal form .form-element-type-checkbox label { font-size: 13px !important; }
+html body .fc-form-modal .powered-by { display: none !important; }
+.page-id-2803 footer, .page-id-2804 footer, .page-id-2805 footer, .page-id-2806 footer { margin-top: -1px; }
+#s4 { padding: 100px 0px; }
+#s4 .uvc-main-heading h3 {
+    font-size: 24px;
+    padding-bottom: 10px;
+    font-weight: 600 !important;
+}
+#s4 .uvc-heading-spacer.line_only { margin-bottom: 20px; }
+#s4 .uvc-sub-heading {
+    margin-bottom: 30px;
+    text-align: justify;
+}
+.qode-advanced-image-gallery .owl-nav .qode-next-icon, .qode-advanced-image-gallery .owl-nav .qode-prev-icon {
+    border-radius: 0 !important;
+    background-color: #ee2837;
+    border-color: #fff !important;
+}
+/*logos sticky proyectos*/
+.page-child.parent-pageid-20 header.sticky .header_top_bottom_holder:after{
+    content: "";
+    width: 175.5px;
+    height: 130px;
+    margin-left: 45px;
+    display: block;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+/*formularios rd*/
+#s4 form#conversion-form-proyecto-san-charbel-789ad860018d92980422 .field input,
+#s4 form#conversion-form-proyecto-berlin-b752ef8a9c84dd4e8a5d .field input,
+#s4 form#conversion-form-proyecto-turin-15a8c94af19d0eac8520 .field input,
+#s4 form#conversion-form-proyecto-galicia-a946225ebf306e3b256b .field input {
+    line-height: 22px !important;
+    height: 45px !important;
+}
+#s4 form#conversion-form-proyecto-san-charbel-789ad860018d92980422 input.call_button,
+#s4 form#conversion-form-proyecto-berlin-b752ef8a9c84dd4e8a5d input.call_button,
+#s4 form#conversion-form-proyecto-turin-15a8c94af19d0eac8520 input.call_button,
+#s4 form#conversion-form-proyecto-galicia-a946225ebf306e3b256b input.call_button {
+    letter-spacing: 2px !important;
+}
+
+/*san-charbel*/
+#s1.san .full_section_inner {
+    background-image: url('https://www.constructoraguigo.com/wp-content/uploads/2019/02/bg_info.png');
+    background-size: cover;
+    background-position: center left;
+}
+#s1.san .logo { margin-top: 60px; }
+#s1.san .logo img.vc_single_image-img { max-width: 280px; }
+.page-id-2803 header.sticky .header_top_bottom_holder:after {
+    background-color: #242021;
+    border: 2px solid #3d3b38;
+    border-top: none;
+    background-image: url('https://www.constructoraguigo.com/wp-content/uploads/2019/02/logo-san-charbel.png');
+    position: absolute;
+}
+.page-id-2803 #s2 li.ui-state-default.ui-corner-top a { color: #866b36; }
+.page-id-2803 #s2 li.ui-state-default.ui-corner-top.ui-state-active { background-color: #242021; }
+.page-id-2803 #s2 li.ui-state-default.ui-corner-top.ui-state-active a,
+.page-id-2803 #cita .icono_ .aio-ibd-block .aio-icon-title { color: #bca176; }
+.page-id-2803 #cita .boton_cita a.simple_button { background-color: #bca175 !important; color: #242021 !important;}
+.page-id-2803 #cita .boton_cita a.simple_button:hover {
+    background-color: #92806a !important;
+    color: #242021 !important;
+    border: none;
+}
+
+/*berlin*/
+#s1.berlin .full_section_inner {
+    background-image: url('https://www.constructoraguigo.com/wp-content/uploads/2019/02/bg_header_berlin.png');
+    background-size: cover;
+    background-position: center top;
+}
+#s1.berlin .logo { margin-top: 50px; }
+#s1.berlin .logo img.vc_single_image-img { max-width: 200px; }
+.page-id-2969 header.sticky .header_top_bottom_holder:after {
+    background-color: #eddfd3;
+    border: 2px solid #aea27c;
+    border-top: none;
+    background-image: url('https://www.constructoraguigo.com/wp-content/uploads/2019/02/logo-berlin.png');
+    position: absolute;
+}
+.page-id-2969 #s2 li.ui-state-default.ui-corner-top a { color: #605e1d; }
+.page-id-2969 #s2 li.ui-state-default.ui-corner-top.ui-state-active { background-color: #605e1d; }
+.page-id-2969 #s2 li.ui-state-default.ui-corner-top.ui-state-active a,
+.page-id-2969 #cita .icono_ .aio-ibd-block .aio-icon-title { color: #eddfd3; }
+.page-id-2969 #cita .boton_cita a.simple_button { background-color: #eddfd3 !important; color: #605e1d !important;}
+.page-id-2969 #cita .boton_cita a.simple_button:hover {
+    background-color: #b2a682 !important;
+    color: #eddfd3 !important;
+    border: none;
+}
+
+/*banner galicia*/
+#s1.galicia .full_section_inner { background-color: #f4ddb9; }
+#s1.galicia .logo { margin-top: 20px; }
+#s1.galicia .logo img.vc_single_image-img { max-width: 200px; }
+.page-id-3012 header.sticky .header_top_bottom_holder:after {
+    background-color: #f4ddb9;
+    border: 2px solid #974971;
+    border-top: none;
+    background-image: url('https://www.constructoraguigo.com/wp-content/uploads/2019/02/logo-galicia.png');
+    position: absolute;
+}
+.page-id-3012 #s2 li.ui-state-default.ui-corner-top a { color: #63214f; }
+.page-id-3012 #s2 li.ui-state-default.ui-corner-top.ui-state-active { background-color: #63214f; }
+.page-id-3012 #s2 li.ui-state-default.ui-corner-top.ui-state-active a,
+.page-id-3012 #cita .icono_ .aio-ibd-block .aio-icon-title { color: #cfa995; }
+.page-id-3012 #cita .boton_cita a.simple_button { background-color: #cfa995 !important; color: #63214f !important;}
+.page-id-3012 #cita .boton_cita a.simple_button:hover {
+    background-color: #e44b6e !important;
+    color: #63214f !important;
+    border: none;
+}
+
+/*turin*/
+.page-id-3066 header.sticky .header_top_bottom_holder:after {
+    background-color: #082334;
+    border: 2px solid #193849;
+    border-top: none;
+    background-image: url(https://www.constructoraguigo.com/wp-content/uploads/2019/02/logo-turin.png);
+    position: absolute;
+}
+#s1.turin {
+    background-image: url(https://www.constructoraguigo.com/wp-content/uploads/2019/02/bg_info_turin.jpg);
+    background-size: cover;
+    background-position: right center;
+}
+#s1.turin .logo { margin-top: 40px; }
+.page-id-3066 #s2 li.ui-state-default.ui-corner-top.ui-state-active { background-color: #0a2638; }
+.page-id-3066 #s2 li.ui-state-default.ui-corner-top.ui-state-active a { color: #b3b4b3; }
+.page-id-3066 #cita .boton_cita a.simple_button {
+    background-color: #fff !important;
+    color: #082338 !important;
+}
+.page-id-3066 #cita .boton_cita a.simple_button:hover {
+    background-color: #b3b4b3 !important;
+    color: #082338 !important;
+    border: 1px solid #b3b4b3;
+}
+
+/*PROYECTOS TERMINADOS*/
+
+.proyectos {
+    background-color: #f1f1f1;
+    margin: 50px 0px 100px;
+}
+.proyectos li.ult_tab_li.current a { background-color: #ee2837 !important; }
+.proyectos li.ult_tab_li .ult-span-text {
+    font-size: 18px !important;
+    font-weight: 400;
+}
+.proyectos li.ult_tab_li:hover a { background-color: #3f4743 !important; }
+
+
+/*CONOCENOS*/
+
+#bg_sec .section_inner_margin {
+    background-image: url(https://www.constructoraguigo.com/wp-content/uploads/2019/01/bg_f.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.proyectos_carusell .q_image_with_text_over .shader { background-color: rgba(0, 0, 0, 0.25); }
+.proyectos_carusell .q_image_with_text_over .text:hover { background-color: rgba(0, 0, 0, 0.5); }
+.proyectos_carusell .text h3.caption.no_icon {
+    font-size: 24px;
+    position: absolute;
+    padding: 5px;
+    top: 10px;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 5px 5px 0px #0f120d;
+    background-color: rgba(63, 71, 67, 0.6);
+}
+.proyectos_carusell .text .desc {
+    font-size: 17px;
+    line-height: 24px;
+}
+.proyectos_carusell .text .desc .separator {
+    background-color: white;
+}
+.proyectos_carusell .text .desc a.qbutton {
+    height: 30px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.proyectos_carusell .text .desc a.qbutton:hover {
+    background-color: white;
+    color: #3f4743 !important;
+    border-color: #3f4743 !important;
+}
+#pr {
+    min-height: 500px;
+    margin: 100px 0px;
+    display: table;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+#pr .parallax_content_full_width {
+    display: table-cell;
+    vertical-align: middle;
+}
+#pr .espacio p {
+    color: #fff;
+    font-size: 24px;
+    line-height: 26px;
+    margin: 0 12%;
+    text-shadow: 2px 1px 10px #07080c;
+}
+#valores { padding: 100px 0px; }
+#valores .qode-info-card-with-icon .qode-icwi-text-holder { min-height: 285px; }
+#valores h2.qode-icwi-title {
+    font-size: 18px;
+    line-height: 20px;
+}
+#valores .qode-info-card-with-icon .qode-icwi-text-holder {
+    min-height: 210px;
+    margin-top: 70px;
+}
+#valores .qode-info-card-with-icon .qode-icwi-text-holder .qode-icwi-text { font-size: 16px; }
+#valores .qode-start-icon-hover span.qode-icon-holder {
+    height: 3em;
+    width: 3em;
+    margin-bottom: 30px;
+}
+#valores .qode-start-icon-hover span.qode-icon-holder i.qode-icon-element {
+    font-size: 54px;
+    line-height: 75px;
+}
+
+/* USADOS */
+.portfolio_single_text_holder h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #ee2738;
+}
+.portfolio_detail h6 {
+    font-size: 16px;
+    margin-top: 20px;
+}
+.portfolio_detail p.entry_date.updated { text-transform: capitalize; }
+.portfolio_button a { background-image: url(https://www.constructoraguigo.com/wp-content/uploads/2019/01/portfolio_list_button.png) !important; }
+.single-portfolio_page .portfolio_gallery { margin-top: 25px; }
+.qode_portfolio_related .image_holder img.wp-post-image {
+    max-height: 200px;
+    min-height: 200px;
+}
+.qode_portfolio_related span.feature_holder_icons a.preview {
+    font-size: 13px;
+    font-weight: 600;
+}
+.single.single-portfolio_page .portfolio_detail .info { display: grid; }
+.single.single-portfolio_page .portfolio_detail .info * {
+    width: 100%;
+    font-size: 18px;
+    color: #3f4743;
+}
+.single.single-portfolio_page .portfolio_detail .info h6 { color: #ee2738; }
+.single.single-portfolio_page .portfolio_detail .info.portfolio_categories span.category { color: #3f4743 !important; }
+.single.single-portfolio_page .portfolio_detail .info.portfolio_tags span.category { font-size: 30px; color: #3f4743 !important; }
+.portfolio_button {
+    margin-top: -20px;
+    margin-bottom: 20px;
+    padding: 0 30px;
+}
+.single.single-portfolio_page .portfolio_single .flexslider {
+    overflow: hidden;
+    max-width: 900px;
+    max-height: 900px;
+    margin: 0 auto;
+}
+
+/*NOTICIAS*/
+
+.q_masonry_blog article.post .q_masonry_blog_post_text h2.entry_title,
+.q_masonry_blog article.post .q_masonry_blog_post_text h2.entry_title a {
+    font-size: 18px;
+    line-height: 20px;
+    color: #3f4743;
+}
+.q_masonry_blog article.post .q_masonry_blog_post_text p.q_masonry_blog_excerpt {
+    margin-top: 10px;
+    line-height: 22px;
+}
+.q_masonry_blog article.post .q_masonry_blog_post_text { border-top: 1px solid #c0c0c0; }
+.q_masonry_blog article.post {
+    box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.43);
+    background-color: #fafafa !important;
+}
+article.post .q_masonry_blog_post_text .q_masonry_blog_post_info * {
+    font-size: 14px;
+    color: #7f8489;
+}
+.single .separator.small {
+    background-color: #ee2837 !important;
+    width: 20% !important;
+}
+.single .post_info span.time { display: none; }
+.sidebar form#searchform input#s {
+    font-size: 16px;
+    background-color: #F1F1F1;
+}
+.sidebar form#searchform input#searchsubmit { background-color: #3f4743; }
+.sidebar h5 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #3f4743;
+    text-transform: capitalize;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+.sidebar ul > li {
+    list-style: square;
+    margin-left: 25px !important;
+    font-size: 15px;
+    line-height: 18px;
+}
+.filter_outer {
+    margin-top: 30px;
+    font-size: 14px;
+}
+.filter_outer .filter_holder li.filter span {
+    padding: 0px 25px;
+    border-right: 1px solid;
+}
+.filter_outer .filter_holder li.filter:hover span { border-right-color: #575959; }
+.filter_outer .filter_holder ul > li:last-child span { border-right: none; }
+
+/*archive blog*/
+.masonry article.post { box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.43); }
+.masonry article.post .post_text .post_text_inner {
+    padding: 20px 5px;
+    background-color: #fafafa;
+}
+.masonry article.post .post_text .post_text_inner h5.entry_title {
+    padding: 0 10px;
+    line-height: 20px;
+}
+.masonry article.post .post_text .post_text_inner h5.entry_title a {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 600;
+    color: #3f4743;
+}
+.masonry article.post .post_text .post_text_inner p.post_excerpt {
+    font-size: 15px;
+    margin: 0 20px;
+}
+
+/*single blog*/
+.single.single-post .container, .single.single-portfolio_page .container { margin-top: 40px; }
+.single span.post_author, .single_tags .tags_text h5 { display: none; }
+.single_tags .tags_text a {
+    color: #ee2738;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+/*CONTACTO*/
+
+.contact_info .icon_text_inner { padding-bottom: 5px; }
+
+/*FOOTER*/
+
+.page footer { margin-top: 100px; }
+footer .footer_top { padding: 50px 0px 20px; }
+footer .footer_top h3 {
+    font-size: 22px;
+    font-weight: 400;
+}
+footer .footer_top h3::after {
+    content: " ";
+    display: block;
+    width: 50px;
+    height: 2px;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    background: #ee2837;
+}
+footer .footer_top .guigop {
+    margin-top: 40px;
+}
+footer .footer_top .guigop img.logo {
+    float: left;
+    margin-bottom: 20px;
+}
+footer .footer_top .guigop p.info {
+    margin-left: 130px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 18px;
+}
+footer .footer_top .icon_text_inner { padding-bottom: 0px; }
+footer .footer_top h5 {
+    color: #d3d4d3 !important;
+}
+footer .footer_top i.fa { font-size: 22px; }
+.footer_top ul.proyectos {
+    background-color: transparent;
+    margin: 30px 0px 10px;
+}
+.footer_top ul.proyectos li.item {
+    list-style-type: circle;
+    margin-left: 30px;
+}
+.footer_top ul.proyectos li.item:hover a.url { border-bottom: 1px solid #ee2837; }
+/*footer .footer_bottom_holder { display: none; }*/
+ul.qode-instagram-feed > li > a {
+    padding-bottom:100% !important;
+    display: block !important;
+    position:relative;
+    overflow:hidden;
+}
+ul.qode-instagram-feed > li > a img {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+}
+body.rtl .qode-instagram-feed li {
+  float: right;
+}
+footer ul.qode-instagram-feed.qodef-scale-with-dark-overlay > li {
+    max-width: 170px;
+    padding: 4px !important;
+    margin: 0px !important;
+}
+footer .redes {
+    display: inline-flex;
+}
+footer .redes .iconos {
+    float: right;
+    margin-left: 165px;
+    margin-top: 0px;
+}
+footer .redes .iconos span.q_social_icon_holder.circle_social > span.fa-2x { background-color: #ffffff !important; margin: 2px; }
+footer .redes .iconos span.q_social_icon_holder.circle_social:hover > span.fa-2x i.fa { color: #ee2837; }
+footer .redes .iconos span.q_social_icon_holder.circle_social > span.fa-2x i.fa { color: #3f4743; font-size: 22px; }
+footer .footer_top #custom_html-3 .textwidget > h3:nth-child(3) { margin-top: 30px; }
+footer .footer_bottom_holder { display: block !important; background-color: #59615e; }
+footer .footer_bottom_holder p.copy { color: #ffffff; }
+footer .footer_bottom_holder p.copy a { color: #d3d3d4; text-transform: capitalize; /* text-decoration: underline; */ font-weight: 600; }
+footer .proyect .textwidget { margin: 0 !important; }
+footer .proyect .shader { background-color: rgba(0,0,0,.3); }
+footer .proyect .desc a.qbutton:hover { background-color: #3d4643; border-color: #3d4643; }
+footer .proyect .text h3::after {
+    text-align: center;
+    margin: 20px auto;
+}
+footer .proyect .desc {
+    font-size: 15px;
+    line-height: 18px;
+    margin: 0 20px;
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 10% 0px;
+}
+footer .proyect .desc a.qbutton {
+    line-height: 28px;
+    height: 28px;
+    font-weight: 700;
+}
+.footer_top .three_columns .footer_col3 .column_inner .widget { margin: 0px !important; }
+
+/*--------------------------------------------------------------
+# Media Query
+--------------------------------------------------------------*/
+@media only screen and (max-width: 1460px) {
+	#empresa {
+		background-size: 75% 80%;
+		background-position: 80% 50%;
+	}
+}
+/*--------------------------------------------------------------
+## Notebook
+--------------------------------------------------------------*/
+@media only screen and (max-width: 1366px) {
+  .single header.light .q_logo img.light,
+  .parent-pageid-22 header.light .q_logo img.light,
+  .parent-pageid-12 header.light .q_logo img.light,
+  .page-id-12 header.light .q_logo img.light { margin-left: 0px; }
+  .parent-pageid-20 header.light .q_logo img.light { margin-left: 130px; }
+  #s1.san .logo, #s1.berlin .logo, #s1.galicia .logo, #s1.turin .logo { margin-top: 180px; }
+  header.light .q_logo img.light { margin-left: 70px; height: 120px !important; }
+}
+@media only screen and (max-width: 1280px) {
+	html { font-size: 95%; }
+	#empresa { background-size: 75% 70%; background-position: 80% 50%; }
+  header.sticky:not(.header_style_on_scroll) .q_logo img.sticky {
+      height: 60px !important;
+      margin-top: 15px;
+      left: 0px;
+  }
+  #s3 .ult_tab_section span { font-size: 18px; }
+  #s1.turin .logo img.vc_single_image-img { max-width: 180px; }
+  .ajax_loader .ajax_loader_1 .ajax_loader_2 img { max-width: 296px; }
+}
+
+@media screen and (max-width: 1199px) {
+	.navbar-dark .dropdown-item {
+		color: #fff;
+	}
+	.navbar-nav .dropdown-menu {
+		background: transparent;
+		box-shadow: none;
+		border: none;
+	}
+}
+/*--------------------------------------------------------------
+## Netbook
+--------------------------------------------------------------*/
+@media only screen and (max-width: 1024px) {
+  html {
+    font-size: 90%;
+  }
+  header.sticky:not(.header_style_on_scroll) .q_logo img.sticky {
+      left: -50px;
+  }
+  .ajax_loader {
+      left: 0;
+      top: 30%;
+      width: 100%;
+  }
+  .ajax_loader .ajax_loader_2 {
+      margin: 0%;
+  }
+  .ajax_loader .ajax_loader_1 .ajax_loader_2 img {
+      margin-left: auto;
+      margin-right: auto;
+      width: 60%;
+      display: block;
+  }
+  #s2 .vc_col-sm-8 {
+    padding-bottom: 50px;
+    width: 100%;
+  }
+  #s2 .vc_col-sm-4 { width: 100%; }
+  #s2 .vc_col-sm-4 .icon_ {
+      width: 47.5%;
+      display: inline-block;
+      margin-right: 20px;
+  }
+  #s1.san .logo, #s1.berlin .logo, #s1.galicia .logo, #s1.turin .logo { margin-top: 180px; }
+  header.light .q_logo img.light {
+	margin-left: 70px;
+	height: 120px !important;
+  }
+  nav.main_menu > ul > li > a {font-size: 14px;}
+  nav.main_menu > ul > li:last-child { display: none; }
+  header.sticky:not(.header_style_on_scroll) .q_logo img.sticky { left: 15px; }
+  .page-child.parent-pageid-20 header.sticky .header_top_bottom_holder:after {display: none !important;}
+  #s2 h2 { font-size: 26px; line-height: 28px; margin-bottom: 10px; }
+  #s2 .desc_text { margin: 10px 0px; padding-bottom: 50px; }
+  #s3 .vc_col-sm-4 { width: 50%; }
+  #s3 .info .vc_single_image-wrapper { display: none; }
+  .derecha .vc_col-md-4 .q_elements_item_content .wpb_wrapper,
+  .izquierda .vc_col-md-4 .q_elements_item_content .wpb_wrapper { font-size: 14px; line-height: 20px; }
+  .izquierda .desc .wpb_text_column { margin-left: 20px; padding-left: 0px !important; }
+  .derecha .desc .wpb_text_column { margin-right: 20px;}
+  #s3 .ult_tab_section span { font-size: 15px; }
+  #pr { background-size: contain; }
+  #proyectos .banner_proyectos .q_image_with_text_over .text #info-proyecto .more > div {padding: 5px;}
+  #proyectos .banner_proyectos .q_image_with_text_over .text #info-proyecto .more > div,
+  #proyectos .banner_proyectos .q_image_with_text_over .text #info-proyecto .more .estado p {font-size: 15px;}
+  #empresa .info { padding: 50px 0px 60px 18px; }
+  #noticias .slider_noticias .item_holder { min-height: 330px; height: 330px; }
+  .title .title_holder .breadcrumb { margin-top: 10px; font-size: 12px; }
+  .subtitle { text-align: center; margin-top: 0px; }
+  .title .title_holder h1 { font-size: 28px; }
+  .title_outer.with_image { max-height: 250px; }
+  .title_outer.with_image .title_subtitle_holder { text-align: center; }
+  .single .separator.small { margin: 0 auto; }
+}
+/*--------------------------------------------------------------
+## iPad
+--------------------------------------------------------------*/
+@media only screen and (max-width: 960px) {
+	html {
+		font-size: 85%;
+	}
+  .header_inner_right a.side_menu_button_link.normal {
+    display: none;
+  }
+  .home .q_logo {
+    left: 0px;
+  }
+  .title_outer.with_image .title, .title_outer.with_image .title .title_subtitle_holder {
+    text-align: center;
+  }
+  .title .separator.small, .title .separator.small.left, .title .separator.small.right {
+    margin: 15px auto;
+  }
+  .titulo_1 .t_1 {
+    width: 40%;
+  }
+  .titulo_1 .t_2 {
+    width: 60%;
+  }
+  .titulo_1 .t_2 p {
+    font-size: 90%;
+    line-height: 22px;
+    margin-top: 10px;
+    padding-bottom: 0;
+  }
+  #proyectos .banner_proyectos .q_image_with_text_over .text #info-proyecto {
+    width: 100%;
+  }
+  #proyectos .banner_proyectos .q_image_with_text_over .text #info-proyecto .desc {
+    display: none;
+  }
+  #proyectos .banner_proyectos .q_image_with_text_over .text #info-proyecto .more > div {
+    padding: 10px;
+  }
+  .single.single-post .container, .single.single-portfolio_page .container {
+    margin-top: 0px;
+  }
+  .title .title_holder h1 {
+    font-size: 16px;
+  }
+  .title .title_holder .breadcrumb {
+    margin-top: 0px;
+    letter-spacing: 0px;
+    font-size: 11px;
+  }
+  .portfolio_single .portfolio_single_text_holder * {
+    text-align: justify;
+  }
+  .qode_portfolio_related h4 {
+    padding: 35px 0px;
+    text-align: center;
+    font-size: 18px;
+    color: #ee2738;
+    line-height: 22px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+  }
+  .content #banner {
+    padding-top: 0;
+  }
+  #s1 {
+    padding-bottom: 0px;
+  }
+  #s1.san .logo {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  #s2 h2 {
+    font-size: 20px;
+    line-height: 22px;
+    margin-bottom: 20px;
+  }
+  #s2 .desc_text {
+    padding-bottom: 30px;
+  }
+  #back_to_top, #back_to_top.on, #back_to_top.off {
+    right: 0px;
+    bottom: 0px;
+  }
+  #s2 .upb_row_bg {
+    background-position: right bottom;
+  }
+  #s3 .ult_acord dd.ult-tabto-accordionItem {
+    width: 100%;
+  }
+  #s3 .ult_acord .ult_a { text-align: left; }
+  #s3 .ult_acord .descripcion p {
+    text-align: justify;
+    line-height: 20px;
+    font-size: 16px;
+  }
+  #s3 .ult_acord .descripcion li {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  #cita .icono_ {
+    padding-bottom: 0px;
+  }
+  #cita .boton_cita {
+    margin-top: 20px;
+    margin-bottom: 35px !important;
+  }
+  #cita .boton_cita a.simple_button {
+    width: auto;
+  }
+  .title .title_holder span.subtitle {
+    font-size: 16px;
+    padding: 4px;
+  }
+  .page-id-310 .full_width_inner {
+    padding-top: 30px !important;
+  }
+  #empresa .info {
+    padding: 30px 0px;
+    text-align: center;
+    background-color: #3d4643;
+  }
+  #empresa .info .q_elements_item_content.q_elements_holder_custom_361452 {
+    padding: 0px 0% 30px 0% !important;
+  }
+  #empresa #datos {
+    background-color: #3d4643;
+    margin-top: -1px;
+    text-align: center;
+  }
+  #empresa #contadores .q_counter_holder {
+    padding: 10px 40px;
+  }
+  #usados .angled-section polygon {
+    display: none;
+  }
+  #noticias .slider_noticias .item_holder {
+    min-height: 350px;
+    height: 350px;
+  }
+  #call_pagos .call_to_action_text {
+    padding-left: 0;
+  }
+  #call_pagos .call_to_action_icon_holder {
+    display: none;
+  }
+  .page-id-100 .content > .content_inner > .container > .container_inner, .page-id-100 .content > .content_inner > .full_width > .full_width_inner {
+    padding-top: 0px !important;
+  }
+  #pr {
+    background-position: center !important;
+    background-size: cover;
+  }
+  #myv img.vc_single_image-img {
+    margin-top: 30px;
+  }
+  .q_tabs.vertical ul.tabs-nav, .q_tabs.vertical .tabs-container {
+    float: none;
+    width: 100%;
+  }
+  .q_tabs.vertical ul.tabs-nav li.active a {
+    border-right-color: #aaa !important;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+  .q_elements_item_content.q_elements_holder_custom_944906 {
+    padding: 0px !important;
+  }
+}
+/*--------------------------------------------------------------
+## iPhone Landscape
+--------------------------------------------------------------*/
+@media only screen and (max-width: 768px) {
+	html, .q_masonry_blog article.post .q_masonry_blog_post_text p.q_masonry_blog_excerpt {
+		font-size: 80%;
+	}
+  .ajax_loader_2 {
+      margin: 0%;
+  }
+  .titulo_1 .t_1 {
+    width: 100%; margin-left: 5px;
+  }
+  .titulo_1 .t_2 {
+    display: none;
+  }
+  .portfolio_navigation .portfolio_button {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  #s2 .vc_col-sm-4 .icon_, #s3 .vc_col-sm-4 .icon_ {
+    width: 100%;
+    display: block;
+    margin-right: 0px;
+  }
+  #s3 .ult_acord .descripcion .vc_column-inner {
+    padding: 0;
+  }
+  #s4 .formcraft-css .fc-form .submit-button {
+    padding: 10px 0px;
+  }
+  #s4 .formcraft-css .fc-form .submit-button span.text,
+  #cita .icono_ .aio-ibd-block .aio-icon-title {
+    font-size: 15px;
+  }
+  footer .footer_top .guigop p.info {
+    font-size: 13px;
+    line-height: 16px;
+  }
+  footer #qode_instagram_widget-2 {
+    display: none;
+  }
+  footer .redes .iconos {
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+  }
+  #empresa {
+    margin-top: -50px;
+  }
+  a.qode-btn.boton_mas {
+    font-size: 80%;
+    padding: 2px 10px;
+    height: 45px;
+  }
+}
+/*--------------------------------------------------------------
+## iPhone
+--------------------------------------------------------------*/
+@media only screen and (max-width: 480px) {
+	html {
+		font-size: 75%;
+	}
+  .titulo_1 .t_1 {
+    text-align: center;
+  }
+  #proyectos .banner_proyectos .q_image_with_text_over .text #info-proyecto .estado {
+    display: none !important;
+  }
+  #s3 .descripcion ul {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+  }
+  .filter_outer .filter_holder li.filter {
+    display: block;
+  }
+  .filter_outer .filter_holder li.filter span {
+    padding: 0px 10px;
+    border-right: none;
+  }
+  footer .redes {
+    display: block;
+  }
+	.qode_content_slider .flex-direction-nav .flex-prev, .qode_content_slider .flex-direction-nav .flex-next{
+		width: 78px;
+		height: 58px;
+		line-height: 62px;
+		left: -15%;
+		transform: translateY(-50%);
+	}
+	.qode_content_slider .flex-direction-nav .flex-prev{
+		top: calc(50% - 30px);
+	}
+	.qode_content_slider .flex-direction-nav .flex-next{
+		top: calc(50% + 30px);
+	}
+	.title.title_size_large h1 {
+		font-size: 75px;
+		line-height: 85px;
+		color:#fff;
+	}
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    h1{
+        font-size: 40px;
+        line-height:50px;
+    }
+}
+
+.q_icon_with_title .icon_title_holder { margin: 0 0 0px; }
+.q_icon_with_title .icon_text_holder h5.icon_title { line-height: 31px; }
+.page_not_found h2 { margin: 120px 0 20px; }
+.page_not_found p { margin: 15px 10% 35px; }
+.qode_content_slider .flex-direction-nav .flex-prev{ background-color: #fff; }
+.qode_content_slider .flex-direction-nav .flex-prev i{ color: #000; }
+.qode_content_slider .flex-direction-nav .flex-prev:hover,
+.qode_content_slider .flex-direction-nav .flex-next:hover {
+    background-color: rgba(76,76,76,1);
+    border-color: rgba(76,76,76,1);
+}
+.qode_content_slider .flex-direction-nav a.flex-next:hover i { color: #000; }
+
+/*--------------------------------------------------------------
+## Otros
+--------------------------------------------------------------*/
+
+#back_to_top > span {
+    background-color: #ee2738 !important;
+    border-color: #ee2738 !important;
+    border-radius: 0;
+    width: 42px !important;
+    height: 42px !important;
+}
+#back_to_top > span i.qode_icon_font_awesome.fa.fa-angle-up { line-height: 42px !important; }
+#back_to_top:hover > span {
+    background-color: rgb(63, 71, 67);
+    border-color: rgb(63, 71, 67);
+}
+html .formcraft-css .powered-by {
+    display: none !important;
+}
+.page_not_found a.qbutton {
+    font-weight: 600;
+    font-size: 15px;
+}
+.page_not_found a.qbutton:hover { background-color: #3d4643; }

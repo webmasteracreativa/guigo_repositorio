@@ -1,0 +1,52 @@
+[01-Mar-2019 09:10:10 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/guigovia/public_html/wp-content/themes/bridge/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home2/guigovia/public_html/wp-content/themes/bridge/index.php on line 1
+[28-Mar-2019 07:50:07 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/guigovia/public_html/wp-content/themes/bridge/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home2/guigovia/public_html/wp-content/themes/bridge/index.php on line 1
+[22-May-2019 23:08:43 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/guigovia/public_html/wp-content/themes/bridge/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home2/guigovia/public_html/wp-content/themes/bridge/index.php on line 1
+[18-Nov-2019 04:55:24 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/guigovia/public_html/wp-content/themes/bridge/404.php:2
+Stack trace:
+#0 {main}
+  thrown in /home2/guigovia/public_html/wp-content/themes/bridge/404.php on line 2
+[18-Nov-2019 17:13:23 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/guigovia/public_html/wp-content/themes/bridge/404.php:2
+Stack trace:
+#0 {main}
+  thrown in /home2/guigovia/public_html/wp-content/themes/bridge/404.php on line 2
+[13-Dec-2019 19:57:41 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/guigovia/public_html/wp-content/themes/bridge/404.php:2
+Stack trace:
+#0 {main}
+  thrown in /home2/guigovia/public_html/wp-content/themes/bridge/404.php on line 2
+[14-Dec-2019 04:55:00 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/guigovia/public_html/wp-content/themes/bridge/404.php:2
+Stack trace:
+#0 {main}
+  thrown in /home2/guigovia/public_html/wp-content/themes/bridge/404.php on line 2
+[15-Dec-2019 21:26:58 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/guigovia/public_html/wp-content/themes/bridge/404.php:2
+Stack trace:
+#0 {main}
+  thrown in /home2/guigovia/public_html/wp-content/themes/bridge/404.php on line 2
+[16-Dec-2019 05:03:45 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/guigovia/public_html/wp-content/themes/bridge/404.php:2
+Stack trace:
+#0 {main}
+  thrown in /home2/guigovia/public_html/wp-content/themes/bridge/404.php on line 2
+[12-Jan-2020 05:11:24 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/guigovia/public_html/wp-content/themes/bridge/404.php:2
+Stack trace:
+#0 {main}
+  thrown in /home2/guigovia/public_html/wp-content/themes/bridge/404.php on line 2
+[13-Jan-2020 18:57:41 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/guigovia/public_html/wp-content/themes/bridge/404.php:2
+Stack trace:
+#0 {main}
+  thrown in /home2/guigovia/public_html/wp-content/themes/bridge/404.php on line 2
+[15-Jan-2020 02:36:31 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/guigovia/public_html/wp-content/themes/bridge/404.php:2
+Stack trace:
+#0 {main}
+  thrown in /home2/guigovia/public_html/wp-content/themes/bridge/404.php on line 2
+[15-Jan-2020 20:10:39 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/guigovia/public_html/wp-content/themes/bridge/404.php:2
+Stack trace:
+#0 {main}
+  thrown in /home2/guigovia/public_html/wp-content/themes/bridge/404.php on line 2

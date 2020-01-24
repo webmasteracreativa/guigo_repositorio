@@ -1,0 +1,52 @@
+.mapa{
+	position: relative;
+	.text-map{
+		display: flex;
+	    flex-wrap: wrap;
+	    flex-direction: column;
+	    justify-content: space-between;
+	}
+	p{
+		padding: 20px;
+		margin-bottom: 0;
+		span{
+			display: block;
+		}
+		&.top{
+			font-size: 40px;
+			line-height: 40px;
+			background: url(../img/map-icon.png) no-repeat 90% center / 100px;
+			@media only screen and (min-width: 768px){
+				background: url(../img/map-icon.png) no-repeat 200px center / 100px;
+			}
+		}
+		&.bottom{
+			position: relative;
+			&:last-child{
+				&:after{
+					content: "";
+					display: block;
+					position: absolute;
+					height: 3px;
+					width: 50px;
+					bottom: 15px;
+					left: 20px;
+					background:$colorSecundario;
+				}
+			}
+		}
+	}
+	&:after{
+		content: "";
+		display: none;
+		position: absolute;
+		bottom: 30px;
+		right: 30px;
+		width: 90px;
+		height: 70px;
+		background: url(../img/bloqueR.png);
+		@media only screen and (min-width: 992px){
+			display: block;
+		}
+	}
+}

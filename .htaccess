@@ -1,0 +1,642 @@
+# BEGIN WP Rocket v3.4.3
+# Use UTF-8 encoding for anything served text/plain or text/html
+AddDefaultCharset UTF-8
+# Force UTF-8 for a number of file formats
+<IfModule mod_mime.c>
+AddCharset UTF-8 .atom .css .js .json .rss .vtt .xml
+</IfModule>
+# FileETag None is not enough for every server.
+<IfModule mod_headers.c>
+Header unset ETag
+</IfModule>
+# Since we’re sending far-future expires, we don’t need ETags for static content.
+# developer.yahoo.com/performance/rules.html#etags
+FileETag None
+<IfModule mod_alias.c>
+<FilesMatch "\.(html|htm|rtf|rtx|txt|xsd|xsl|xml)$">
+<IfModule mod_headers.c>
+Header set X-Powered-By "WP Rocket/3.4.3"
+Header unset Pragma
+Header append Cache-Control "public"
+Header unset Last-Modified
+</IfModule>
+</FilesMatch>
+<FilesMatch "\.(css|htc|js|asf|asx|wax|wmv|wmx|avi|bmp|class|divx|doc|docx|eot|exe|gif|gz|gzip|ico|jpg|jpeg|jpe|json|mdb|mid|midi|mov|qt|mp3|m4a|mp4|m4v|mpeg|mpg|mpe|mpp|otf|odb|odc|odf|odg|odp|ods|odt|ogg|pdf|png|pot|pps|ppt|pptx|ra|ram|svg|svgz|swf|tar|tif|tiff|ttf|ttc|wav|wma|wri|xla|xls|xlsx|xlt|xlw|zip)$">
+<IfModule mod_headers.c>
+Header unset Pragma
+Header append Cache-Control "public"
+</IfModule>
+</FilesMatch>
+</IfModule>
+# Expires headers (for better cache control)
+<IfModule mod_expires.c>
+	ExpiresActive on
+	# Perhaps better to whitelist expires rules? Perhaps.
+	ExpiresDefault                              "access plus 1 month"
+	# cache.appcache needs re-requests in FF 3.6 (thanks Remy ~Introducing HTML5)
+	ExpiresByType text/cache-manifest           "access plus 0 seconds"
+	# Your document html
+	ExpiresByType text/html                     "access plus 0 seconds"
+	# Data
+	ExpiresByType text/xml                      "access plus 0 seconds"
+	ExpiresByType application/xml               "access plus 0 seconds"
+	ExpiresByType application/json              "access plus 0 seconds"
+	# Feed
+	ExpiresByType application/rss+xml           "access plus 1 hour"
+	ExpiresByType application/atom+xml          "access plus 1 hour"
+	# Favicon (cannot be renamed)
+	ExpiresByType image/x-icon                  "access plus 1 week"
+	# Media: images, video, audio
+	ExpiresByType image/gif                     "access plus 4 months"
+	ExpiresByType image/png                     "access plus 4 months"
+	ExpiresByType image/jpeg                    "access plus 4 months"
+	ExpiresByType image/webp                    "access plus 4 months"
+	ExpiresByType video/ogg                     "access plus 1 month"
+	ExpiresByType audio/ogg                     "access plus 1 month"
+	ExpiresByType video/mp4                     "access plus 1 month"
+	ExpiresByType video/webm                    "access plus 1 month"
+	# HTC files  (css3pie)
+	ExpiresByType text/x-component              "access plus 1 month"
+	# Webfonts
+	ExpiresByType font/ttf                      "access plus 4 months"
+	ExpiresByType font/otf                      "access plus 4 months"
+	ExpiresByType font/woff                     "access plus 4 months"
+	ExpiresByType font/woff2                    "access plus 4 months"
+	ExpiresByType image/svg+xml                 "access plus 1 month"
+	ExpiresByType application/vnd.ms-fontobject "access plus 1 month"
+	# CSS and JavaScript
+	ExpiresByType text/css                      "access plus 1 year"
+	ExpiresByType application/javascript        "access plus 1 year"
+</IfModule>
+# Gzip compression
+<IfModule mod_deflate.c>
+# Active compression
+SetOutputFilter DEFLATE
+# Force deflate for mangled headers
+<IfModule mod_setenvif.c>
+<IfModule mod_headers.c>
+SetEnvIfNoCase ^(Accept-EncodXng|X-cept-Encoding|X{15}|~{15}|-{15})$ ^((gzip|deflate)\s*,?\s*)+|[X~-]{4,13}$ HAVE_Accept-Encoding
+RequestHeader append Accept-Encoding "gzip,deflate" env=HAVE_Accept-Encoding
+# Don’t compress images and other uncompressible content
+SetEnvIfNoCase Request_URI \
+\.(?:gif|jpe?g|png|rar|zip|exe|flv|mov|wma|mp3|avi|swf|mp?g|mp4|webm|webp|pdf)$ no-gzip dont-vary
+</IfModule>
+</IfModule>
+# Compress all output labeled with one of the following MIME-types
+<IfModule mod_filter.c>
+AddOutputFilterByType DEFLATE application/atom+xml \
+		                          application/javascript \
+		                          application/json \
+		                          application/rss+xml \
+		                          application/vnd.ms-fontobject \
+		                          application/x-font-ttf \
+		                          application/xhtml+xml \
+		                          application/xml \
+		                          font/opentype \
+		                          image/svg+xml \
+		                          image/x-icon \
+		                          text/css \
+		                          text/html \
+		                          text/plain \
+		                          text/x-component \
+		                          text/xml
+</IfModule>
+<IfModule mod_headers.c>
+Header append Vary: Accept-Encoding
+</IfModule>
+</IfModule>
+# END WP Rocket
+# BEGIN All In One WP Security
+#AIOWPS_BLOCK_WP_FILE_ACCESS_START
+<Files license.txt>
+<IfModule mod_authz_core.c>
+Require all denied
+</IfModule>
+<IfModule !mod_authz_core.c>
+Order deny,allow
+Deny from all
+</IfModule>
+</Files>
+<Files wp-config-sample.php>
+<IfModule mod_authz_core.c>
+Require all denied
+</IfModule>
+<IfModule !mod_authz_core.c>
+Order deny,allow
+Deny from all
+</IfModule>
+</Files>
+<Files readme.html>
+<IfModule mod_authz_core.c>
+Require all denied
+</IfModule>
+<IfModule !mod_authz_core.c>
+Order deny,allow
+Deny from all
+</IfModule>
+</Files>
+#AIOWPS_BLOCK_WP_FILE_ACCESS_END
+#AIOWPS_BASIC_HTACCESS_RULES_START
+<Files .htaccess>
+<IfModule mod_authz_core.c>
+Require all denied
+</IfModule>
+<IfModule !mod_authz_core.c>
+Order deny,allow
+Deny from all
+</IfModule>
+</Files>
+ServerSignature Off
+LimitRequestBody 10240000
+<Files wp-config.php>
+<IfModule mod_authz_core.c>
+Require all denied
+</IfModule>
+<IfModule !mod_authz_core.c>
+Order deny,allow
+Deny from all
+</IfModule>
+</Files>
+#AIOWPS_BASIC_HTACCESS_RULES_END
+#AIOWPS_DEBUG_LOG_BLOCK_HTACCESS_RULES_START
+<Files debug.log>
+<IfModule mod_authz_core.c>
+Require all denied
+</IfModule>
+<IfModule !mod_authz_core.c>
+Order deny,allow
+Deny from all
+</IfModule>
+</Files>
+#AIOWPS_DEBUG_LOG_BLOCK_HTACCESS_RULES_END
+#AIOWPS_DISABLE_INDEX_VIEWS_START
+Options -Indexes
+#AIOWPS_DISABLE_INDEX_VIEWS_END
+#AIOWPS_DISABLE_TRACE_TRACK_START
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{REQUEST_METHOD} ^(TRACE|TRACK)
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteRule .* - [F]
+</IfModule>
+#AIOWPS_DISABLE_TRACE_TRACK_END
+#AIOWPS_FORBID_PROXY_COMMENTS_START
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{REQUEST_METHOD} ^POST
+RewriteCond %{HTTP:VIA} !^$ [OR]
+RewriteCond %{HTTP:FORWARDED} !^$ [OR]
+RewriteCond %{HTTP:USERAGENT_VIA} !^$ [OR]
+RewriteCond %{HTTP:X_FORWARDED_FOR} !^$ [OR]
+RewriteCond %{HTTP:X_FORWARDED_HOST} !^$ [OR]
+RewriteCond %{HTTP:PROXY_CONNECTION} !^$ [OR]
+RewriteCond %{HTTP:XPROXY_CONNECTION} !^$ [OR]
+RewriteCond %{HTTP:HTTP_PC_REMOTE_ADDR} !^$ [OR]
+RewriteCond %{HTTP:HTTP_CLIENT_IP} !^$
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteRule wp-comments-post\.php - [F]
+</IfModule>
+#AIOWPS_FORBID_PROXY_COMMENTS_END
+#AIOWPS_DENY_BAD_QUERY_STRINGS_START
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{QUERY_STRING} ftp:     [NC,OR]
+RewriteCond %{QUERY_STRING} http:    [NC,OR]
+RewriteCond %{QUERY_STRING} https:   [NC,OR]
+RewriteCond %{QUERY_STRING} mosConfig [NC,OR]
+RewriteCond %{QUERY_STRING} ^.*(globals|encode|localhost|loopback).* [NC,OR]
+RewriteCond %{QUERY_STRING} (\;|'|\"|%22).*(request|insert|union|declare|drop) [NC]
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteRule ^(.*)$ - [F,L]
+</IfModule>
+#AIOWPS_DENY_BAD_QUERY_STRINGS_END
+#AIOWPS_ADVANCED_CHAR_STRING_FILTER_START
+<IfModule mod_alias.c>
+RedirectMatch 403 \,
+RedirectMatch 403 \:
+RedirectMatch 403 \;
+RedirectMatch 403 \=
+RedirectMatch 403 \[
+RedirectMatch 403 \]
+RedirectMatch 403 \^
+RedirectMatch 403 \`
+RedirectMatch 403 \{
+RedirectMatch 403 \}
+RedirectMatch 403 \~
+RedirectMatch 403 \"
+RedirectMatch 403 \$
+RedirectMatch 403 \<
+RedirectMatch 403 \>
+RedirectMatch 403 \|
+RedirectMatch 403 \.\.
+RedirectMatch 403 \%0
+RedirectMatch 403 \%A
+RedirectMatch 403 \%B
+RedirectMatch 403 \%C
+RedirectMatch 403 \%D
+RedirectMatch 403 \%E
+RedirectMatch 403 \%F
+RedirectMatch 403 \%22
+RedirectMatch 403 \%27
+RedirectMatch 403 \%28
+RedirectMatch 403 \%29
+RedirectMatch 403 \%3C
+RedirectMatch 403 \%3E
+RedirectMatch 403 \%3F
+RedirectMatch 403 \%5B
+RedirectMatch 403 \%5C
+RedirectMatch 403 \%5D
+RedirectMatch 403 \%7B
+RedirectMatch 403 \%7C
+RedirectMatch 403 \%7D
+# COMMON PATTERNS
+Redirectmatch 403 \_vpi
+RedirectMatch 403 \.inc
+Redirectmatch 403 xAou6
+Redirectmatch 403 db\_name
+Redirectmatch 403 select\(
+Redirectmatch 403 convert\(
+Redirectmatch 403 \/query\/
+RedirectMatch 403 ImpEvData
+Redirectmatch 403 \.XMLHTTP
+Redirectmatch 403 proxydeny
+RedirectMatch 403 function\.
+Redirectmatch 403 remoteFile
+Redirectmatch 403 servername
+Redirectmatch 403 \&rptmode\=
+Redirectmatch 403 sys\_cpanel
+RedirectMatch 403 db\_connect
+RedirectMatch 403 doeditconfig
+RedirectMatch 403 check\_proxy
+Redirectmatch 403 system\_user
+Redirectmatch 403 \/\(null\)\/
+Redirectmatch 403 clientrequest
+Redirectmatch 403 option\_value
+RedirectMatch 403 ref\.outcontrol
+# SPECIFIC EXPLOITS
+RedirectMatch 403 errors\.
+RedirectMatch 403 config\.
+RedirectMatch 403 include\.
+RedirectMatch 403 display\.
+RedirectMatch 403 register\.
+Redirectmatch 403 password\.
+RedirectMatch 403 maincore\.
+RedirectMatch 403 authorize\.
+Redirectmatch 403 macromates\.
+RedirectMatch 403 head\_auth\.
+RedirectMatch 403 submit\_links\.
+RedirectMatch 403 change\_action\.
+Redirectmatch 403 com\_facileforms\/
+RedirectMatch 403 admin\_db\_utilities\.
+RedirectMatch 403 admin\.webring\.docs\.
+Redirectmatch 403 Table\/Latest\/index\.
+</IfModule>
+#AIOWPS_ADVANCED_CHAR_STRING_FILTER_END
+#AIOWPS_SIX_G_BLACKLIST_START
+# 6G FIREWALL/BLACKLIST
+# @ https://perishablepress.com/6g/
+# 6G:[QUERY STRINGS]
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{QUERY_STRING} (eval\() [NC,OR]
+RewriteCond %{QUERY_STRING} (127\.0\.0\.1) [NC,OR]
+RewriteCond %{QUERY_STRING} ([a-z0-9]{2000,}) [NC,OR]
+RewriteCond %{QUERY_STRING} (javascript:)(.*)(;) [NC,OR]
+RewriteCond %{QUERY_STRING} (base64_encode)(.*)(\() [NC,OR]
+RewriteCond %{QUERY_STRING} (GLOBALS|REQUEST)(=|\[|%) [NC,OR]
+RewriteCond %{QUERY_STRING} (<|%3C)(.*)script(.*)(>|%3) [NC,OR]
+RewriteCond %{QUERY_STRING} (\|\.\.\.|\.\./|~|`|<|>|\|) [NC,OR]
+RewriteCond %{QUERY_STRING} (boot\.ini|etc/passwd|self/environ) [NC,OR]
+RewriteCond %{QUERY_STRING} (thumbs?(_editor|open)?|tim(thumb)?)\.php [NC,OR]
+RewriteCond %{QUERY_STRING} ('|\")(.*)(drop|insert|md5|select|union) [NC]
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteRule .* - [F]
+</IfModule>
+# 6G:[REQUEST METHOD]
+<IfModule mod_rewrite.c>
+RewriteCond %{REQUEST_METHOD} ^(connect|debug|move|put|trace|track) [NC]
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteRule .* - [F]
+</IfModule>
+# 6G:[REFERRERS]
+<IfModule mod_rewrite.c>
+RewriteCond %{HTTP_REFERER} ([a-z0-9]{2000,}) [NC,OR]
+RewriteCond %{HTTP_REFERER} (semalt.com|todaperfeita) [NC]
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteRule .* - [F]
+</IfModule>
+# 6G:[REQUEST STRINGS]
+<IfModule mod_alias.c>
+RedirectMatch 403 (?i)([a-z0-9]{2000,})
+RedirectMatch 403 (?i)(https?|ftp|php):/
+RedirectMatch 403 (?i)(base64_encode)(.*)(\()
+RedirectMatch 403 (?i)(=\'|=\%27|/\'/?)\.
+RedirectMatch 403 (?i)/(\$(\&)?|\*|\"|\.|,|&|&amp;?)/?$
+RedirectMatch 403 (?i)(\{0\}|\(/\(|\.\.\.|\+\+\+|\\"\\")
+RedirectMatch 403 (?i)(~|`|<|>|:|;|,|%|\|\s|\{|\}|\[|\]|\|)
+RedirectMatch 403 (?i)/(=|\$&|_mm|cgi-|etc/passwd|muieblack)
+RedirectMatch 403 (?i)(&pws=0|_vti_|\(null\)|\{\$itemURL\}|echo(.*)kae|etc/passwd|eval\(|self/environ)
+RedirectMatch 403 (?i)\.(aspx?|bash|bak?|cfg|cgi|dll|exe|git|hg|ini|jsp|log|mdb|out|sql|svn|swp|tar|rar|rdf)$
+RedirectMatch 403 (?i)/(^$|(wp-)?config|mobiquo|phpinfo|shell|sqlpatch|thumb|thumb_editor|thumbopen|timthumb|webshell)\.php
+</IfModule>
+# 6G:[USER AGENTS]
+<IfModule mod_setenvif.c>
+SetEnvIfNoCase User-Agent ([a-z0-9]{2000,}) bad_bot
+SetEnvIfNoCase User-Agent (archive.org|binlar|casper|checkpriv|choppy|clshttp|cmsworld|diavol|dotbot|extract|feedfinder|flicky|g00g1e|harvest|heritrix|httrack|kmccrew|loader|miner|nikto|nutch|planetwork|postrank|purebot|pycurl|python|seekerspider|siclab|skygrid|sqlmap|sucker|turnit|vikspider|winhttp|xxxyy|youda|zmeu|zune) bad_bot
+# Apache < 2.3
+<IfModule !mod_authz_core.c>
+Order Allow,Deny
+Allow from all
+Deny from env=bad_bot
+</IfModule>
+# Apache >= 2.3
+<IfModule mod_authz_core.c>
+<RequireAll>
+Require all Granted
+Require not env bad_bot
+</RequireAll>
+</IfModule>
+</IfModule>
+#AIOWPS_SIX_G_BLACKLIST_END
+#AIOWPS_FIVE_G_BLACKLIST_START
+# 5G BLACKLIST/FIREWALL (2013)
+# @ http://perishablepress.com/5g-blacklist-2013/
+# 5G:[QUERY STRINGS]
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteCond %{QUERY_STRING} (\"|%22).*(<|>|%3) [NC,OR]
+RewriteCond %{QUERY_STRING} (javascript:).*(\;) [NC,OR]
+RewriteCond %{QUERY_STRING} (<|%3C).*script.*(>|%3) [NC,OR]
+RewriteCond %{QUERY_STRING} (\\|\.\./|`|='$|=%27$) [NC,OR]
+RewriteCond %{QUERY_STRING} (\;|'|\"|%22).*(union|select|insert|drop|update|md5|benchmark|or|and|if) [NC,OR]
+RewriteCond %{QUERY_STRING} (base64_encode|localhost|mosconfig) [NC,OR]
+RewriteCond %{QUERY_STRING} (boot\.ini|echo.*kae|etc/passwd) [NC,OR]
+RewriteCond %{QUERY_STRING} (GLOBALS|REQUEST)(=|\[|%) [NC]
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteRule .* - [F]
+</IfModule>
+# 5G:[USER AGENTS]
+<IfModule mod_setenvif.c>
+# SetEnvIfNoCase User-Agent ^$ keep_out
+SetEnvIfNoCase User-Agent (binlar|casper|cmsworldmap|comodo|diavol|dotbot|feedfinder|flicky|ia_archiver|jakarta|kmccrew|nutch|planetwork|purebot|pycurl|skygrid|sucker|turnit|vikspider|zmeu) keep_out
+<limit GET POST PUT>
+Order Allow,Deny
+Allow from all
+Deny from env=keep_out
+</limit>
+</IfModule>
+# 5G:[REQUEST STRINGS]
+<IfModule mod_alias.c>
+RedirectMatch 403 (https?|ftp|php)\://
+RedirectMatch 403 /(https?|ima|ucp)/
+RedirectMatch 403 /(Permanent|Better)$
+RedirectMatch 403 (\=\\\'|\=\\%27|/\\\'/?|\)\.css\()$
+RedirectMatch 403 (\,|\)\+|/\,/|\{0\}|\(/\(|\.\.\.|\+\+\+|\||\\\"\\\")
+RedirectMatch 403 \.(cgi|asp|aspx|cfg|dll|exe|jsp|mdb|sql|ini|rar)$
+RedirectMatch 403 /(contac|fpw|install|pingserver|register)\.php$
+RedirectMatch 403 (base64|crossdomain|localhost|wwwroot|e107\_)
+RedirectMatch 403 (eval\(|\_vti\_|\(null\)|echo.*kae|config\.xml)
+RedirectMatch 403 \.well\-known/host\-meta
+RedirectMatch 403 /function\.array\-rand
+RedirectMatch 403 \)\;\$\(this\)\.html\(
+RedirectMatch 403 proc/self/environ
+RedirectMatch 403 msnbot\.htm\)\.\_
+RedirectMatch 403 /ref\.outcontrol
+RedirectMatch 403 com\_cropimage
+RedirectMatch 403 indonesia\.htm
+RedirectMatch 403 \{\$itemURL\}
+RedirectMatch 403 function\(\)
+RedirectMatch 403 labels\.rdf
+RedirectMatch 403 /playing.php
+RedirectMatch 403 muieblackcat
+</IfModule>
+# 5G:[REQUEST METHOD]
+<ifModule mod_rewrite.c>
+RewriteCond %{REQUEST_METHOD} ^(TRACE|TRACK)
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteRule .* - [F]
+</IfModule>
+#AIOWPS_FIVE_G_BLACKLIST_END
+#AIOWPS_BLOCK_SPAMBOTS_START
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{REQUEST_METHOD} POST
+RewriteCond %{REQUEST_URI} ^(.*)?wp-comments-post\.php(.*)$
+RewriteCond %{HTTP_REFERER} !^http(s)?://(.*)?\.constructoraguigo\.com [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} ^$
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteRule .* http://127.0.0.1 [L]
+</IfModule>
+#AIOWPS_BLOCK_SPAMBOTS_END
+# END All In One WP Security
+# BEGIN LSCACHE
+# END LSCACHE
+# BEGIN NON_LSCACHE
+# END NON_LSCACHE
+# Leverage Browser Caching by SG-Optimizer
+<IfModule mod_expires.c>
+ExpiresActive on
+ExpiresDefault                                      "access plus 1 month"
+# CSS
+ExpiresByType text/css                              "access plus 1 year"
+# Data interchange
+ExpiresByType application/json                      "access plus 0 seconds"
+ExpiresByType application/xml                       "access plus 0 seconds"
+ExpiresByType text/xml                              "access plus 0 seconds"
+# Favicon (cannot be renamed!)
+ExpiresByType image/x-icon                          "access plus 1 week"
+# HTML components (HTCs)
+ExpiresByType text/x-component                      "access plus 1 month"
+# HTML
+ExpiresByType text/html                             "access plus 0 seconds"
+# JavaScript
+ExpiresByType application/javascript                "access plus 1 year"
+# Manifest files
+ExpiresByType application/x-web-app-manifest+json   "access plus 0 seconds"
+ExpiresByType text/cache-manifest                   "access plus 0 seconds"
+# Media
+ExpiresByType audio/ogg                             "access plus 1 month"
+ExpiresByType image/gif                             "access plus 1 month"
+ExpiresByType image/jpeg                            "access plus 1 month"
+ExpiresByType image/png                             "access plus 1 month"
+ExpiresByType video/mp4                             "access plus 1 month"
+ExpiresByType video/ogg                             "access plus 1 month"
+ExpiresByType video/webm                            "access plus 1 month"
+# Web feeds
+ExpiresByType application/atom+xml                  "access plus 1 hour"
+ExpiresByType application/rss+xml                   "access plus 1 hour"
+# Web fonts
+ExpiresByType application/font-woff                 "access plus 1 month"
+ExpiresByType application/font-woff2                "access plus 1 month"
+ExpiresByType application/vnd.ms-fontobject         "access plus 1 month"
+ExpiresByType application/x-font-ttf                "access plus 1 month"
+ExpiresByType font/opentype                         "access plus 1 month"
+ExpiresByType image/svg+xml                         "access plus 1 month"
+</IfModule>
+# END LBC
+# GZIP enabled by SG-Optimizer
+<IfModule mod_deflate.c>
+<IfModule mod_filter.c>
+AddOutputFilterByType DEFLATE "application/atom+xml" \
+"application/javascript" \
+"application/json" \
+"application/ld+json" \
+"application/manifest+json" \
+"application/rdf+xml" \
+"application/rss+xml" \
+"application/schema+json" \
+"application/vnd.geo+json" \
+"application/vnd.ms-fontobject" \
+"application/x-font-ttf" \
+"application/x-javascript" \
+"application/x-web-app-manifest+json" \
+"application/xhtml+xml" \
+"application/xml" \
+"font/eot" \
+"font/opentype" \
+"image/bmp" \
+"image/svg+xml" \
+"image/vnd.microsoft.icon" \
+"image/x-icon" \
+"text/cache-manifest" \
+"text/css" \
+"text/html" \
+"text/javascript" \
+"text/plain" \
+"text/vcard" \
+"text/vnd.rim.location.xloc" \
+"text/vtt" \
+"text/x-component" \
+"text/x-cross-domain-policy" \
+"text/xml"
+</IfModule>
+</IfModule>
+# END GZIP
+# HTTPS forced by SG-Optimizer
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteRule ^(.*)$ https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
+</IfModule>
+# END HTTPS
+# BEGIN WordPress
+# Las directivas (líneas) entre `BEGIN WordPress` y `END WordPress` se generan dinámicamente
+# , y solo se deberían modificar mediante filtros de WordPress.
+# Cualquier cambio en las directivas que hay entre esos marcadores se sobreescribirán.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule . /index.php [L]
+</IfModule>
+# END WordPress
+# Use PHP70 as default
+AddHandler application/x-httpd-php70 .php
+<IfModule mod_suphp.c>
+suPHP_ConfigPath /opt/php70/lib
+</IfModule>
+Redirect 301 /historia/ https://www.constructoraguigo.com/conocenos/
+Redirect 301 /mision-vision-valores-y-filosofia/ https://www.constructoraguigo.com/conocenos/
+Redirect 301 /calidad/ https://www.constructoraguigo.com/conocenos/
+Redirect 301 /medio-ambiente/ https://www.constructoraguigo.com/conocenos/
+Redirect 301 /seguridad/ https://www.constructoraguigo.com/conocenos/
+Redirect 301 /avanzamos/ https://www.constructoraguigo.com/conocenos/
+Redirect 301 /proveedores/ https://www.constructoraguigo.com/conocenos/
+Redirect 301 /video-institucional/ https://www.constructoraguigo.com/conocenos/
+Redirect 301 /proveedores/ https://www.constructoraguigo.com/conocenos/
+Redirect 301 /proveedores/ https://www.constructoraguigo.com/conocenos/
+Redirect 301 /category/proyectos-en-venta/ https://www.constructoraguigo.com/proyectos/
+Redirect 301 /category/proyectos-terminados/ https://www.constructoraguigo.com/proyectos/proyectos-terminados/
+Redirect 301 /proyecto-berlin-venta-de-apartamentos-en-el-poblado-medellin-transversal-inferior/ https://www.constructoraguigo.com/proyectos/proyectos-en-venta/berlin/
+Redirect 301 /proyecto-galicia/ https://www.constructoraguigo.com/proyectos/proyectos-en-venta/galicia/
+Redirect 301 /proyecto-turin-apartamentos-en-laureles-medellin/ https://www.constructoraguigo.com/proyectos/proyectos-en-venta/turin/
+Redirect 301 /proyecto-san-charbel/ https://www.constructoraguigo.com/proyectos/proyectos-en-venta/san-charbel/
+Redirect 301 /picasso/ /proyectos/proyectos-terminados/picasso/
+Redirect 301 /aquaviva/ /proyectos/proyectos-terminados/aquaviva/
+Redirect 301 /milan/ /proyectos/proyectos-terminados/milan/
+Redirect 301 /sao-paulo/ /proyectos/proyectos-terminados/sao-paulo/
+Redirect 301 /bariloche/ /proyectos/proyectos-terminados/bariloche/
+Redirect 301 /salamanca/ /proyectos/proyectos-terminados/salamanca/
+Redirect 301 /ango-maniz/ /proyectos/proyectos-terminados/ango-maniz/
+Redirect 301 /provenza/ /proyectos/proyectos-terminados/provenza/
+Redirect 301 /ibiza/ /proyectos/proyectos-terminados/ibiza/
+Redirect 301 /mauritania/ /proyectos/proyectos-terminados/mauritania/
+Redirect 301 /salzburgo/ /proyectos/proyectos-terminados/salzburgo/
+Redirect 301 /category/noticias/ /noticias/
+Redirect 301 /sample-page/ /contacto/
+Redirect 301 /contactenos-proyecto-milan/ https://www.constructoraguigo.com/proyectos/proyectos-en-venta/berlin/
+Redirect 301 /contactenos-proyecto-galicia/ https://www.constructoraguigo.com/proyectos/proyectos-en-venta/galicia/
+Redirect 301 /contactenos-proyecto-turin/ https://www.constructoraguigo.com/proyectos/proyectos-en-venta/turin/
+Redirect 301 /contactenos-proyecto-san-charbel/ https://www.constructoraguigo.com/proyectos/proyectos-en-venta/san-charbel/
+Redirect 301 /Galicia https://constructoraguigo.com/galicia
+Redirect 301 /proyecto-galicia__trashed/ https://constructoraguigo.com/galicia
+# Redirect 301 /apartamentoencastropolpicasso/
+Redirect 301 /venta-de-penthouse-en-laureles/ /en-venta/venta-de-penthouse-en-laureles/
+Redirect 301 /venta-de-apartamento-en-el-poblado-medellin-sector-castropol/ /en-venta/venta-de-apartamento-en-el-poblado-medellin/
+Redirect 301 /venta-de-penthouse-duplex-en-medellin-sector-el-poblado-castropol/ /en-venta/venta-de-penthouse-duplex-en-medellin-el-poblado-sector-castropol/
+Redirect 301 /venta-de-apartamento-nuevo-en-el-poblado-medellin-proyecto-picasso/ /en-venta/apartamento-en-venta-en-el-poblado/
+Redirect 301 /venta-de-casa-en-calasanz-medellin/ /en-venta/venta-de-casa-en-calasanz-medellin/
+Redirect 301 /penthouse-para-estrenaren-el-proyecto-san-charbel/ /en-venta/penthouse-en-venta-en-exclusivo-sector-de-el-poblado-medellin-transversal-inferior/
+Redirect 301 /penthouse-en-el-exclusivo-sector-de-el-poblado-medellin-transversal-inferior-proyecto-berlin/ /en-venta/penthouse-en-venta-en-exclusivo-sector-de-el-poblado-medellin-transversal-inferior/
+# BEGIN cPanel-generated php ini directives, do not edit
+# Manual editing of this file may result in unexpected behavior.
+# To make changes to this file, use the cPanel MultiPHP INI Editor (Home >> Software >> MultiPHP INI Editor)
+# For more information, read our documentation (https://go.cpanel.net/EA4ModifyINI)
+<IfModule php5_module>
+   php_flag asp_tags Off
+   php_flag display_errors On
+   php_value max_execution_time 90
+   php_value max_input_time 60
+   php_value max_input_vars 1000
+   php_value memory_limit 512M
+   php_value post_max_size 64M
+   php_value session.gc_maxlifetime 1440
+   php_value session.save_path "/tmp"
+   php_value upload_max_filesize 64M
+   php_flag zlib.output_compression On
+</IfModule>
+# END cPanel-generated php ini directives, do not edit
+# BEGIN EWWWIO
+# END EWWWIO

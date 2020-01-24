@@ -1,0 +1,15 @@
+footer{
+	padding: 30px;
+	.redes{
+		display: inline-block;
+		padding: 20px 20px 0;
+		&:hover{
+			color:$colorSecundario;
+		}
+	}
+	p{
+		font-size: 8px;
+		line-height: 10px;
+		margin-bottom: 0;
+	}
+}

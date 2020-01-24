@@ -1,0 +1,39 @@
+.titulo{
+	padding-top: 50px;
+	padding-bottom: 80px;
+	text-align: center;
+	background: url('../img/bloqueL.jpg') no-repeat left center / 50px,url('../img/bloqueR.jpg') no-repeat right center / 50px;
+	@media only screen and (min-width: 992px){
+		background: url('../img/bloqueL.jpg') no-repeat left center / 100px,url('../img/bloqueR.jpg') no-repeat right center / 100px;
+	}
+	h3{
+		font-size: 20px;
+		@media only screen and (min-width: 768px){
+			display: inline-block;
+			margin-bottom: 0;
+			font-size: 36px;
+			text-align: right;
+			max-width: 700px;
+			width: 100%;
+		}
+	}
+	h2{
+		font-size: 35px; 
+		color: $colorSecundario;
+		@media only screen and (min-width: 768px){
+			width: 100%;
+			display: inline-block;
+			max-width: 700px;
+			font-size: 80px; 
+			line-height: 100px;
+			margin-bottom: 0;
+			font-weight: 700;
+		}
+	}
+}
+
+.textos{
+	h5{
+		font-weight: 300;
+	}
+}

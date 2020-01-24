@@ -1,0 +1,12 @@
+# This file was updated by Duplicator Pro on 2018-11-27 21:15:17.
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /galicia/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /galicia/index.php [L]
+</IfModule>
+# END WordPress

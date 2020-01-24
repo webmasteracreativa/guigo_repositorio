@@ -1,0 +1,95 @@
+.tabs{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.tabs-videos{
+	.nav-tabs{
+		li{
+			width: 50%;
+			&:last-child{
+				a{
+					border-radius: 0 10px 0 0;
+					@media only screen and (min-width: 768px){
+						border-radius:0;
+					}
+				}
+			}
+			&:first-child{
+				a{
+					border-radius: 10px 0 0 0;
+				}
+			}
+		}
+	}
+}
+.carou-proyectos{
+	.owl-nav{
+		button[type="button"]{
+			padding: 10px !important;
+			font-size: 30px;
+			background: white;
+			color: $colorPrincipal;
+		}
+	}
+}
+.nav-tabs{
+	li{
+		width: 100%;
+		display: inline-block;
+		text-align: center;
+		a.nav-link{
+			background: $grisSecundario;
+			color: $gris;
+			border-radius: 0;
+			border:none; 
+			font-size: 15px;
+			&.active{
+				background: $colorPrincipal;
+				color: white;
+			}
+		}
+	}
+}
+.tab-carousel{
+	a{
+		span{
+			color: white;
+			background: $colorPrincipal;
+			padding: 10px 30px;
+			position: absolute;
+			right: 15px;
+			bottom: 30px;
+		}
+	}
+	.nav-tabs{
+		a.nav-link{
+			border-radius:0;
+			pointer-events: none;
+			@media only screen and (min-width: 768px){
+				border-radius: 0 10px 0 0;
+			}
+		}
+	}
+}
+.tab-carousel{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    .tab-content{
+    	background: url('../img/galeria/01.jpg') no-repeat top center / cover;
+		height: 300px;
+		@media only screen and (min-width: 768px){
+			height: 100%;
+		}
+		.tab-pane{
+			height: 100%;
+			position: relative;
+		}
+		a{
+			position: absolute;
+			cursor: pointer;
+			height: 100%;
+			width: 100%;
+		}
+    }
+}
