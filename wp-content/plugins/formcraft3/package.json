@@ -33,7 +33,7 @@
     "gulp-concat": "^2.6.1",
     "gulp-less": "^3.5.0",
     "gulp-uglify": "^1.5.4",
-    "jquery": "1.12.4",
+    "jquery": "3.5.0",
     "request": "^2.85.0",
     "run-sequence": "^1.2.2",
     "webpack-stream": "^3.1.0"
