@@ -40,7 +40,7 @@
   },
   "dependencies": {
     "create-react-class": "^15.6.3",
-    "dompurify": "^1.0.3",
+    "dompurify": "^2.0.17",
     "npm": "^5.8.0",
     "react": "^16.3.0",
     "react-dom": "^16.3.0",
